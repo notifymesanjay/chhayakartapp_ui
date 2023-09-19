@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\interpolator-v21\\mtrl_linear_out_slow_in.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\interpolator-v21\\mtrl_linear_out_slow_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\interpolator-v21\\mtrl_fast_out_slow_in.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\interpolator-v21\\mtrl_fast_out_slow_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\interpolator-v21\\m3_sys_motion_easing_linear.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\interpolator-v21\\m3_sys_motion_easing_linear.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\interpolator-v21\\m3_sys_motion_easing_emphasized.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\interpolator-v21\\m3_sys_motion_easing_emphasized.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\interpolator-v21\\mtrl_fast_out_linear_in.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\interpolator-v21\\mtrl_fast_out_linear_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\interpolator-v21\\m3_sys_motion_easing_standard.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\interpolator-v21\\m3_sys_motion_easing_standard.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\interpolator-v21\\m3_sys_motion_easing_standard_decelerate.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\interpolator-v21\\m3_sys_motion_easing_standard_decelerate.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\interpolator-v21\\m3_sys_motion_easing_standard_accelerate.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\interpolator-v21\\m3_sys_motion_easing_standard_accelerate.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\interpolator-v21\\m3_sys_motion_easing_emphasized_decelerate.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\interpolator-v21\\m3_sys_motion_easing_emphasized_decelerate.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\interpolator-v21\\m3_sys_motion_easing_emphasized_accelerate.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\interpolator-v21\\m3_sys_motion_easing_emphasized_accelerate.xml"
+    }
+]

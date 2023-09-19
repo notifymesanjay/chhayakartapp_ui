@@ -1,0 +1,1382 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.chayakart"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:5:5-81
+12-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:5:22-78
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:6:5-79
+13-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:6:22-76
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:7:5-76
+14-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:7:22-73
+15    <uses-permission android:name="android.permission.BLUETOOTH" />
+15-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:8:5-68
+15-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:8:22-65
+16    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+16-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:9:5-74
+16-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:9:22-71
+17    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+17-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:10:5-76
+17-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:10:22-73
+18    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+18-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:11:5-71
+18-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:11:22-68
+19    <uses-permission
+19-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:12:5-80
+20        android:name="android.permission.READ_EXTERNAL_STORAGE"
+20-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:12:22-77
+21        android:maxSdkVersion="32" />
+21-->[:open_filex] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\open_filex\intermediates\merged_manifest\release\AndroidManifest.xml:12:9-35
+22    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+22-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:13:5-81
+22-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:13:22-78
+23    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+23-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:14:5-85
+23-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:14:22-82
+24    <uses-permission android:name="android.permission.WAKE_LOCK" />
+24-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:15:5-68
+24-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:15:22-65
+25
+26    <queries>
+26-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:17:5-21:15
+27        <intent>
+27-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:18:9-20:18
+28            <action android:name="android.speech.RecognitionService" />
+28-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:19:13-72
+28-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:19:21-69
+29        </intent>
+30        <intent>
+30-->[:file_picker] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:12:9-16:18
+31            <action android:name="android.intent.action.GET_CONTENT" />
+31-->[:file_picker] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-72
+31-->[:file_picker] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:13:21-69
+32
+33            <data android:mimeType="*/*" />
+33-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:74:17-76:46
+34        </intent>
+35        <intent>
+35-->[com.razorpay:checkout:1.6.34] C:\Users\nohal\.gradle\caches\transforms-3\10f42d0bce5231cb72e4908657ed8cde\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:11:9-17:18
+36            <action android:name="android.intent.action.VIEW" />
+36-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:69:17-69
+36-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:69:25-66
+37
+38            <data
+38-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:74:17-76:46
+39                android:mimeType="*/*"
+40                android:scheme="*" />
+40-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:76:21-43
+41        </intent>
+42        <intent>
+42-->[com.razorpay:checkout:1.6.34] C:\Users\nohal\.gradle\caches\transforms-3\10f42d0bce5231cb72e4908657ed8cde\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:18:9-27:18
+43            <action android:name="android.intent.action.VIEW" />
+43-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:69:17-69
+43-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:69:25-66
+44
+45            <category android:name="android.intent.category.BROWSABLE" />
+45-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:72:17-78
+45-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:72:27-75
+46
+47            <data
+47-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:74:17-76:46
+48                android:host="pay"
+48-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:75:21-53
+49                android:mimeType="*/*"
+50                android:scheme="upi" />
+50-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:76:21-43
+51        </intent>
+52        <intent>
+52-->[com.razorpay:checkout:1.6.34] C:\Users\nohal\.gradle\caches\transforms-3\10f42d0bce5231cb72e4908657ed8cde\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:28:9-30:18
+53            <action android:name="android.intent.action.MAIN" />
+53-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:61:17-69
+53-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:61:25-66
+54        </intent>
+55        <intent>
+55-->[com.razorpay:checkout:1.6.34] C:\Users\nohal\.gradle\caches\transforms-3\10f42d0bce5231cb72e4908657ed8cde\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:31:9-35:18
+56            <action android:name="android.intent.action.SEND" />
+56-->[com.razorpay:checkout:1.6.34] C:\Users\nohal\.gradle\caches\transforms-3\10f42d0bce5231cb72e4908657ed8cde\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:32:13-65
+56-->[com.razorpay:checkout:1.6.34] C:\Users\nohal\.gradle\caches\transforms-3\10f42d0bce5231cb72e4908657ed8cde\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:32:21-62
+57
+58            <data android:mimeType="*/*" />
+58-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:74:17-76:46
+59        </intent>
+60        <intent>
+60-->[com.razorpay:checkout:1.6.34] C:\Users\nohal\.gradle\caches\transforms-3\10f42d0bce5231cb72e4908657ed8cde\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:36:9-38:18
+61            <action android:name="rzp.device_token.share" />
+61-->[com.razorpay:checkout:1.6.34] C:\Users\nohal\.gradle\caches\transforms-3\10f42d0bce5231cb72e4908657ed8cde\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:37:13-61
+61-->[com.razorpay:checkout:1.6.34] C:\Users\nohal\.gradle\caches\transforms-3\10f42d0bce5231cb72e4908657ed8cde\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:37:21-58
+62        </intent> <!-- Added to check the default browser that will host the AuthFlow. -->
+63        <intent>
+63-->[com.stripe:financial-connections:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\abbf825aebeb762ad0000a8a8e1423d3\transformed\jetified-financial-connections-20.28.3\AndroidManifest.xml:13:9-17:18
+64            <action android:name="android.intent.action.VIEW" />
+64-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:69:17-69
+64-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:69:25-66
+65
+66            <data android:scheme="http" />
+66-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:74:17-76:46
+66-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:76:21-43
+67        </intent> <!-- Added to check if Chrome is installed for browser-based payment authentication (e.g. 3DS1). -->
+68        <package android:name="com.android.chrome" /> <!-- Specific apps you interact with, eg: -->
+68-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:11:9-54
+68-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:11:18-51
+69        <package android:name="com.paytm.pgsdk.TransactionManager.PAYTM_APP_PACKAGE" /> <!-- Needs to be explicitly declared on Android R+ -->
+69-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\nohal\.gradle\caches\transforms-3\2939b8554a3fe1b7c35a6973389cfc92\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:12:9-88
+69-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\nohal\.gradle\caches\transforms-3\2939b8554a3fe1b7c35a6973389cfc92\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:12:18-85
+70        <package android:name="com.google.android.apps.maps" />
+70-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\nohal\.gradle\caches\transforms-3\bd9f704aabfb5d42b328916851ac79eb\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
+70-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\nohal\.gradle\caches\transforms-3\bd9f704aabfb5d42b328916851ac79eb\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
+71
+72        <intent>
+72-->[androidx.media2:media2-session:1.2.1] C:\Users\nohal\.gradle\caches\transforms-3\4aa372c0438ab3fa0c2d761f236c9a19\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:25:9-27:18
+73            <action android:name="android.media.browse.MediaBrowserService" />
+73-->[androidx.media2:media2-session:1.2.1] C:\Users\nohal\.gradle\caches\transforms-3\4aa372c0438ab3fa0c2d761f236c9a19\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:26:13-79
+73-->[androidx.media2:media2-session:1.2.1] C:\Users\nohal\.gradle\caches\transforms-3\4aa372c0438ab3fa0c2d761f236c9a19\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:26:21-76
+74        </intent>
+75        <intent>
+75-->[androidx.media2:media2-session:1.2.1] C:\Users\nohal\.gradle\caches\transforms-3\4aa372c0438ab3fa0c2d761f236c9a19\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:28:9-30:18
+76            <action android:name="androidx.media2.session.MediaSessionService" />
+76-->[androidx.media2:media2-session:1.2.1] C:\Users\nohal\.gradle\caches\transforms-3\4aa372c0438ab3fa0c2d761f236c9a19\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:29:13-82
+76-->[androidx.media2:media2-session:1.2.1] C:\Users\nohal\.gradle\caches\transforms-3\4aa372c0438ab3fa0c2d761f236c9a19\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:29:21-79
+77        </intent>
+78        <intent>
+78-->[androidx.media2:media2-session:1.2.1] C:\Users\nohal\.gradle\caches\transforms-3\4aa372c0438ab3fa0c2d761f236c9a19\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:31:9-33:18
+79            <action android:name="androidx.media2.session.MediaLibraryService" />
+79-->[androidx.media2:media2-session:1.2.1] C:\Users\nohal\.gradle\caches\transforms-3\4aa372c0438ab3fa0c2d761f236c9a19\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:32:13-82
+79-->[androidx.media2:media2-session:1.2.1] C:\Users\nohal\.gradle\caches\transforms-3\4aa372c0438ab3fa0c2d761f236c9a19\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:32:21-79
+80        </intent>
+81    </queries>
+82
+83    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Permissions options for the `notification` group -->
+83-->[:firebase_messaging] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-79
+83-->[:firebase_messaging] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:11:22-76
+84    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+84-->[:firebase_messaging] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:13:5-77
+84-->[:firebase_messaging] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:13:22-74
+85    <uses-permission android:name="android.permission.VIBRATE" />
+85-->[:vibration] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\vibration\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-66
+85-->[:vibration] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\vibration\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-63
+86    <uses-permission android:name="android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS" />
+86-->[:awesome_notifications] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-89
+86-->[:awesome_notifications] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-86
+87    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+87-->[:awesome_notifications] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-81
+87-->[:awesome_notifications] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:11:22-78
+88    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+88-->[:open_filex] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\open_filex\intermediates\merged_manifest\release\AndroidManifest.xml:13:5-76
+88-->[:open_filex] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\open_filex\intermediates\merged_manifest\release\AndroidManifest.xml:13:22-73
+89    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+89-->[:open_filex] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\open_filex\intermediates\merged_manifest\release\AndroidManifest.xml:14:5-75
+89-->[:open_filex] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\open_filex\intermediates\merged_manifest\release\AndroidManifest.xml:14:22-72
+90    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+90-->[:open_filex] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\open_filex\intermediates\merged_manifest\release\AndroidManifest.xml:15:5-75
+90-->[:open_filex] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\open_filex\intermediates\merged_manifest\release\AndroidManifest.xml:15:22-72
+91    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+91-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\nohal\.gradle\caches\transforms-3\f03a4657ad753b2210a222047cc426d0\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:10:5-75
+91-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\nohal\.gradle\caches\transforms-3\f03a4657ad753b2210a222047cc426d0\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:10:22-72
+92
+93    <uses-feature
+93-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\nohal\.gradle\caches\transforms-3\bd9f704aabfb5d42b328916851ac79eb\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
+94        android:glEsVersion="0x00020000"
+94-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\nohal\.gradle\caches\transforms-3\bd9f704aabfb5d42b328916851ac79eb\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
+95        android:required="true" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+95-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\nohal\.gradle\caches\transforms-3\bd9f704aabfb5d42b328916851ac79eb\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
+96    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+96-->[com.google.firebase:firebase-messaging:23.2.0] C:\Users\nohal\.gradle\caches\transforms-3\7e8fd41780d76cfc07f1dd4dda4284d0\transformed\jetified-firebase-messaging-23.2.0\AndroidManifest.xml:28:5-82
+96-->[com.google.firebase:firebase-messaging:23.2.0] C:\Users\nohal\.gradle\caches\transforms-3\7e8fd41780d76cfc07f1dd4dda4284d0\transformed\jetified-firebase-messaging-23.2.0\AndroidManifest.xml:28:22-79
+97
+98    <permission
+98-->[androidx.core:core:1.10.1] C:\Users\nohal\.gradle\caches\transforms-3\c43cabb523eefb2da75a9d33b9060e3a\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+99        android:name="com.chayakart.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+99-->[androidx.core:core:1.10.1] C:\Users\nohal\.gradle\caches\transforms-3\c43cabb523eefb2da75a9d33b9060e3a\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+100        android:protectionLevel="signature" />
+100-->[androidx.core:core:1.10.1] C:\Users\nohal\.gradle\caches\transforms-3\c43cabb523eefb2da75a9d33b9060e3a\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+101
+102    <uses-permission android:name="com.chayakart.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- for android -->
+102-->[androidx.core:core:1.10.1] C:\Users\nohal\.gradle\caches\transforms-3\c43cabb523eefb2da75a9d33b9060e3a\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+102-->[androidx.core:core:1.10.1] C:\Users\nohal\.gradle\caches\transforms-3\c43cabb523eefb2da75a9d33b9060e3a\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+103    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+104    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+105    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+106    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+107    <!-- for Samsung -->
+108    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+108-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\nohal\.gradle\caches\transforms-3\1bf3e3110ba02bebb7a8d04fec71d1ec\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:5-86
+108-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\nohal\.gradle\caches\transforms-3\1bf3e3110ba02bebb7a8d04fec71d1ec\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:22-83
+109    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+109-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\nohal\.gradle\caches\transforms-3\1bf3e3110ba02bebb7a8d04fec71d1ec\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:5-87
+109-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\nohal\.gradle\caches\transforms-3\1bf3e3110ba02bebb7a8d04fec71d1ec\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:22-84
+110    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+110-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\nohal\.gradle\caches\transforms-3\1bf3e3110ba02bebb7a8d04fec71d1ec\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:5-81
+110-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\nohal\.gradle\caches\transforms-3\1bf3e3110ba02bebb7a8d04fec71d1ec\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:22-78
+111    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+111-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\nohal\.gradle\caches\transforms-3\1bf3e3110ba02bebb7a8d04fec71d1ec\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:5-83
+111-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\nohal\.gradle\caches\transforms-3\1bf3e3110ba02bebb7a8d04fec71d1ec\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:22-80
+112    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+112-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\nohal\.gradle\caches\transforms-3\1bf3e3110ba02bebb7a8d04fec71d1ec\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:5-88
+112-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\nohal\.gradle\caches\transforms-3\1bf3e3110ba02bebb7a8d04fec71d1ec\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:22-85
+113    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+113-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\nohal\.gradle\caches\transforms-3\1bf3e3110ba02bebb7a8d04fec71d1ec\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:5-92
+113-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\nohal\.gradle\caches\transforms-3\1bf3e3110ba02bebb7a8d04fec71d1ec\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:22-89
+114    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+114-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\nohal\.gradle\caches\transforms-3\1bf3e3110ba02bebb7a8d04fec71d1ec\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:5-84
+114-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\nohal\.gradle\caches\transforms-3\1bf3e3110ba02bebb7a8d04fec71d1ec\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:22-81
+115    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+115-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\nohal\.gradle\caches\transforms-3\1bf3e3110ba02bebb7a8d04fec71d1ec\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:5-83
+115-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\nohal\.gradle\caches\transforms-3\1bf3e3110ba02bebb7a8d04fec71d1ec\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:22-80
+116    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+116-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\nohal\.gradle\caches\transforms-3\1bf3e3110ba02bebb7a8d04fec71d1ec\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:37:5-91
+116-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\nohal\.gradle\caches\transforms-3\1bf3e3110ba02bebb7a8d04fec71d1ec\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:37:22-88
+117    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+117-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\nohal\.gradle\caches\transforms-3\1bf3e3110ba02bebb7a8d04fec71d1ec\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:5-92
+117-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\nohal\.gradle\caches\transforms-3\1bf3e3110ba02bebb7a8d04fec71d1ec\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:22-89
+118    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+118-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\nohal\.gradle\caches\transforms-3\1bf3e3110ba02bebb7a8d04fec71d1ec\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:5-93
+118-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\nohal\.gradle\caches\transforms-3\1bf3e3110ba02bebb7a8d04fec71d1ec\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:22-90
+119    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+119-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\nohal\.gradle\caches\transforms-3\1bf3e3110ba02bebb7a8d04fec71d1ec\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:5-73
+119-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\nohal\.gradle\caches\transforms-3\1bf3e3110ba02bebb7a8d04fec71d1ec\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:22-70
+120    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+120-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\nohal\.gradle\caches\transforms-3\1bf3e3110ba02bebb7a8d04fec71d1ec\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:5-82
+120-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\nohal\.gradle\caches\transforms-3\1bf3e3110ba02bebb7a8d04fec71d1ec\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:22-79
+121    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+121-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\nohal\.gradle\caches\transforms-3\1bf3e3110ba02bebb7a8d04fec71d1ec\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:5-83
+121-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\nohal\.gradle\caches\transforms-3\1bf3e3110ba02bebb7a8d04fec71d1ec\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:22-80
+122    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+122-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\nohal\.gradle\caches\transforms-3\1bf3e3110ba02bebb7a8d04fec71d1ec\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:5-88
+122-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\nohal\.gradle\caches\transforms-3\1bf3e3110ba02bebb7a8d04fec71d1ec\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:22-85
+123    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+123-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\nohal\.gradle\caches\transforms-3\1bf3e3110ba02bebb7a8d04fec71d1ec\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:5-89
+123-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\nohal\.gradle\caches\transforms-3\1bf3e3110ba02bebb7a8d04fec71d1ec\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:22-86
+124
+125    <application
+126        android:name="android.app.Application"
+126-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:24:9-42
+127        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+127-->[androidx.core:core:1.10.1] C:\Users\nohal\.gradle\caches\transforms-3\c43cabb523eefb2da75a9d33b9060e3a\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+128        android:icon="@mipmap/ic_launcher"
+128-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:25:9-43
+129        android:label="Chhayakart"
+129-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:26:9-35
+130        android:roundIcon="@mipmap/ic_launcher_round"
+130-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:27:9-54
+131        android:usesCleartextTraffic="true" >
+131-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:28:9-44
+132        <meta-data
+132-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:30:9-32:71
+133            android:name="com.google.android.geo.API_KEY"
+133-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:31:13-58
+134            android:value="AIzaSyC_9cAGZnlvSGLKRUMCxIgteTpaMvE83oY" />
+134-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:32:13-68
+135
+136        <activity
+136-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:34:9-79:20
+137            android:name="com.chayakart.HomeMainScreen"
+137-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:35:13-43
+138            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+138-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:36:13-163
+139            android:exported="true"
+139-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:37:13-36
+140            android:hardwareAccelerated="true"
+140-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:38:13-47
+141            android:launchMode="singleTop"
+141-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:39:13-43
+142            android:theme="@style/LaunchTheme"
+142-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:40:13-47
+143            android:windowSoftInputMode="adjustResize" >
+143-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:41:13-55
+144
+145            <!--
+146                 Specifies an Android theme to apply to this Activity as soon as
+147                 the Android process has started. This theme is visible to the user
+148                 while the Flutter UI initializes. After that, this theme continues
+149                 to determine the Window background behind the Flutter UI.
+150            -->
+151            <meta-data
+151-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:46:13-48:57
+152                android:name="io.flutter.embedding.android.NormalTheme"
+152-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:47:17-72
+153                android:resource="@style/NormalTheme" />
+153-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:48:17-54
+154            <meta-data
+154-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:50:13-52:37
+155                android:name="flutterEmbedding"
+155-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:51:17-48
+156                android:value="2" />
+156-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:52:17-34
+157            <meta-data
+157-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:53:13-55:41
+158                android:name="firebase_messaging_auto_init_enabled"
+158-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:54:17-68
+159                android:value="false" />
+159-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:55:17-38
+160            <meta-data
+160-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:56:13-58:41
+161                android:name="firebase_analytics_collection_enabled"
+161-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:57:17-69
+162                android:value="false" />
+162-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:58:17-38
+163
+164            <intent-filter>
+164-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:60:13-63:29
+165                <action android:name="android.intent.action.MAIN" />
+165-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:61:17-69
+165-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:61:25-66
+166
+167                <category android:name="android.intent.category.LAUNCHER" />
+167-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:62:17-77
+167-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:62:27-74
+168            </intent-filter>
+169            <intent-filter>
+169-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:64:13-67:29
+170                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+170-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:65:17-69
+170-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:65:25-66
+171
+172                <category android:name="android.intent.category.DEFAULT" />
+172-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:66:17-76
+172-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:66:27-73
+173            </intent-filter>
+174            <intent-filter>
+174-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:68:13-77:29
+175                <action android:name="android.intent.action.VIEW" />
+175-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:69:17-69
+175-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:69:25-66
+176
+177                <category android:name="android.intent.category.DEFAULT" />
+177-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:66:17-76
+177-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:66:27-73
+178                <category android:name="android.intent.category.BROWSABLE" />
+178-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:72:17-78
+178-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:72:27-75
+179
+180                <data
+180-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:74:17-76:46
+181                    android:host="egrocer.page.link"
+181-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:75:21-53
+182                    android:scheme="https" />
+182-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:76:21-43
+183            </intent-filter>
+184        </activity>
+185
+186        <service
+186-->[:firebase_messaging] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:16:9-19:72
+187            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+187-->[:firebase_messaging] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-107
+188            android:exported="false"
+188-->[:firebase_messaging] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:18:13-37
+189            android:permission="android.permission.BIND_JOB_SERVICE" />
+189-->[:firebase_messaging] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:19:13-69
+190        <service
+190-->[:firebase_messaging] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:20:9-26:19
+191            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+191-->[:firebase_messaging] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:21:13-97
+192            android:exported="false" >
+192-->[:firebase_messaging] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:22:13-37
+193            <intent-filter>
+193-->[:firebase_messaging] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-25:29
+194                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+194-->[:firebase_messaging] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:24:17-78
+194-->[:firebase_messaging] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:24:25-75
+195            </intent-filter>
+196        </service>
+197
+198        <receiver
+198-->[:firebase_messaging] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:28:9-35:20
+199            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+199-->[:firebase_messaging] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:29:13-98
+200            android:exported="true"
+200-->[:firebase_messaging] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:30:13-36
+201            android:permission="com.google.android.c2dm.permission.SEND" >
+201-->[:firebase_messaging] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:31:13-73
+202            <intent-filter>
+202-->[:firebase_messaging] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:32:13-34:29
+203                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+203-->[:firebase_messaging] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:33:17-81
+203-->[:firebase_messaging] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:33:25-78
+204            </intent-filter>
+205        </receiver>
+206
+207        <service
+207-->[:firebase_messaging] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:37:9-41:19
+208            android:name="com.google.firebase.components.ComponentDiscoveryService"
+208-->[:firebase_messaging] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:37:18-89
+209            android:directBootAware="true"
+209-->[com.google.firebase:firebase-common:20.3.3] C:\Users\nohal\.gradle\caches\transforms-3\5c5cbd30ea8026cf6d0c886618d43de0\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:34:13-43
+210            android:exported="false" >
+210-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\nohal\.gradle\caches\transforms-3\74523695896dfb34dc344c70b424522c\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:68:13-37
+211            <meta-data
+211-->[:firebase_messaging] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:38:13-40:85
+212                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+212-->[:firebase_messaging] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:39:17-128
+213                android:value="com.google.firebase.components.ComponentRegistrar" />
+213-->[:firebase_messaging] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:40:17-82
+214            <meta-data
+214-->[:firebase_crashlytics] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\firebase_crashlytics\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+215                android:name="com.google.firebase.components:io.flutter.plugins.firebase.crashlytics.FlutterFirebaseAppRegistrar"
+215-->[:firebase_crashlytics] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\firebase_crashlytics\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-130
+216                android:value="com.google.firebase.components.ComponentRegistrar" />
+216-->[:firebase_crashlytics] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\firebase_crashlytics\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+217            <meta-data
+217-->[:firebase_dynamic_links] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\firebase_dynamic_links\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-15:85
+218                android:name="com.google.firebase.components:io.flutter.plugins.firebase.dynamiclinks.FlutterFirebaseAppRegistrar"
+218-->[:firebase_dynamic_links] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\firebase_dynamic_links\intermediates\merged_manifest\release\AndroidManifest.xml:14:17-131
+219                android:value="com.google.firebase.components.ComponentRegistrar" />
+219-->[:firebase_dynamic_links] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\firebase_dynamic_links\intermediates\merged_manifest\release\AndroidManifest.xml:15:17-82
+220            <meta-data
+220-->[:firebase_auth] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+221                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+221-->[:firebase_auth] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-124
+222                android:value="com.google.firebase.components.ComponentRegistrar" />
+222-->[:firebase_auth] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+223            <meta-data
+223-->[:firebase_core] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+224                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+224-->[:firebase_core] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-124
+225                android:value="com.google.firebase.components.ComponentRegistrar" />
+225-->[:firebase_core] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+226            <meta-data
+226-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\nohal\.gradle\caches\transforms-3\74523695896dfb34dc344c70b424522c\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:69:13-71:85
+227                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+227-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\nohal\.gradle\caches\transforms-3\74523695896dfb34dc344c70b424522c\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:70:17-109
+228                android:value="com.google.firebase.components.ComponentRegistrar" />
+228-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\nohal\.gradle\caches\transforms-3\74523695896dfb34dc344c70b424522c\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:71:17-82
+229            <meta-data
+229-->[com.google.firebase:firebase-messaging:23.2.0] C:\Users\nohal\.gradle\caches\transforms-3\7e8fd41780d76cfc07f1dd4dda4284d0\transformed\jetified-firebase-messaging-23.2.0\AndroidManifest.xml:55:13-57:85
+230                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+230-->[com.google.firebase:firebase-messaging:23.2.0] C:\Users\nohal\.gradle\caches\transforms-3\7e8fd41780d76cfc07f1dd4dda4284d0\transformed\jetified-firebase-messaging-23.2.0\AndroidManifest.xml:56:17-119
+231                android:value="com.google.firebase.components.ComponentRegistrar" />
+231-->[com.google.firebase:firebase-messaging:23.2.0] C:\Users\nohal\.gradle\caches\transforms-3\7e8fd41780d76cfc07f1dd4dda4284d0\transformed\jetified-firebase-messaging-23.2.0\AndroidManifest.xml:57:17-82
+232            <meta-data
+232-->[com.google.firebase:firebase-dynamic-links:21.1.0] C:\Users\nohal\.gradle\caches\transforms-3\3fbedfbfba64499286cdcffe1420891e\transformed\jetified-firebase-dynamic-links-21.1.0\AndroidManifest.xml:26:13-28:85
+233                android:name="com.google.firebase.components:com.google.firebase.dynamiclinks.internal.FirebaseDynamicLinkRegistrar"
+233-->[com.google.firebase:firebase-dynamic-links:21.1.0] C:\Users\nohal\.gradle\caches\transforms-3\3fbedfbfba64499286cdcffe1420891e\transformed\jetified-firebase-dynamic-links-21.1.0\AndroidManifest.xml:27:17-133
+234                android:value="com.google.firebase.components.ComponentRegistrar" />
+234-->[com.google.firebase:firebase-dynamic-links:21.1.0] C:\Users\nohal\.gradle\caches\transforms-3\3fbedfbfba64499286cdcffe1420891e\transformed\jetified-firebase-dynamic-links-21.1.0\AndroidManifest.xml:28:17-82
+235            <meta-data
+235-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\nohal\.gradle\caches\transforms-3\30a9da4f21e701d2d155fc8b4f82791e\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:32:13-34:85
+236                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+236-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\nohal\.gradle\caches\transforms-3\30a9da4f21e701d2d155fc8b4f82791e\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:33:17-96
+237                android:value="com.google.firebase.components.ComponentRegistrar" />
+237-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\nohal\.gradle\caches\transforms-3\30a9da4f21e701d2d155fc8b4f82791e\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:34:17-82
+238            <meta-data
+238-->[com.google.firebase:firebase-crashlytics:18.4.0] C:\Users\nohal\.gradle\caches\transforms-3\e4c454de5586c3205491251b51e209cc\transformed\jetified-firebase-crashlytics-18.4.0\AndroidManifest.xml:17:13-19:85
+239                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+239-->[com.google.firebase:firebase-crashlytics:18.4.0] C:\Users\nohal\.gradle\caches\transforms-3\e4c454de5586c3205491251b51e209cc\transformed\jetified-firebase-crashlytics-18.4.0\AndroidManifest.xml:18:17-115
+240                android:value="com.google.firebase.components.ComponentRegistrar" />
+240-->[com.google.firebase:firebase-crashlytics:18.4.0] C:\Users\nohal\.gradle\caches\transforms-3\e4c454de5586c3205491251b51e209cc\transformed\jetified-firebase-crashlytics-18.4.0\AndroidManifest.xml:19:17-82
+241            <meta-data
+241-->[com.google.firebase:firebase-sessions:1.0.0] C:\Users\nohal\.gradle\caches\transforms-3\9c95f4b0c30f6f03d2d4c4637842602b\transformed\jetified-firebase-sessions-1.0.0\AndroidManifest.xml:27:13-29:85
+242                android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar"
+242-->[com.google.firebase:firebase-sessions:1.0.0] C:\Users\nohal\.gradle\caches\transforms-3\9c95f4b0c30f6f03d2d4c4637842602b\transformed\jetified-firebase-sessions-1.0.0\AndroidManifest.xml:28:17-117
+243                android:value="com.google.firebase.components.ComponentRegistrar" />
+243-->[com.google.firebase:firebase-sessions:1.0.0] C:\Users\nohal\.gradle\caches\transforms-3\9c95f4b0c30f6f03d2d4c4637842602b\transformed\jetified-firebase-sessions-1.0.0\AndroidManifest.xml:29:17-82
+244            <meta-data
+244-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\nohal\.gradle\caches\transforms-3\dbbe8e13d55642130019800d50db22fc\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:17:13-19:85
+245                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+245-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\nohal\.gradle\caches\transforms-3\dbbe8e13d55642130019800d50db22fc\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:18:17-127
+246                android:value="com.google.firebase.components.ComponentRegistrar" />
+246-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\nohal\.gradle\caches\transforms-3\dbbe8e13d55642130019800d50db22fc\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:19:17-82
+247            <meta-data
+247-->[com.google.firebase:firebase-datatransport:18.1.8] C:\Users\nohal\.gradle\caches\transforms-3\5fcc28a0d48e47316ddc515235898f99\transformed\jetified-firebase-datatransport-18.1.8\AndroidManifest.xml:27:13-29:85
+248                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+248-->[com.google.firebase:firebase-datatransport:18.1.8] C:\Users\nohal\.gradle\caches\transforms-3\5fcc28a0d48e47316ddc515235898f99\transformed\jetified-firebase-datatransport-18.1.8\AndroidManifest.xml:28:17-115
+249                android:value="com.google.firebase.components.ComponentRegistrar" />
+249-->[com.google.firebase:firebase-datatransport:18.1.8] C:\Users\nohal\.gradle\caches\transforms-3\5fcc28a0d48e47316ddc515235898f99\transformed\jetified-firebase-datatransport-18.1.8\AndroidManifest.xml:29:17-82
+250            <meta-data
+250-->[com.google.firebase:firebase-common-ktx:20.3.3] C:\Users\nohal\.gradle\caches\transforms-3\cf1b35295c5631c929a816d6e8377c0f\transformed\jetified-firebase-common-ktx-20.3.3\AndroidManifest.xml:14:13-16:85
+251                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+251-->[com.google.firebase:firebase-common-ktx:20.3.3] C:\Users\nohal\.gradle\caches\transforms-3\cf1b35295c5631c929a816d6e8377c0f\transformed\jetified-firebase-common-ktx-20.3.3\AndroidManifest.xml:15:17-113
+252                android:value="com.google.firebase.components.ComponentRegistrar" />
+252-->[com.google.firebase:firebase-common-ktx:20.3.3] C:\Users\nohal\.gradle\caches\transforms-3\cf1b35295c5631c929a816d6e8377c0f\transformed\jetified-firebase-common-ktx-20.3.3\AndroidManifest.xml:16:17-82
+253        </service>
+254
+255        <provider
+255-->[:firebase_messaging] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:43:9-47:38
+256            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+256-->[:firebase_messaging] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:44:13-102
+257            android:authorities="com.chayakart.flutterfirebasemessaginginitprovider"
+257-->[:firebase_messaging] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:45:13-88
+258            android:exported="false"
+258-->[:firebase_messaging] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:46:13-37
+259            android:initOrder="99" />
+259-->[:firebase_messaging] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:47:13-35
+260
+261        <service
+261-->[:geolocator_android] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-14:56
+262            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+262-->[:geolocator_android] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-77
+263            android:enabled="true"
+263-->[:geolocator_android] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-35
+264            android:exported="false"
+264-->[:geolocator_android] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-37
+265            android:foregroundServiceType="location" />
+265-->[:geolocator_android] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-53
+266        <!--
+267           Declares a provider which allows us to store files to share in
+268           '.../caches/share_plus' and grant the receiving action access
+269        -->
+270        <provider
+270-->[:share_plus] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\share_plus\intermediates\merged_manifest\release\AndroidManifest.xml:15:9-23:20
+271            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
+271-->[:share_plus] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\share_plus\intermediates\merged_manifest\release\AndroidManifest.xml:16:13-77
+272            android:authorities="com.chayakart.flutter.share_provider"
+272-->[:share_plus] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\share_plus\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-74
+273            android:exported="false"
+273-->[:share_plus] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\share_plus\intermediates\merged_manifest\release\AndroidManifest.xml:18:13-37
+274            android:grantUriPermissions="true" >
+274-->[:share_plus] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\share_plus\intermediates\merged_manifest\release\AndroidManifest.xml:19:13-47
+275            <meta-data
+275-->[:share_plus] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\share_plus\intermediates\merged_manifest\release\AndroidManifest.xml:20:13-22:68
+276                android:name="android.support.FILE_PROVIDER_PATHS"
+276-->[:share_plus] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\share_plus\intermediates\merged_manifest\release\AndroidManifest.xml:21:17-67
+277                android:resource="@xml/flutter_share_file_paths" />
+277-->[:share_plus] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\share_plus\intermediates\merged_manifest\release\AndroidManifest.xml:22:17-65
+278        </provider>
+279        <!--
+280           This manifest declared broadcast receiver allows us to use an explicit
+281           Intent when creating a PendingItent to be informed of the user's choice
+282        -->
+283        <receiver
+283-->[:share_plus] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\share_plus\intermediates\merged_manifest\release\AndroidManifest.xml:28:9-34:20
+284            android:name="dev.fluttercommunity.plus.share.SharePlusPendingIntent"
+284-->[:share_plus] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\share_plus\intermediates\merged_manifest\release\AndroidManifest.xml:29:13-82
+285            android:exported="false" >
+285-->[:share_plus] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\share_plus\intermediates\merged_manifest\release\AndroidManifest.xml:30:13-37
+286            <intent-filter>
+286-->[:share_plus] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\share_plus\intermediates\merged_manifest\release\AndroidManifest.xml:31:13-33:29
+287                <action android:name="EXTRA_CHOSEN_COMPONENT" />
+287-->[:share_plus] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\share_plus\intermediates\merged_manifest\release\AndroidManifest.xml:32:17-65
+287-->[:share_plus] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\share_plus\intermediates\merged_manifest\release\AndroidManifest.xml:32:25-62
+288            </intent-filter>
+289        </receiver>
+290
+291        <activity
+291-->[:flutter_paystack] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\flutter_paystack\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-12:54
+292            android:name="co.paystack.flutterpaystack.AuthActivity"
+292-->[:flutter_paystack] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\flutter_paystack\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-68
+293            android:theme="@style/Paystack.Dialog" />
+293-->[:flutter_paystack] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\flutter_paystack\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-51
+294
+295        <receiver
+295-->[:awesome_notifications] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:15:9-17:39
+296            android:name="me.carda.awesome_notifications.DartNotificationActionReceiver"
+296-->[:awesome_notifications] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:16:13-89
+297            android:exported="true" />
+297-->[:awesome_notifications] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-36
+298        <receiver
+298-->[:awesome_notifications] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:18:9-20:39
+299            android:name="me.carda.awesome_notifications.DartDismissedNotificationReceiver"
+299-->[:awesome_notifications] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:19:13-92
+300            android:exported="true" />
+300-->[:awesome_notifications] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:20:13-36
+301        <receiver
+301-->[:awesome_notifications] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:21:9-23:39
+302            android:name="me.carda.awesome_notifications.DartScheduledNotificationReceiver"
+302-->[:awesome_notifications] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:22:13-92
+303            android:exported="true" />
+303-->[:awesome_notifications] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-36
+304        <receiver
+304-->[:awesome_notifications] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:24:9-38:20
+305            android:name="me.carda.awesome_notifications.DartRefreshSchedulesReceiver"
+305-->[:awesome_notifications] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:25:13-87
+306            android:enabled="true"
+306-->[:awesome_notifications] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:26:13-35
+307            android:exported="true" >
+307-->[:awesome_notifications] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:27:13-36
+308            <intent-filter>
+308-->[:awesome_notifications] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:28:13-37:29
+309                <category android:name="android.intent.category.DEFAULT" />
+309-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:66:17-76
+309-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:66:27-73
+310
+311                <action android:name="android.intent.action.BOOT_COMPLETED" />
+311-->[:awesome_notifications] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:31:17-79
+311-->[:awesome_notifications] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:31:25-76
+312                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+312-->[:awesome_notifications] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:32:17-86
+312-->[:awesome_notifications] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:32:25-83
+313                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+313-->[:awesome_notifications] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:33:17-84
+313-->[:awesome_notifications] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:33:25-81
+314                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+314-->[:awesome_notifications] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:34:17-82
+314-->[:awesome_notifications] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:34:25-79
+315                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+315-->[:awesome_notifications] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:35:17-82
+315-->[:awesome_notifications] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:35:25-79
+316                <action android:name="android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED" />
+316-->[:awesome_notifications] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:36:17-107
+316-->[:awesome_notifications] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:36:25-104
+317            </intent-filter>
+318        </receiver>
+319
+320        <service
+320-->[:awesome_notifications] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:40:9-43:72
+321            android:name="me.carda.awesome_notifications.DartBackgroundService"
+321-->[:awesome_notifications] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:41:13-80
+322            android:exported="false"
+322-->[:awesome_notifications] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:42:13-37
+323            android:permission="android.permission.BIND_JOB_SERVICE" />
+323-->[:awesome_notifications] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:43:13-69
+324        <service
+324-->[:awesome_notifications] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:44:9-49:43
+325            android:name="me.carda.awesome_notifications.core.services.ForegroundService"
+325-->[:awesome_notifications] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:45:13-90
+326            android:enabled="true"
+326-->[:awesome_notifications] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:46:13-35
+327            android:exported="false"
+327-->[:awesome_notifications] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:47:13-37
+328            android:foregroundServiceType="phoneCall"
+328-->[:awesome_notifications] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:48:13-54
+329            android:stopWithTask="true" />
+329-->[:awesome_notifications] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:49:13-40
+330
+331        <activity
+331-->[:url_launcher_android] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-13:74
+332            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+332-->[:url_launcher_android] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-74
+333            android:exported="false"
+333-->[:url_launcher_android] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-37
+334            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+334-->[:url_launcher_android] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-71
+335
+336        <provider
+336-->[:open_filex] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\open_filex\intermediates\merged_manifest\release\AndroidManifest.xml:18:9-27:20
+337            android:name="com.crazecoder.openfile.FileProvider"
+337-->[:open_filex] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\open_filex\intermediates\merged_manifest\release\AndroidManifest.xml:19:13-64
+338            android:authorities="com.chayakart.fileProvider.com.crazecoder.openfile"
+338-->[:open_filex] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\open_filex\intermediates\merged_manifest\release\AndroidManifest.xml:20:13-88
+339            android:exported="false"
+339-->[:open_filex] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\open_filex\intermediates\merged_manifest\release\AndroidManifest.xml:21:13-37
+340            android:grantUriPermissions="true" >
+340-->[:open_filex] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\open_filex\intermediates\merged_manifest\release\AndroidManifest.xml:22:13-47
+341            <meta-data
+341-->[:share_plus] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\share_plus\intermediates\merged_manifest\release\AndroidManifest.xml:20:13-22:68
+342                android:name="android.support.FILE_PROVIDER_PATHS"
+342-->[:share_plus] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\share_plus\intermediates\merged_manifest\release\AndroidManifest.xml:21:17-67
+343                android:resource="@xml/filepaths" />
+343-->[:share_plus] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\share_plus\intermediates\merged_manifest\release\AndroidManifest.xml:22:17-65
+344        </provider>
+345
+346        <receiver
+346-->[com.razorpay:checkout:1.6.34] C:\Users\nohal\.gradle\caches\transforms-3\10f42d0bce5231cb72e4908657ed8cde\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:42:9-49:20
+347            android:name="com.razorpay.RzpTokenReceiver"
+347-->[com.razorpay:checkout:1.6.34] C:\Users\nohal\.gradle\caches\transforms-3\10f42d0bce5231cb72e4908657ed8cde\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:43:13-57
+348            android:exported="true" >
+348-->[com.razorpay:checkout:1.6.34] C:\Users\nohal\.gradle\caches\transforms-3\10f42d0bce5231cb72e4908657ed8cde\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:44:13-36
+349            <intent-filter>
+349-->[com.razorpay:checkout:1.6.34] C:\Users\nohal\.gradle\caches\transforms-3\10f42d0bce5231cb72e4908657ed8cde\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:46:13-48:29
+350                <action android:name="rzp.device_token.share" />
+350-->[com.razorpay:checkout:1.6.34] C:\Users\nohal\.gradle\caches\transforms-3\10f42d0bce5231cb72e4908657ed8cde\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:37:13-61
+350-->[com.razorpay:checkout:1.6.34] C:\Users\nohal\.gradle\caches\transforms-3\10f42d0bce5231cb72e4908657ed8cde\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:37:21-58
+351            </intent-filter>
+352        </receiver>
+353
+354        <activity
+354-->[com.razorpay:checkout:1.6.34] C:\Users\nohal\.gradle\caches\transforms-3\10f42d0bce5231cb72e4908657ed8cde\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:51:9-59:20
+355            android:name="com.razorpay.CheckoutActivity"
+355-->[com.razorpay:checkout:1.6.34] C:\Users\nohal\.gradle\caches\transforms-3\10f42d0bce5231cb72e4908657ed8cde\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:52:13-57
+356            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+356-->[com.razorpay:checkout:1.6.34] C:\Users\nohal\.gradle\caches\transforms-3\10f42d0bce5231cb72e4908657ed8cde\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:53:13-83
+357            android:exported="false"
+357-->[com.razorpay:checkout:1.6.34] C:\Users\nohal\.gradle\caches\transforms-3\10f42d0bce5231cb72e4908657ed8cde\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:54:13-37
+358            android:theme="@style/CheckoutTheme" >
+358-->[com.razorpay:checkout:1.6.34] C:\Users\nohal\.gradle\caches\transforms-3\10f42d0bce5231cb72e4908657ed8cde\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:55:13-49
+359            <intent-filter>
+359-->[com.razorpay:checkout:1.6.34] C:\Users\nohal\.gradle\caches\transforms-3\10f42d0bce5231cb72e4908657ed8cde\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:56:13-58:29
+360                <action android:name="android.intent.action.MAIN" />
+360-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:61:17-69
+360-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:61:25-66
+361            </intent-filter>
+362        </activity>
+363
+364        <meta-data
+364-->[com.razorpay:checkout:1.6.34] C:\Users\nohal\.gradle\caches\transforms-3\10f42d0bce5231cb72e4908657ed8cde\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:61:9-63:58
+365            android:name="com.razorpay.plugin.googlepay_all"
+365-->[com.razorpay:checkout:1.6.34] C:\Users\nohal\.gradle\caches\transforms-3\10f42d0bce5231cb72e4908657ed8cde\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:62:13-61
+366            android:value="com.razorpay.RzpGpayMerged" />
+366-->[com.razorpay:checkout:1.6.34] C:\Users\nohal\.gradle\caches\transforms-3\10f42d0bce5231cb72e4908657ed8cde\transformed\jetified-checkout-1.6.34\AndroidManifest.xml:63:13-55
+367
+368        <activity
+368-->[com.stripe:paymentsheet:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\de656b83829c923fa6c1812d7ac685ca\transformed\jetified-paymentsheet-20.28.3\AndroidManifest.xml:8:9-12:58
+369            android:name="com.stripe.android.paymentsheet.PaymentSheetActivity"
+369-->[com.stripe:paymentsheet:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\de656b83829c923fa6c1812d7ac685ca\transformed\jetified-paymentsheet-20.28.3\AndroidManifest.xml:9:13-80
+370            android:exported="false"
+370-->[com.stripe:paymentsheet:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\de656b83829c923fa6c1812d7ac685ca\transformed\jetified-paymentsheet-20.28.3\AndroidManifest.xml:10:13-37
+371            android:theme="@style/StripePaymentSheetDefaultTheme"
+371-->[com.stripe:paymentsheet:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\de656b83829c923fa6c1812d7ac685ca\transformed\jetified-paymentsheet-20.28.3\AndroidManifest.xml:11:13-66
+372            android:windowSoftInputMode="adjustResize" />
+372-->[com.stripe:paymentsheet:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\de656b83829c923fa6c1812d7ac685ca\transformed\jetified-paymentsheet-20.28.3\AndroidManifest.xml:12:13-55
+373        <activity
+373-->[com.stripe:paymentsheet:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\de656b83829c923fa6c1812d7ac685ca\transformed\jetified-paymentsheet-20.28.3\AndroidManifest.xml:13:9-17:58
+374            android:name="com.stripe.android.paymentsheet.PaymentOptionsActivity"
+374-->[com.stripe:paymentsheet:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\de656b83829c923fa6c1812d7ac685ca\transformed\jetified-paymentsheet-20.28.3\AndroidManifest.xml:14:13-82
+375            android:exported="false"
+375-->[com.stripe:paymentsheet:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\de656b83829c923fa6c1812d7ac685ca\transformed\jetified-paymentsheet-20.28.3\AndroidManifest.xml:15:13-37
+376            android:theme="@style/StripePaymentSheetDefaultTheme"
+376-->[com.stripe:paymentsheet:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\de656b83829c923fa6c1812d7ac685ca\transformed\jetified-paymentsheet-20.28.3\AndroidManifest.xml:16:13-66
+377            android:windowSoftInputMode="adjustResize" />
+377-->[com.stripe:paymentsheet:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\de656b83829c923fa6c1812d7ac685ca\transformed\jetified-paymentsheet-20.28.3\AndroidManifest.xml:17:13-55
+378        <activity
+378-->[com.stripe:paymentsheet:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\de656b83829c923fa6c1812d7ac685ca\transformed\jetified-paymentsheet-20.28.3\AndroidManifest.xml:18:9-22:58
+379            android:name="com.stripe.android.customersheet.CustomerSheetActivity"
+379-->[com.stripe:paymentsheet:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\de656b83829c923fa6c1812d7ac685ca\transformed\jetified-paymentsheet-20.28.3\AndroidManifest.xml:19:13-82
+380            android:exported="false"
+380-->[com.stripe:paymentsheet:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\de656b83829c923fa6c1812d7ac685ca\transformed\jetified-paymentsheet-20.28.3\AndroidManifest.xml:20:13-37
+381            android:theme="@style/StripePaymentSheetDefaultTheme"
+381-->[com.stripe:paymentsheet:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\de656b83829c923fa6c1812d7ac685ca\transformed\jetified-paymentsheet-20.28.3\AndroidManifest.xml:21:13-66
+382            android:windowSoftInputMode="adjustResize" />
+382-->[com.stripe:paymentsheet:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\de656b83829c923fa6c1812d7ac685ca\transformed\jetified-paymentsheet-20.28.3\AndroidManifest.xml:22:13-55
+383        <activity
+383-->[com.stripe:paymentsheet:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\de656b83829c923fa6c1812d7ac685ca\transformed\jetified-paymentsheet-20.28.3\AndroidManifest.xml:23:9-26:69
+384            android:name="com.stripe.android.paymentsheet.addresselement.AddressElementActivity"
+384-->[com.stripe:paymentsheet:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\de656b83829c923fa6c1812d7ac685ca\transformed\jetified-paymentsheet-20.28.3\AndroidManifest.xml:24:13-97
+385            android:exported="false"
+385-->[com.stripe:paymentsheet:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\de656b83829c923fa6c1812d7ac685ca\transformed\jetified-paymentsheet-20.28.3\AndroidManifest.xml:25:13-37
+386            android:theme="@style/StripePaymentSheetDefaultTheme" />
+386-->[com.stripe:paymentsheet:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\de656b83829c923fa6c1812d7ac685ca\transformed\jetified-paymentsheet-20.28.3\AndroidManifest.xml:26:13-66
+387        <activity
+387-->[com.stripe:paymentsheet:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\de656b83829c923fa6c1812d7ac685ca\transformed\jetified-paymentsheet-20.28.3\AndroidManifest.xml:27:9-30:69
+388            android:name="com.stripe.android.paymentsheet.paymentdatacollection.polling.PollingActivity"
+388-->[com.stripe:paymentsheet:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\de656b83829c923fa6c1812d7ac685ca\transformed\jetified-paymentsheet-20.28.3\AndroidManifest.xml:28:13-105
+389            android:exported="false"
+389-->[com.stripe:paymentsheet:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\de656b83829c923fa6c1812d7ac685ca\transformed\jetified-paymentsheet-20.28.3\AndroidManifest.xml:29:13-37
+390            android:theme="@style/StripePaymentSheetDefaultTheme" />
+390-->[com.stripe:paymentsheet:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\de656b83829c923fa6c1812d7ac685ca\transformed\jetified-paymentsheet-20.28.3\AndroidManifest.xml:30:13-66
+391        <activity
+391-->[com.stripe:link:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\3b95c4af5ce319b2b9febb7861175964\transformed\jetified-link-20.28.3\AndroidManifest.xml:8:9-13:61
+392            android:name="com.stripe.android.link.LinkForegroundActivity"
+392-->[com.stripe:link:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\3b95c4af5ce319b2b9febb7861175964\transformed\jetified-link-20.28.3\AndroidManifest.xml:9:13-74
+393            android:autoRemoveFromRecents="true"
+393-->[com.stripe:link:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\3b95c4af5ce319b2b9febb7861175964\transformed\jetified-link-20.28.3\AndroidManifest.xml:10:13-49
+394            android:configChanges="orientation|keyboard|keyboardHidden|screenLayout|screenSize|smallestScreenSize"
+394-->[com.stripe:link:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\3b95c4af5ce319b2b9febb7861175964\transformed\jetified-link-20.28.3\AndroidManifest.xml:11:13-115
+395            android:launchMode="singleTop"
+395-->[com.stripe:link:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\3b95c4af5ce319b2b9febb7861175964\transformed\jetified-link-20.28.3\AndroidManifest.xml:12:13-43
+396            android:theme="@style/StripeTransparentTheme" />
+396-->[com.stripe:link:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\3b95c4af5ce319b2b9febb7861175964\transformed\jetified-link-20.28.3\AndroidManifest.xml:13:13-58
+397        <activity
+397-->[com.stripe:link:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\3b95c4af5ce319b2b9febb7861175964\transformed\jetified-link-20.28.3\AndroidManifest.xml:14:9-31:20
+398            android:name="com.stripe.android.link.LinkRedirectHandlerActivity"
+398-->[com.stripe:link:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\3b95c4af5ce319b2b9febb7861175964\transformed\jetified-link-20.28.3\AndroidManifest.xml:15:13-79
+399            android:autoRemoveFromRecents="true"
+399-->[com.stripe:link:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\3b95c4af5ce319b2b9febb7861175964\transformed\jetified-link-20.28.3\AndroidManifest.xml:16:13-49
+400            android:exported="true"
+400-->[com.stripe:link:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\3b95c4af5ce319b2b9febb7861175964\transformed\jetified-link-20.28.3\AndroidManifest.xml:17:13-36
+401            android:launchMode="singleInstance"
+401-->[com.stripe:link:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\3b95c4af5ce319b2b9febb7861175964\transformed\jetified-link-20.28.3\AndroidManifest.xml:18:13-48
+402            android:theme="@style/StripeTransparentTheme" >
+402-->[com.stripe:link:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\3b95c4af5ce319b2b9febb7861175964\transformed\jetified-link-20.28.3\AndroidManifest.xml:19:13-58
+403            <intent-filter>
+403-->[com.stripe:link:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\3b95c4af5ce319b2b9febb7861175964\transformed\jetified-link-20.28.3\AndroidManifest.xml:20:13-30:29
+404                <action android:name="android.intent.action.VIEW" />
+404-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:69:17-69
+404-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:69:25-66
+405
+406                <category android:name="android.intent.category.DEFAULT" />
+406-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:66:17-76
+406-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:66:27-73
+407                <category android:name="android.intent.category.BROWSABLE" />
+407-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:72:17-78
+407-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:72:27-75
+408
+409                <data
+409-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:74:17-76:46
+410                    android:host="complete"
+410-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:75:21-53
+411                    android:path="/com.chayakart"
+412                    android:scheme="link-popup" />
+412-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:76:21-43
+413            </intent-filter>
+414        </activity>
+415        <activity
+415-->[com.stripe:financial-connections:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\abbf825aebeb762ad0000a8a8e1423d3\transformed\jetified-financial-connections-20.28.3\AndroidManifest.xml:21:9-65:20
+416            android:name="com.stripe.android.financialconnections.FinancialConnectionsSheetRedirectActivity"
+416-->[com.stripe:financial-connections:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\abbf825aebeb762ad0000a8a8e1423d3\transformed\jetified-financial-connections-20.28.3\AndroidManifest.xml:22:13-109
+417            android:exported="true"
+417-->[com.stripe:financial-connections:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\abbf825aebeb762ad0000a8a8e1423d3\transformed\jetified-financial-connections-20.28.3\AndroidManifest.xml:23:13-36
+418            android:launchMode="singleTask" >
+418-->[com.stripe:financial-connections:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\abbf825aebeb762ad0000a8a8e1423d3\transformed\jetified-financial-connections-20.28.3\AndroidManifest.xml:24:13-44
+419            <intent-filter>
+419-->[com.stripe:financial-connections:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\abbf825aebeb762ad0000a8a8e1423d3\transformed\jetified-financial-connections-20.28.3\AndroidManifest.xml:25:13-64:29
+420                <action android:name="android.intent.action.VIEW" />
+420-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:69:17-69
+420-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:69:25-66
+421
+422                <category android:name="android.intent.category.DEFAULT" />
+422-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:66:17-76
+422-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:66:27-73
+423                <category android:name="android.intent.category.BROWSABLE" />
+423-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:72:17-78
+423-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:72:27-75
+424
+425                <!-- Returning from app2app: return_url is triggered to reopen web AuthFlow and poll accounts. -->
+426                <data
+426-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:74:17-76:46
+427                    android:host="link-accounts"
+427-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:75:21-53
+428                    android:pathPrefix="/com.chayakart/authentication_return"
+429                    android:scheme="stripe-auth" />
+429-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:76:21-43
+430
+431                <!-- Returning from app2app: return_url is triggered to reopen native AuthFlow and poll accounts. -->
+432                <data
+432-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:74:17-76:46
+433                    android:host="link-native-accounts"
+433-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:75:21-53
+434                    android:pathPrefix="/com.chayakart/authentication_return"
+435                    android:scheme="stripe-auth" />
+435-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:76:21-43
+436
+437                <!-- End of web AuthFlow success and cancel URIs that begin with "stripe-auth://link-accounts/{app-id}/...” -->
+438                <data
+438-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:74:17-76:46
+439                    android:host="link-accounts"
+439-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:75:21-53
+440                    android:path="/com.chayakart/success"
+441                    android:scheme="stripe-auth" />
+441-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:76:21-43
+442                <data
+442-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:74:17-76:46
+443                    android:host="link-accounts"
+443-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:75:21-53
+444                    android:path="/com.chayakart/cancel"
+445                    android:scheme="stripe-auth" />
+445-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:76:21-43
+446
+447                <!-- Opening app2app: Web flow triggers stripe-auth://native-redirect/{app-id}/http://web-that-redirects-to-native -->
+448                <data
+448-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:74:17-76:46
+449                    android:host="native-redirect"
+449-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:75:21-53
+450                    android:pathPrefix="/com.chayakart"
+451                    android:scheme="stripe-auth" />
+451-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:76:21-43
+452
+453                <!-- Accepts success/cancel/fail URIs that begin with "stripe://auth-redirect” -->
+454                <data
+454-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:74:17-76:46
+455                    android:host="auth-redirect"
+455-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:75:21-53
+456                    android:pathPrefix="/com.chayakart"
+457                    android:scheme="stripe" />
+457-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:76:21-43
+458            </intent-filter>
+459        </activity>
+460        <activity
+460-->[com.stripe:financial-connections:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\abbf825aebeb762ad0000a8a8e1423d3\transformed\jetified-financial-connections-20.28.3\AndroidManifest.xml:66:9-69:57
+461            android:name="com.stripe.android.financialconnections.FinancialConnectionsSheetActivity"
+461-->[com.stripe:financial-connections:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\abbf825aebeb762ad0000a8a8e1423d3\transformed\jetified-financial-connections-20.28.3\AndroidManifest.xml:67:13-101
+462            android:exported="false"
+462-->[com.stripe:financial-connections:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\abbf825aebeb762ad0000a8a8e1423d3\transformed\jetified-financial-connections-20.28.3\AndroidManifest.xml:68:13-37
+463            android:theme="@style/StripeDefaultTheme" />
+463-->[com.stripe:financial-connections:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\abbf825aebeb762ad0000a8a8e1423d3\transformed\jetified-financial-connections-20.28.3\AndroidManifest.xml:69:13-54
+464        <activity
+464-->[com.stripe:financial-connections:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\abbf825aebeb762ad0000a8a8e1423d3\transformed\jetified-financial-connections-20.28.3\AndroidManifest.xml:70:9-74:58
+465            android:name="com.stripe.android.financialconnections.ui.FinancialConnectionsSheetNativeActivity"
+465-->[com.stripe:financial-connections:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\abbf825aebeb762ad0000a8a8e1423d3\transformed\jetified-financial-connections-20.28.3\AndroidManifest.xml:71:13-110
+466            android:exported="false"
+466-->[com.stripe:financial-connections:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\abbf825aebeb762ad0000a8a8e1423d3\transformed\jetified-financial-connections-20.28.3\AndroidManifest.xml:72:13-37
+467            android:theme="@style/StripeDefaultTheme"
+467-->[com.stripe:financial-connections:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\abbf825aebeb762ad0000a8a8e1423d3\transformed\jetified-financial-connections-20.28.3\AndroidManifest.xml:73:13-54
+468            android:windowSoftInputMode="adjustResize" />
+468-->[com.stripe:financial-connections:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\abbf825aebeb762ad0000a8a8e1423d3\transformed\jetified-financial-connections-20.28.3\AndroidManifest.xml:74:13-55
+469
+470        <provider
+470-->[com.stripe:financial-connections:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\abbf825aebeb762ad0000a8a8e1423d3\transformed\jetified-financial-connections-20.28.3\AndroidManifest.xml:76:9-80:43
+471            android:name="com.stripe.android.financialconnections.appinitializer.FinancialConnectionsInitializer"
+471-->[com.stripe:financial-connections:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\abbf825aebeb762ad0000a8a8e1423d3\transformed\jetified-financial-connections-20.28.3\AndroidManifest.xml:77:13-114
+472            android:authorities="com.chayakart.financialconnections-init"
+472-->[com.stripe:financial-connections:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\abbf825aebeb762ad0000a8a8e1423d3\transformed\jetified-financial-connections-20.28.3\AndroidManifest.xml:78:13-77
+473            android:exported="false"
+473-->[com.stripe:financial-connections:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\abbf825aebeb762ad0000a8a8e1423d3\transformed\jetified-financial-connections-20.28.3\AndroidManifest.xml:79:13-37
+474            android:multiprocess="true" />
+474-->[com.stripe:financial-connections:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\abbf825aebeb762ad0000a8a8e1423d3\transformed\jetified-financial-connections-20.28.3\AndroidManifest.xml:80:13-40
+475
+476        <activity
+476-->[com.stripe:payments-ui-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\745643856bcc74b9b2b79fef37603b80\transformed\jetified-payments-ui-core-20.28.3\AndroidManifest.xml:8:9-11:69
+477            android:name="com.stripe.android.ui.core.cardscan.CardScanActivity"
+477-->[com.stripe:payments-ui-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\745643856bcc74b9b2b79fef37603b80\transformed\jetified-payments-ui-core-20.28.3\AndroidManifest.xml:9:13-80
+478            android:exported="false"
+478-->[com.stripe:payments-ui-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\745643856bcc74b9b2b79fef37603b80\transformed\jetified-payments-ui-core-20.28.3\AndroidManifest.xml:10:13-37
+479            android:theme="@style/StripePaymentSheetDefaultTheme" />
+479-->[com.stripe:payments-ui-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\745643856bcc74b9b2b79fef37603b80\transformed\jetified-payments-ui-core-20.28.3\AndroidManifest.xml:11:13-66
+480        <activity
+480-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:15:9-18:57
+481            android:name="com.stripe.android.view.AddPaymentMethodActivity"
+481-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:16:13-76
+482            android:exported="false"
+482-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:17:13-37
+483            android:theme="@style/StripeDefaultTheme" />
+483-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:18:13-54
+484        <activity
+484-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:19:9-22:57
+485            android:name="com.stripe.android.view.PaymentMethodsActivity"
+485-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:20:13-74
+486            android:exported="false"
+486-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:21:13-37
+487            android:theme="@style/StripeDefaultTheme" />
+487-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:22:13-54
+488        <activity
+488-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:23:9-26:57
+489            android:name="com.stripe.android.view.PaymentFlowActivity"
+489-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:24:13-71
+490            android:exported="false"
+490-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:25:13-37
+491            android:theme="@style/StripeDefaultTheme" />
+491-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:26:13-54
+492        <activity
+492-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:27:9-31:58
+493            android:name="com.stripe.android.view.PaymentAuthWebViewActivity"
+493-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:28:13-78
+494            android:exported="false"
+494-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:29:13-37
+495            android:theme="@style/StripeDefaultTheme"
+495-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:30:13-54
+496            android:windowSoftInputMode="adjustResize" />
+496-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:31:13-55
+497        <activity
+497-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:32:9-35:61
+498            android:name="com.stripe.android.view.PaymentRelayActivity"
+498-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:33:13-72
+499            android:exported="false"
+499-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:34:13-37
+500            android:theme="@style/StripeTransparentTheme" />
+500-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:35:13-58
+501        <!--
+502        Set android:launchMode="singleTop" so that the StripeBrowserLauncherActivity instance that
+503        launched the browser Activity will also handle the return URL deep link.
+504        -->
+505        <activity
+505-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:41:9-45:61
+506            android:name="com.stripe.android.payments.StripeBrowserLauncherActivity"
+506-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:42:13-85
+507            android:exported="false"
+507-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:43:13-37
+508            android:launchMode="singleTask"
+508-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:44:13-44
+509            android:theme="@style/StripeTransparentTheme" />
+509-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:45:13-58
+510        <activity
+510-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:46:9-63:20
+511            android:name="com.stripe.android.payments.StripeBrowserProxyReturnActivity"
+511-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:47:13-88
+512            android:exported="true"
+512-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:48:13-36
+513            android:launchMode="singleTask"
+513-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:49:13-44
+514            android:theme="@style/StripeTransparentTheme" >
+514-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:50:13-58
+515            <intent-filter>
+515-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:51:13-62:29
+516                <action android:name="android.intent.action.VIEW" />
+516-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:69:17-69
+516-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:69:25-66
+517
+518                <category android:name="android.intent.category.DEFAULT" />
+518-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:66:17-76
+518-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:66:27-73
+519                <category android:name="android.intent.category.BROWSABLE" />
+519-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:72:17-78
+519-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:72:27-75
+520
+521                <!-- Must match `DefaultReturnUrl#value`. -->
+522                <data
+522-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:74:17-76:46
+523                    android:host="payment_return_url"
+523-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:75:21-53
+524                    android:path="/com.chayakart"
+525                    android:scheme="stripesdk" />
+525-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:76:21-43
+526            </intent-filter>
+527        </activity>
+528        <activity
+528-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:64:9-67:57
+529            android:name="com.stripe.android.payments.core.authentication.threeds2.Stripe3ds2TransactionActivity"
+529-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:65:13-114
+530            android:exported="false"
+530-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:66:13-37
+531            android:theme="@style/StripeDefaultTheme" />
+531-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:67:13-54
+532        <activity
+532-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:68:9-71:66
+533            android:name="com.stripe.android.googlepaylauncher.GooglePayLauncherActivity"
+533-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:69:13-90
+534            android:exported="false"
+534-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:70:13-37
+535            android:theme="@style/StripeGooglePayDefaultTheme" />
+535-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:71:13-63
+536        <activity
+536-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:72:9-75:66
+537            android:name="com.stripe.android.googlepaylauncher.GooglePayPaymentMethodLauncherActivity"
+537-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:73:13-103
+538            android:exported="false"
+538-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:74:13-37
+539            android:theme="@style/StripeGooglePayDefaultTheme" />
+539-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:75:13-63
+540        <activity
+540-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:76:9-79:68
+541            android:name="com.stripe.android.payments.paymentlauncher.PaymentLauncherConfirmationActivity"
+541-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:77:13-107
+542            android:exported="false"
+542-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:78:13-37
+543            android:theme="@style/StripePayLauncherDefaultTheme" />
+543-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:79:13-65
+544        <activity
+544-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:80:9-83:61
+545            android:name="com.stripe.android.payments.bankaccount.ui.CollectBankAccountActivity"
+545-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:81:13-97
+546            android:exported="false"
+546-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:82:13-37
+547            android:theme="@style/StripeTransparentTheme" />
+547-->[com.stripe:payments-core:20.28.3] C:\Users\nohal\.gradle\caches\transforms-3\c5a6d0a10015cc2af50630eb67e9cb0f\transformed\jetified-payments-core-20.28.3\AndroidManifest.xml:83:13-58
+548        <activity
+548-->[com.stripe:stripe-3ds2-android:6.1.7] C:\Users\nohal\.gradle\caches\transforms-3\ef749a0646a902399d65388a20549dab\transformed\jetified-stripe-3ds2-android-6.1.7\AndroidManifest.xml:8:9-11:54
+549            android:name="com.stripe.android.stripe3ds2.views.ChallengeActivity"
+549-->[com.stripe:stripe-3ds2-android:6.1.7] C:\Users\nohal\.gradle\caches\transforms-3\ef749a0646a902399d65388a20549dab\transformed\jetified-stripe-3ds2-android-6.1.7\AndroidManifest.xml:9:13-81
+550            android:exported="false"
+550-->[com.stripe:stripe-3ds2-android:6.1.7] C:\Users\nohal\.gradle\caches\transforms-3\ef749a0646a902399d65388a20549dab\transformed\jetified-stripe-3ds2-android-6.1.7\AndroidManifest.xml:10:13-37
+551            android:theme="@style/Stripe3DS2Theme" />
+551-->[com.stripe:stripe-3ds2-android:6.1.7] C:\Users\nohal\.gradle\caches\transforms-3\ef749a0646a902399d65388a20549dab\transformed\jetified-stripe-3ds2-android-6.1.7\AndroidManifest.xml:11:13-51
+552        <activity
+552-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\nohal\.gradle\caches\transforms-3\2939b8554a3fe1b7c35a6973389cfc92\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:23:9-26:66
+553            android:name="com.paytm.pgsdk.PaytmPGActivity"
+553-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\nohal\.gradle\caches\transforms-3\2939b8554a3fe1b7c35a6973389cfc92\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:24:13-59
+554            android:screenOrientation="portrait"
+554-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\nohal\.gradle\caches\transforms-3\2939b8554a3fe1b7c35a6973389cfc92\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:25:13-49
+555            android:theme="@style/Theme.AppCompat.NoActionBar" />
+555-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\nohal\.gradle\caches\transforms-3\2939b8554a3fe1b7c35a6973389cfc92\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:26:13-63
+556        <activity
+556-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\nohal\.gradle\caches\transforms-3\2939b8554a3fe1b7c35a6973389cfc92\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:27:9-29:63
+557            android:name="com.paytm.pgsdk.AioMatchUserActivity"
+557-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\nohal\.gradle\caches\transforms-3\2939b8554a3fe1b7c35a6973389cfc92\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:28:13-64
+558            android:theme="@style/TransparentActivityTheme" />
+558-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\nohal\.gradle\caches\transforms-3\2939b8554a3fe1b7c35a6973389cfc92\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:29:13-60
+559
+560        <service
+560-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\nohal\.gradle\caches\transforms-3\2939b8554a3fe1b7c35a6973389cfc92\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:31:9-33:40
+561            android:name="com.paytm.pgsdk.IntentServicePostNotification"
+561-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\nohal\.gradle\caches\transforms-3\2939b8554a3fe1b7c35a6973389cfc92\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:32:13-73
+562            android:exported="false" />
+562-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\nohal\.gradle\caches\transforms-3\2939b8554a3fe1b7c35a6973389cfc92\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:33:13-37
+563        <service
+563-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\nohal\.gradle\caches\transforms-3\2939b8554a3fe1b7c35a6973389cfc92\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:34:9-36:40
+564            android:name="com.paytm.pgsdk.IntentServicePreNotification"
+564-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\nohal\.gradle\caches\transforms-3\2939b8554a3fe1b7c35a6973389cfc92\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:35:13-72
+565            android:exported="false" />
+565-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\nohal\.gradle\caches\transforms-3\2939b8554a3fe1b7c35a6973389cfc92\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:36:13-37
+566        <service
+566-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\nohal\.gradle\caches\transforms-3\f03a4657ad753b2210a222047cc426d0\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:14:9-17:72
+567            android:name="easypay.appinvoke.utils.EasyPayConfigDownloader"
+567-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\nohal\.gradle\caches\transforms-3\f03a4657ad753b2210a222047cc426d0\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:15:13-75
+568            android:exported="false"
+568-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\nohal\.gradle\caches\transforms-3\f03a4657ad753b2210a222047cc426d0\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:16:13-37
+569            android:permission="android.permission.BIND_JOB_SERVICE" />
+569-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\nohal\.gradle\caches\transforms-3\f03a4657ad753b2210a222047cc426d0\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:17:13-69
+570        <service
+570-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\nohal\.gradle\caches\transforms-3\f03a4657ad753b2210a222047cc426d0\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:18:9-22:72
+571            android:name="easypay.appinvoke.utils.AnalyticsService"
+571-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\nohal\.gradle\caches\transforms-3\f03a4657ad753b2210a222047cc426d0\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:19:13-68
+572            android:enabled="true"
+572-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\nohal\.gradle\caches\transforms-3\f03a4657ad753b2210a222047cc426d0\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:20:13-35
+573            android:exported="false"
+573-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\nohal\.gradle\caches\transforms-3\f03a4657ad753b2210a222047cc426d0\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:21:13-37
+574            android:permission="android.permission.BIND_JOB_SERVICE" />
+574-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\nohal\.gradle\caches\transforms-3\f03a4657ad753b2210a222047cc426d0\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:22:13-69
+575
+576        <activity android:name="easypay.appinvoke.AnalyticsManagerInfoDisplayActivity" /> <!-- Needs to be explicitly declared on P+ -->
+576-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\nohal\.gradle\caches\transforms-3\f03a4657ad753b2210a222047cc426d0\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:24:9-90
+576-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\nohal\.gradle\caches\transforms-3\f03a4657ad753b2210a222047cc426d0\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:24:19-87
+577        <uses-library
+577-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\nohal\.gradle\caches\transforms-3\bd9f704aabfb5d42b328916851ac79eb\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
+578            android:name="org.apache.http.legacy"
+578-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\nohal\.gradle\caches\transforms-3\bd9f704aabfb5d42b328916851ac79eb\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
+579            android:required="false" />
+579-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\nohal\.gradle\caches\transforms-3\bd9f704aabfb5d42b328916851ac79eb\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
+580
+581        <activity
+581-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\nohal\.gradle\caches\transforms-3\74523695896dfb34dc344c70b424522c\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:29:9-46:20
+582            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+582-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\nohal\.gradle\caches\transforms-3\74523695896dfb34dc344c70b424522c\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:30:13-80
+583            android:excludeFromRecents="true"
+583-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\nohal\.gradle\caches\transforms-3\74523695896dfb34dc344c70b424522c\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:31:13-46
+584            android:exported="true"
+584-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\nohal\.gradle\caches\transforms-3\74523695896dfb34dc344c70b424522c\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:32:13-36
+585            android:launchMode="singleTask"
+585-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\nohal\.gradle\caches\transforms-3\74523695896dfb34dc344c70b424522c\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:33:13-44
+586            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+586-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\nohal\.gradle\caches\transforms-3\74523695896dfb34dc344c70b424522c\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:34:13-72
+587            <intent-filter>
+587-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\nohal\.gradle\caches\transforms-3\74523695896dfb34dc344c70b424522c\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:35:13-45:29
+588                <action android:name="android.intent.action.VIEW" />
+588-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:69:17-69
+588-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:69:25-66
+589
+590                <category android:name="android.intent.category.DEFAULT" />
+590-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:66:17-76
+590-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:66:27-73
+591                <category android:name="android.intent.category.BROWSABLE" />
+591-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:72:17-78
+591-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:72:27-75
+592
+593                <data
+593-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:74:17-76:46
+594                    android:host="firebase.auth"
+594-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:75:21-53
+595                    android:path="/"
+596                    android:scheme="genericidp" />
+596-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:76:21-43
+597            </intent-filter>
+598        </activity>
+599        <activity
+599-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\nohal\.gradle\caches\transforms-3\74523695896dfb34dc344c70b424522c\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:47:9-64:20
+600            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+600-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\nohal\.gradle\caches\transforms-3\74523695896dfb34dc344c70b424522c\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:48:13-79
+601            android:excludeFromRecents="true"
+601-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\nohal\.gradle\caches\transforms-3\74523695896dfb34dc344c70b424522c\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:49:13-46
+602            android:exported="true"
+602-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\nohal\.gradle\caches\transforms-3\74523695896dfb34dc344c70b424522c\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:50:13-36
+603            android:launchMode="singleTask"
+603-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\nohal\.gradle\caches\transforms-3\74523695896dfb34dc344c70b424522c\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:51:13-44
+604            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+604-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\nohal\.gradle\caches\transforms-3\74523695896dfb34dc344c70b424522c\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:52:13-72
+605            <intent-filter>
+605-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\nohal\.gradle\caches\transforms-3\74523695896dfb34dc344c70b424522c\transformed\jetified-firebase-auth-22.1.0\AndroidManifest.xml:53:13-63:29
+606                <action android:name="android.intent.action.VIEW" />
+606-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:69:17-69
+606-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:69:25-66
+607
+608                <category android:name="android.intent.category.DEFAULT" />
+608-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:66:17-76
+608-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:66:27-73
+609                <category android:name="android.intent.category.BROWSABLE" />
+609-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:72:17-78
+609-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:72:27-75
+610
+611                <data
+611-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:74:17-76:46
+612                    android:host="firebase.auth"
+612-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:75:21-53
+613                    android:path="/"
+614                    android:scheme="recaptcha" />
+614-->C:\Users\nohal\AndroidStudioProjects\chhayakart app\android\app\src\main\AndroidManifest.xml:76:21-43
+615            </intent-filter>
+616        </activity>
+617
+618        <receiver
+618-->[com.google.firebase:firebase-messaging:23.2.0] C:\Users\nohal\.gradle\caches\transforms-3\7e8fd41780d76cfc07f1dd4dda4284d0\transformed\jetified-firebase-messaging-23.2.0\AndroidManifest.xml:31:9-38:20
+619            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+619-->[com.google.firebase:firebase-messaging:23.2.0] C:\Users\nohal\.gradle\caches\transforms-3\7e8fd41780d76cfc07f1dd4dda4284d0\transformed\jetified-firebase-messaging-23.2.0\AndroidManifest.xml:32:13-78
+620            android:exported="true"
+620-->[com.google.firebase:firebase-messaging:23.2.0] C:\Users\nohal\.gradle\caches\transforms-3\7e8fd41780d76cfc07f1dd4dda4284d0\transformed\jetified-firebase-messaging-23.2.0\AndroidManifest.xml:33:13-36
+621            android:permission="com.google.android.c2dm.permission.SEND" >
+621-->[com.google.firebase:firebase-messaging:23.2.0] C:\Users\nohal\.gradle\caches\transforms-3\7e8fd41780d76cfc07f1dd4dda4284d0\transformed\jetified-firebase-messaging-23.2.0\AndroidManifest.xml:34:13-73
+622            <intent-filter>
+622-->[:firebase_messaging] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:32:13-34:29
+623                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+623-->[:firebase_messaging] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:33:17-81
+623-->[:firebase_messaging] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:33:25-78
+624            </intent-filter>
+625        </receiver>
+626        <!--
+627             FirebaseMessagingService performs security checks at runtime,
+628             but set to not exported to explicitly avoid allowing another app to call it.
+629        -->
+630        <service
+630-->[com.google.firebase:firebase-messaging:23.2.0] C:\Users\nohal\.gradle\caches\transforms-3\7e8fd41780d76cfc07f1dd4dda4284d0\transformed\jetified-firebase-messaging-23.2.0\AndroidManifest.xml:44:9-51:19
+631            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+631-->[com.google.firebase:firebase-messaging:23.2.0] C:\Users\nohal\.gradle\caches\transforms-3\7e8fd41780d76cfc07f1dd4dda4284d0\transformed\jetified-firebase-messaging-23.2.0\AndroidManifest.xml:45:13-82
+632            android:directBootAware="true"
+632-->[com.google.firebase:firebase-messaging:23.2.0] C:\Users\nohal\.gradle\caches\transforms-3\7e8fd41780d76cfc07f1dd4dda4284d0\transformed\jetified-firebase-messaging-23.2.0\AndroidManifest.xml:46:13-43
+633            android:exported="false" >
+633-->[com.google.firebase:firebase-messaging:23.2.0] C:\Users\nohal\.gradle\caches\transforms-3\7e8fd41780d76cfc07f1dd4dda4284d0\transformed\jetified-firebase-messaging-23.2.0\AndroidManifest.xml:47:13-37
+634            <intent-filter android:priority="-500" >
+634-->[:firebase_messaging] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-25:29
+635                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+635-->[:firebase_messaging] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:24:17-78
+635-->[:firebase_messaging] C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:24:25-75
+636            </intent-filter>
+637        </service>
+638
+639        <activity
+639-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\nohal\.gradle\caches\transforms-3\0ab58840f005ddb5beee3e6db205b397\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:23:9-27:75
+640            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+640-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\nohal\.gradle\caches\transforms-3\0ab58840f005ddb5beee3e6db205b397\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:24:13-93
+641            android:excludeFromRecents="true"
+641-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\nohal\.gradle\caches\transforms-3\0ab58840f005ddb5beee3e6db205b397\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:25:13-46
+642            android:exported="false"
+642-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\nohal\.gradle\caches\transforms-3\0ab58840f005ddb5beee3e6db205b397\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:26:13-37
+643            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+643-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\nohal\.gradle\caches\transforms-3\0ab58840f005ddb5beee3e6db205b397\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:27:13-72
+644        <!--
+645            Service handling Google Sign-In user revocation. For apps that do not integrate with
+646            Google Sign-In, this service will never be started.
+647        -->
+648        <service
+648-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\nohal\.gradle\caches\transforms-3\0ab58840f005ddb5beee3e6db205b397\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:33:9-36:110
+649            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+649-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\nohal\.gradle\caches\transforms-3\0ab58840f005ddb5beee3e6db205b397\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:34:13-89
+650            android:exported="true"
+650-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\nohal\.gradle\caches\transforms-3\0ab58840f005ddb5beee3e6db205b397\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:35:13-36
+651            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+651-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\nohal\.gradle\caches\transforms-3\0ab58840f005ddb5beee3e6db205b397\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:36:13-107
+652
+653        <activity
+653-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\nohal\.gradle\caches\transforms-3\6432aa9f5acf761e4f836fabc57a96ae\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+654            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+654-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\nohal\.gradle\caches\transforms-3\6432aa9f5acf761e4f836fabc57a96ae\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+655            android:exported="false"
+655-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\nohal\.gradle\caches\transforms-3\6432aa9f5acf761e4f836fabc57a96ae\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+656            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+656-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\nohal\.gradle\caches\transforms-3\6432aa9f5acf761e4f836fabc57a96ae\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+657
+658        <provider
+658-->[com.google.firebase:firebase-common:20.3.3] C:\Users\nohal\.gradle\caches\transforms-3\5c5cbd30ea8026cf6d0c886618d43de0\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:25:9-30:39
+659            android:name="com.google.firebase.provider.FirebaseInitProvider"
+659-->[com.google.firebase:firebase-common:20.3.3] C:\Users\nohal\.gradle\caches\transforms-3\5c5cbd30ea8026cf6d0c886618d43de0\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:26:13-77
+660            android:authorities="com.chayakart.firebaseinitprovider"
+660-->[com.google.firebase:firebase-common:20.3.3] C:\Users\nohal\.gradle\caches\transforms-3\5c5cbd30ea8026cf6d0c886618d43de0\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:27:13-72
+661            android:directBootAware="true"
+661-->[com.google.firebase:firebase-common:20.3.3] C:\Users\nohal\.gradle\caches\transforms-3\5c5cbd30ea8026cf6d0c886618d43de0\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:28:13-43
+662            android:exported="false"
+662-->[com.google.firebase:firebase-common:20.3.3] C:\Users\nohal\.gradle\caches\transforms-3\5c5cbd30ea8026cf6d0c886618d43de0\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:29:13-37
+663            android:initOrder="100" />
+663-->[com.google.firebase:firebase-common:20.3.3] C:\Users\nohal\.gradle\caches\transforms-3\5c5cbd30ea8026cf6d0c886618d43de0\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:30:13-36
+664        <provider
+664-->[androidx.emoji2:emoji2:1.3.0] C:\Users\nohal\.gradle\caches\transforms-3\805dbcc888419985ae843c5f28cfa341\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+665            android:name="androidx.startup.InitializationProvider"
+665-->[androidx.emoji2:emoji2:1.3.0] C:\Users\nohal\.gradle\caches\transforms-3\805dbcc888419985ae843c5f28cfa341\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+666            android:authorities="com.chayakart.androidx-startup"
+666-->[androidx.emoji2:emoji2:1.3.0] C:\Users\nohal\.gradle\caches\transforms-3\805dbcc888419985ae843c5f28cfa341\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+667            android:exported="false" >
+667-->[androidx.emoji2:emoji2:1.3.0] C:\Users\nohal\.gradle\caches\transforms-3\805dbcc888419985ae843c5f28cfa341\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+668            <meta-data
+668-->[androidx.emoji2:emoji2:1.3.0] C:\Users\nohal\.gradle\caches\transforms-3\805dbcc888419985ae843c5f28cfa341\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+669                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+669-->[androidx.emoji2:emoji2:1.3.0] C:\Users\nohal\.gradle\caches\transforms-3\805dbcc888419985ae843c5f28cfa341\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+670                android:value="androidx.startup" />
+670-->[androidx.emoji2:emoji2:1.3.0] C:\Users\nohal\.gradle\caches\transforms-3\805dbcc888419985ae843c5f28cfa341\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+671            <meta-data
+671-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\nohal\.gradle\caches\transforms-3\f2ee5ba0c3d041c159334cc3c4a8a49d\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+672                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+672-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\nohal\.gradle\caches\transforms-3\f2ee5ba0c3d041c159334cc3c4a8a49d\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+673                android:value="androidx.startup" />
+673-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\nohal\.gradle\caches\transforms-3\f2ee5ba0c3d041c159334cc3c4a8a49d\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+674            <meta-data
+674-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nohal\.gradle\caches\transforms-3\f61dd661ecad6d163ccca69f7549d523\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+675                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+675-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nohal\.gradle\caches\transforms-3\f61dd661ecad6d163ccca69f7549d523\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+676                android:value="androidx.startup" />
+676-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nohal\.gradle\caches\transforms-3\f61dd661ecad6d163ccca69f7549d523\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+677        </provider>
+678
+679        <uses-library
+679-->[androidx.window:window:1.0.0-beta04] C:\Users\nohal\.gradle\caches\transforms-3\2f8431e30b33bac7ae33ef5b93e716f1\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+680            android:name="androidx.window.extensions"
+680-->[androidx.window:window:1.0.0-beta04] C:\Users\nohal\.gradle\caches\transforms-3\2f8431e30b33bac7ae33ef5b93e716f1\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+681            android:required="false" />
+681-->[androidx.window:window:1.0.0-beta04] C:\Users\nohal\.gradle\caches\transforms-3\2f8431e30b33bac7ae33ef5b93e716f1\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+682        <uses-library
+682-->[androidx.window:window:1.0.0-beta04] C:\Users\nohal\.gradle\caches\transforms-3\2f8431e30b33bac7ae33ef5b93e716f1\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+683            android:name="androidx.window.sidecar"
+683-->[androidx.window:window:1.0.0-beta04] C:\Users\nohal\.gradle\caches\transforms-3\2f8431e30b33bac7ae33ef5b93e716f1\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+684            android:required="false" />
+684-->[androidx.window:window:1.0.0-beta04] C:\Users\nohal\.gradle\caches\transforms-3\2f8431e30b33bac7ae33ef5b93e716f1\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+685
+686        <meta-data
+686-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\nohal\.gradle\caches\transforms-3\e668bb71ba684eb8229b4edd9756ebd5\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+687            android:name="com.google.android.gms.version"
+687-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\nohal\.gradle\caches\transforms-3\e668bb71ba684eb8229b4edd9756ebd5\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+688            android:value="@integer/google_play_services_version" />
+688-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\nohal\.gradle\caches\transforms-3\e668bb71ba684eb8229b4edd9756ebd5\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+689
+690        <service
+690-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\nohal\.gradle\caches\transforms-3\0aed90d40d9874ca0c3b28ac6b6da2ea\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:28:9-34:19
+691            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+691-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\nohal\.gradle\caches\transforms-3\0aed90d40d9874ca0c3b28ac6b6da2ea\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:29:13-103
+692            android:exported="false" >
+692-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\nohal\.gradle\caches\transforms-3\0aed90d40d9874ca0c3b28ac6b6da2ea\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:30:13-37
+693            <meta-data
+693-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\nohal\.gradle\caches\transforms-3\0aed90d40d9874ca0c3b28ac6b6da2ea\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:31:13-33:39
+694                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+694-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\nohal\.gradle\caches\transforms-3\0aed90d40d9874ca0c3b28ac6b6da2ea\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:32:17-94
+695                android:value="cct" />
+695-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\nohal\.gradle\caches\transforms-3\0aed90d40d9874ca0c3b28ac6b6da2ea\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:33:17-36
+696        </service>
+697
+698        <receiver
+698-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nohal\.gradle\caches\transforms-3\f61dd661ecad6d163ccca69f7549d523\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+699            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+699-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nohal\.gradle\caches\transforms-3\f61dd661ecad6d163ccca69f7549d523\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+700            android:directBootAware="false"
+700-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nohal\.gradle\caches\transforms-3\f61dd661ecad6d163ccca69f7549d523\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+701            android:enabled="true"
+701-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nohal\.gradle\caches\transforms-3\f61dd661ecad6d163ccca69f7549d523\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+702            android:exported="true"
+702-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nohal\.gradle\caches\transforms-3\f61dd661ecad6d163ccca69f7549d523\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+703            android:permission="android.permission.DUMP" >
+703-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nohal\.gradle\caches\transforms-3\f61dd661ecad6d163ccca69f7549d523\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+704            <intent-filter>
+704-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nohal\.gradle\caches\transforms-3\f61dd661ecad6d163ccca69f7549d523\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+705                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+705-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nohal\.gradle\caches\transforms-3\f61dd661ecad6d163ccca69f7549d523\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+705-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nohal\.gradle\caches\transforms-3\f61dd661ecad6d163ccca69f7549d523\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+706            </intent-filter>
+707            <intent-filter>
+707-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nohal\.gradle\caches\transforms-3\f61dd661ecad6d163ccca69f7549d523\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+708                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+708-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nohal\.gradle\caches\transforms-3\f61dd661ecad6d163ccca69f7549d523\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+708-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nohal\.gradle\caches\transforms-3\f61dd661ecad6d163ccca69f7549d523\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+709            </intent-filter>
+710            <intent-filter>
+710-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nohal\.gradle\caches\transforms-3\f61dd661ecad6d163ccca69f7549d523\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+711                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+711-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nohal\.gradle\caches\transforms-3\f61dd661ecad6d163ccca69f7549d523\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+711-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nohal\.gradle\caches\transforms-3\f61dd661ecad6d163ccca69f7549d523\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+712            </intent-filter>
+713            <intent-filter>
+713-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nohal\.gradle\caches\transforms-3\f61dd661ecad6d163ccca69f7549d523\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+714                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+714-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nohal\.gradle\caches\transforms-3\f61dd661ecad6d163ccca69f7549d523\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+714-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nohal\.gradle\caches\transforms-3\f61dd661ecad6d163ccca69f7549d523\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+715            </intent-filter>
+716        </receiver>
+717
+718        <service
+718-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\nohal\.gradle\caches\transforms-3\648b751c415718d778991c1b2eec06b8\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:26:9-30:19
+719            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+719-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\nohal\.gradle\caches\transforms-3\648b751c415718d778991c1b2eec06b8\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:27:13-117
+720            android:exported="false"
+720-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\nohal\.gradle\caches\transforms-3\648b751c415718d778991c1b2eec06b8\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:28:13-37
+721            android:permission="android.permission.BIND_JOB_SERVICE" >
+721-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\nohal\.gradle\caches\transforms-3\648b751c415718d778991c1b2eec06b8\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:29:13-69
+722        </service>
+723
+724        <receiver
+724-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\nohal\.gradle\caches\transforms-3\648b751c415718d778991c1b2eec06b8\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:32:9-34:40
+725            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+725-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\nohal\.gradle\caches\transforms-3\648b751c415718d778991c1b2eec06b8\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:33:13-132
+726            android:exported="false" />
+726-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\nohal\.gradle\caches\transforms-3\648b751c415718d778991c1b2eec06b8\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:34:13-37
+727
+728        <meta-data
+728-->[com.google.android.instantapps:instantapps:1.1.0] C:\Users\nohal\.gradle\caches\transforms-3\1e30233ee5f5f48e051a04c23033466a\transformed\jetified-instantapps-1.1.0\AndroidManifest.xml:10:9-12:33
+729            android:name="aia-compat-api-min-version"
+729-->[com.google.android.instantapps:instantapps:1.1.0] C:\Users\nohal\.gradle\caches\transforms-3\1e30233ee5f5f48e051a04c23033466a\transformed\jetified-instantapps-1.1.0\AndroidManifest.xml:11:13-54
+730            android:value="1" />
+730-->[com.google.android.instantapps:instantapps:1.1.0] C:\Users\nohal\.gradle\caches\transforms-3\1e30233ee5f5f48e051a04c23033466a\transformed\jetified-instantapps-1.1.0\AndroidManifest.xml:12:13-30
+731    </application>
+732
+733</manifest>

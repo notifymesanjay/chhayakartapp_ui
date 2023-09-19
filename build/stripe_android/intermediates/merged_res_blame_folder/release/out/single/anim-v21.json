@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\anim-v21\\mtrl_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\anim-v21\\mtrl_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\anim-v21\\mtrl_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\anim-v21\\mtrl_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\anim-v21\\m3_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\anim-v21\\m3_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\anim-v21\\m3_side_sheet_slide_in.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\anim-v21\\m3_side_sheet_slide_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\anim-v21\\fragment_fast_out_extra_slow_in.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\f8043eae1388241ba9428b88863514e1\\transformed\\fragment-1.5.5\\res\\anim-v21\\fragment_fast_out_extra_slow_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\anim-v21\\m3_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\anim-v21\\m3_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\anim-v21\\m3_side_sheet_slide_out.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\anim-v21\\m3_side_sheet_slide_out.xml"
+    }
+]

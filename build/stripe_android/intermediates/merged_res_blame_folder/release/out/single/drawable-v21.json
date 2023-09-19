@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable-v21\\abc_list_divider_material.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable-v21\\abc_list_divider_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable-v21\\googlepay_button_background.xml",
+        "source": "C:\\Users\\nohal\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\stripe_android-9.4.0\\android\\src\\main\\res\\drawable-v21\\googlepay_button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable-v21\\googlepay_button_no_shadow_background.xml",
+        "source": "C:\\Users\\nohal\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\stripe_android-9.4.0\\android\\src\\main\\res\\drawable-v21\\googlepay_button_no_shadow_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable-v21\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable-v21\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\b0da5fc57b97df58867dbfb56295def6\\transformed\\core-1.9.0\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable-v21\\mtrl_navigation_bar_item_background.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable-v21\\mtrl_navigation_bar_item_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable-v21\\material_cursor_drawable.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable-v21\\material_cursor_drawable.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable-v21\\m3_tabs_background.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable-v21\\m3_tabs_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    }
+]

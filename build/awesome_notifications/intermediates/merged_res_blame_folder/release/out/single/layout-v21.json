@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\awesome_notifications\\intermediates\\merged_res\\release\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\5369d55834acabff942026dd27c72822\\transformed\\core-1.8.0\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\awesome_notifications\\intermediates\\merged_res\\release\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\5369d55834acabff942026dd27c72822\\transformed\\core-1.8.0\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\awesome_notifications\\intermediates\\merged_res\\release\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\5369d55834acabff942026dd27c72822\\transformed\\core-1.8.0\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\awesome_notifications\\intermediates\\merged_res\\release\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\5369d55834acabff942026dd27c72822\\transformed\\core-1.8.0\\res\\layout-v21\\notification_action_tombstone.xml"
+    }
+]

@@ -1,0 +1,68 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\just_audio\\intermediates\\merged_res\\release\\values-pt-rBR\\values-pt-rBR.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\b377f2cd6a5269d99167d0e80d06b8ea\\transformed\\core-1.7.0\\res\\values-pt-rBR\\values-pt-rBR.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "620",
+                        "endColumns": "100",
+                        "endOffsets": "716"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\4aa372c0438ab3fa0c2d761f236c9a19\\transformed\\jetified-media2-session-1.2.1\\res\\values-pt-rBR\\values-pt-rBR.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,161,259,356,485",
+                        "endColumns": "105,97,96,128,134",
+                        "endOffsets": "156,254,351,480,615"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\just_audio\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-pt-rBR\\values-pt-rBR.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\b377f2cd6a5269d99167d0e80d06b8ea\\transformed\\core-1.7.0\\res\\values-pt-rBR\\values-pt-rBR.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "620",
+                        "endColumns": "100",
+                        "endOffsets": "716"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\4aa372c0438ab3fa0c2d761f236c9a19\\transformed\\jetified-media2-session-1.2.1\\res\\values-pt-rBR\\values-pt-rBR.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,161,259,356,485",
+                        "endColumns": "105,97,96,128,134",
+                        "endOffsets": "156,254,351,480,615"
+                    }
+                }
+            ]
+        }
+    ]
+}

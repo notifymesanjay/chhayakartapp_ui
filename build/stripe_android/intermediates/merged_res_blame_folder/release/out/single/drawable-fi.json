@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable-fi\\pay_with_googlepay_button_content.xml",
+        "source": "C:\\Users\\nohal\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\stripe_android-9.4.0\\android\\src\\main\\res\\drawable-fi\\pay_with_googlepay_button_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable-fi\\order_with_googlepay_button_content.xml",
+        "source": "C:\\Users\\nohal\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\stripe_android-9.4.0\\android\\src\\main\\res\\drawable-fi\\order_with_googlepay_button_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable-fi\\book_with_googlepay_button_content.xml",
+        "source": "C:\\Users\\nohal\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\stripe_android-9.4.0\\android\\src\\main\\res\\drawable-fi\\book_with_googlepay_button_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable-fi\\checkout_with_googlepay_button_content.xml",
+        "source": "C:\\Users\\nohal\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\stripe_android-9.4.0\\android\\src\\main\\res\\drawable-fi\\checkout_with_googlepay_button_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable-fi\\subscribe_with_googlepay_button_content.xml",
+        "source": "C:\\Users\\nohal\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\stripe_android-9.4.0\\android\\src\\main\\res\\drawable-fi\\subscribe_with_googlepay_button_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable-fi\\buy_with_googlepay_button_content.xml",
+        "source": "C:\\Users\\nohal\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\stripe_android-9.4.0\\android\\src\\main\\res\\drawable-fi\\buy_with_googlepay_button_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable-fi\\donate_with_googlepay_button_content.xml",
+        "source": "C:\\Users\\nohal\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\stripe_android-9.4.0\\android\\src\\main\\res\\drawable-fi\\donate_with_googlepay_button_content.xml"
+    }
+]

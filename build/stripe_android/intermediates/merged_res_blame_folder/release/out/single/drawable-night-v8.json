@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable-night-v8\\stripe_ic_paymentsheet_pm_revolut_pay.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\745643856bcc74b9b2b79fef37603b80\\transformed\\jetified-payments-ui-core-20.28.3\\res\\drawable-night-v8\\stripe_ic_paymentsheet_pm_revolut_pay.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable-night-v8\\stripe_ic_unknown.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\4d528490dcc576a7431bca9ce5746d0d\\transformed\\jetified-payments-model-20.28.3\\res\\drawable-night-v8\\stripe_ic_unknown.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable-night-v8\\stripe_ic_cvc.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\4d528490dcc576a7431bca9ce5746d0d\\transformed\\jetified-payments-model-20.28.3\\res\\drawable-night-v8\\stripe_ic_cvc.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable-night-v8\\stripe_ic_affirm_logo.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\745643856bcc74b9b2b79fef37603b80\\transformed\\jetified-payments-ui-core-20.28.3\\res\\drawable-night-v8\\stripe_ic_affirm_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable-night-v8\\stripe_ic_cvc_amex.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\4d528490dcc576a7431bca9ce5746d0d\\transformed\\jetified-payments-model-20.28.3\\res\\drawable-night-v8\\stripe_ic_cvc_amex.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable-night-v8\\stripe_ic_paymentsheet_pm_mobile_pay.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\745643856bcc74b9b2b79fef37603b80\\transformed\\jetified-payments-ui-core-20.28.3\\res\\drawable-night-v8\\stripe_ic_paymentsheet_pm_mobile_pay.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable-night-v8\\stripe_3ds2_ic_arrow.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\ef749a0646a902399d65388a20549dab\\transformed\\jetified-stripe-3ds2-android-6.1.7\\res\\drawable-night-v8\\stripe_3ds2_ic_arrow.xml"
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\layout-land\\mtrl_picker_header_dialog.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\layout-land\\mtrl_picker_header_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\layout-land\\material_clock_period_toggle_land.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\layout-land\\material_clock_period_toggle_land.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\layout-land\\material_timepicker.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\layout-land\\material_timepicker.xml"
+    }
+]

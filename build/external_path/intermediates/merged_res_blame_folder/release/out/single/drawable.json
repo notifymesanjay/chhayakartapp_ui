@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\external_path\\intermediates\\merged_res\\release\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\5ff2b201a1fa7d88d480efd7e0b9ada2\\transformed\\core-1.6.0\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\external_path\\intermediates\\merged_res\\release\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\5ff2b201a1fa7d88d480efd7e0b9ada2\\transformed\\core-1.6.0\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\external_path\\intermediates\\merged_res\\release\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\5ff2b201a1fa7d88d480efd7e0b9ada2\\transformed\\core-1.6.0\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\external_path\\intermediates\\merged_res\\release\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\5ff2b201a1fa7d88d480efd7e0b9ada2\\transformed\\core-1.6.0\\res\\drawable\\notification_icon_background.xml"
+    }
+]

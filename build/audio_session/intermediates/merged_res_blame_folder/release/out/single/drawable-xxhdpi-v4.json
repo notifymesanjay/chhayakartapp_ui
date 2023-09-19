@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\audio_session\\intermediates\\merged_res\\release\\drawable-xxhdpi-v4\\media_session_service_notification_ic_skip_to_previous.png",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\4aa372c0438ab3fa0c2d761f236c9a19\\transformed\\jetified-media2-session-1.2.1\\res\\drawable-xxhdpi-v4\\media_session_service_notification_ic_skip_to_previous.png"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\audio_session\\intermediates\\merged_res\\release\\drawable-xxhdpi-v4\\media_session_service_notification_ic_skip_to_next.png",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\4aa372c0438ab3fa0c2d761f236c9a19\\transformed\\jetified-media2-session-1.2.1\\res\\drawable-xxhdpi-v4\\media_session_service_notification_ic_skip_to_next.png"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\audio_session\\intermediates\\merged_res\\release\\drawable-xxhdpi-v4\\media_session_service_notification_ic_play.png",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\4aa372c0438ab3fa0c2d761f236c9a19\\transformed\\jetified-media2-session-1.2.1\\res\\drawable-xxhdpi-v4\\media_session_service_notification_ic_play.png"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\audio_session\\intermediates\\merged_res\\release\\drawable-xxhdpi-v4\\media_session_service_notification_ic_pause.png",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\4aa372c0438ab3fa0c2d761f236c9a19\\transformed\\jetified-media2-session-1.2.1\\res\\drawable-xxhdpi-v4\\media_session_service_notification_ic_pause.png"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\audio_session\\intermediates\\merged_res\\release\\drawable-xxhdpi-v4\\media_session_service_notification_ic_music_note.png",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\4aa372c0438ab3fa0c2d761f236c9a19\\transformed\\jetified-media2-session-1.2.1\\res\\drawable-xxhdpi-v4\\media_session_service_notification_ic_music_note.png"
+    }
+]

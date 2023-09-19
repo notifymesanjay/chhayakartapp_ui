@@ -1,0 +1,1206 @@
+[
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_prepane_phone_bg.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\abbf825aebeb762ad0000a8a8e1423d3\\transformed\\jetified-financial-connections-20.28.3\\res\\drawable\\stripe_prepane_phone_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\design_ic_visibility.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\design_ic_visibility.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\common_google_signin_btn_icon_dark_focused.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\00b473af7f593eaf15db1c64c03c7c31\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\common_google_signin_btn_text_light_focused.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\00b473af7f593eaf15db1c64c03c7c31\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\00b473af7f593eaf15db1c64c03c7c31\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\btn_radio_off_mtrl.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\btn_radio_off_mtrl.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\common_google_signin_btn_text_dark_focused.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\00b473af7f593eaf15db1c64c03c7c31\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_consent_logo_ellipsis.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\abbf825aebeb762ad0000a8a8e1423d3\\transformed\\jetified-financial-connections-20.28.3\\res\\drawable\\stripe_consent_logo_ellipsis.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_logo.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\abbf825aebeb762ad0000a8a8e1423d3\\transformed\\jetified-financial-connections-20.28.3\\res\\drawable\\stripe_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_paymentsheet_close.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\de656b83829c923fa6c1812d7ac685ca\\transformed\\jetified-paymentsheet-20.28.3\\res\\drawable\\stripe_ic_paymentsheet_close.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\mtrl_ic_arrow_drop_up.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\mtrl_ic_arrow_drop_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_diners_template_32.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_ic_diners_template_32.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_check_account.png",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\abbf825aebeb762ad0000a8a8e1423d3\\transformed\\jetified-financial-connections-20.28.3\\res\\drawable\\stripe_check_account.png"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_paymentsheet_link.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\de656b83829c923fa6c1812d7ac685ca\\transformed\\jetified-paymentsheet-20.28.3\\res\\drawable\\stripe_ic_paymentsheet_link.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_bank_citi.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_ic_bank_citi.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_warning_circle.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\abbf825aebeb762ad0000a8a8e1423d3\\transformed\\jetified-financial-connections-20.28.3\\res\\drawable\\stripe_ic_warning_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\ic_m3_chip_check.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\ic_m3_chip_check.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_cartebancaire_template_32.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_ic_cartebancaire_template_32.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_bank_islam.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_ic_bank_islam.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\mtrl_tabs_default_indicator.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\mtrl_tabs_default_indicator.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_brandicon_institution.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\abbf825aebeb762ad0000a8a8e1423d3\\transformed\\jetified-financial-connections-20.28.3\\res\\drawable\\stripe_ic_brandicon_institution.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_paymentsheet_card_unknown.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\de656b83829c923fa6c1812d7ac685ca\\transformed\\jetified-paymentsheet-20.28.3\\res\\drawable\\stripe_ic_paymentsheet_card_unknown.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_photo_camera.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\745643856bcc74b9b2b79fef37603b80\\transformed\\jetified-payments-ui-core-20.28.3\\res\\drawable\\stripe_ic_photo_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_amex_template_32.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_ic_amex_template_32.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_clearpay_logo.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\745643856bcc74b9b2b79fef37603b80\\transformed\\jetified-payments-ui-core-20.28.3\\res\\drawable\\stripe_ic_clearpay_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_paymentsheet_ctil_chevron.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\de656b83829c923fa6c1812d7ac685ca\\transformed\\jetified-paymentsheet-20.28.3\\res\\drawable\\stripe_ic_paymentsheet_ctil_chevron.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_3ds2_ic_discover.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\ef749a0646a902399d65388a20549dab\\transformed\\jetified-stripe-3ds2-android-6.1.7\\res\\drawable\\stripe_3ds2_ic_discover.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\abc_star_black_48dp.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\abc_star_black_48dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_error.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\4d528490dcc576a7431bca9ce5746d0d\\transformed\\jetified-payments-model-20.28.3\\res\\drawable\\stripe_ic_error.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_bank_pnc.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_ic_bank_pnc.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_3ds2_ic_mastercard.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\ef749a0646a902399d65388a20549dab\\transformed\\jetified-stripe-3ds2-android-6.1.7\\res\\drawable\\stripe_3ds2_ic_mastercard.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_3ds2_ic_unionpay.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\ef749a0646a902399d65388a20549dab\\transformed\\jetified-stripe-3ds2-android-6.1.7\\res\\drawable\\stripe_3ds2_ic_unionpay.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_paymentsheet_googlepay_primary_button_checkmark.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\de656b83829c923fa6c1812d7ac685ca\\transformed\\jetified-paymentsheet-20.28.3\\res\\drawable\\stripe_ic_paymentsheet_googlepay_primary_button_checkmark.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_check_routing.png",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\abbf825aebeb762ad0000a8a8e1423d3\\transformed\\jetified-financial-connections-20.28.3\\res\\drawable\\stripe_check_routing.png"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_clear.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_ic_clear.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\common_google_signin_btn_icon_disabled.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\00b473af7f593eaf15db1c64c03c7c31\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_error_amex.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_ic_error_amex.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_trash.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_ic_trash.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\mtrl_checkbox_button_unchecked_checked.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\mtrl_checkbox_button_unchecked_checked.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_check_base.png",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\abbf825aebeb762ad0000a8a8e1423d3\\transformed\\jetified-financial-connections-20.28.3\\res\\drawable\\stripe_check_base.png"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\abc_star_half_black_48dp.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\abc_star_half_black_48dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\mtrl_checkbox_button_icon_unchecked_indeterminate.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\mtrl_checkbox_button_icon_unchecked_indeterminate.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\mtrl_switch_thumb.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\mtrl_switch_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\mtrl_dialog_background.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\mtrl_dialog_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\m3_popupmenu_background_overlay.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\m3_popupmenu_background_overlay.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_paymentsheet_pm_cash_app_pay.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\745643856bcc74b9b2b79fef37603b80\\transformed\\jetified-payments-ui-core-20.28.3\\res\\drawable\\stripe_ic_paymentsheet_pm_cash_app_pay.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_bank_maybank.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_ic_bank_maybank.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_search.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\89d9b41d75ff2cc560136f4701ea9967\\transformed\\jetified-stripe-ui-core-20.28.3\\res\\drawable\\stripe_ic_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\mtrl_switch_thumb_pressed.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\mtrl_switch_thumb_pressed.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_paymentsheet_pm_zip.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\745643856bcc74b9b2b79fef37603b80\\transformed\\jetified-payments-ui-core-20.28.3\\res\\drawable\\stripe_ic_paymentsheet_pm_zip.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\subscribe_with_googlepay_button_content.xml",
+        "source": "C:\\Users\\nohal\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\stripe_android-9.4.0\\android\\src\\main\\res\\drawable\\subscribe_with_googlepay_button_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\mtrl_checkbox_button_icon_checked_unchecked.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\mtrl_checkbox_button_icon_checked_unchecked.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\tooltip_frame_dark.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\tooltip_frame_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\mtrl_switch_track.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\mtrl_switch_track.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\common_google_signin_btn_icon_dark_normal.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\00b473af7f593eaf15db1c64c03c7c31\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_bank_bsn.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_ic_bank_bsn.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\design_password_eye.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\design_password_eye.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_checkmark_tinted.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_ic_checkmark_tinted.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\mtrl_switch_thumb_pressed_unchecked.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\mtrl_switch_thumb_pressed_unchecked.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_cvc_amex.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\4d528490dcc576a7431bca9ce5746d0d\\transformed\\jetified-payments-model-20.28.3\\res\\drawable\\stripe_ic_cvc_amex.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_unionpay.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\4d528490dcc576a7431bca9ce5746d0d\\transformed\\jetified-payments-model-20.28.3\\res\\drawable\\stripe_ic_unionpay.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\btn_checkbox_checked_to_unchecked_mtrl_animation.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\btn_checkbox_checked_to_unchecked_mtrl_animation.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\common_google_signin_btn_icon_light_normal.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\00b473af7f593eaf15db1c64c03c7c31\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\navigation_empty_icon.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\00b473af7f593eaf15db1c64c03c7c31\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_check_circle.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\abbf825aebeb762ad0000a8a8e1423d3\\transformed\\jetified-financial-connections-20.28.3\\res\\drawable\\stripe_ic_check_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_checkbox_yes.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\abbf825aebeb762ad0000a8a8e1423d3\\transformed\\jetified-financial-connections-20.28.3\\res\\drawable\\stripe_ic_checkbox_yes.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\abc_ic_menu_paste_mtrl_am_alpha.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\abc_ic_menu_paste_mtrl_am_alpha.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_bank_affin.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_ic_bank_affin.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_discover.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\4d528490dcc576a7431bca9ce5746d0d\\transformed\\jetified-payments-model-20.28.3\\res\\drawable\\stripe_ic_discover.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\common_google_signin_btn_text_light_normal.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\00b473af7f593eaf15db1c64c03c7c31\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\common_google_signin_btn_icon_light_focused.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\00b473af7f593eaf15db1c64c03c7c31\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\mtrl_switch_thumb_unchecked_checked.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\mtrl_switch_thumb_unchecked_checked.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_checkmark.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_ic_checkmark.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_mail.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\abbf825aebeb762ad0000a8a8e1423d3\\transformed\\jetified-financial-connections-20.28.3\\res\\drawable\\stripe_ic_mail.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_arrow_right_circle.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\abbf825aebeb762ad0000a8a8e1423d3\\transformed\\jetified-financial-connections-20.28.3\\res\\drawable\\stripe_ic_arrow_right_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_chevron_down.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\89d9b41d75ff2cc560136f4701ea9967\\transformed\\jetified-stripe-ui-core-20.28.3\\res\\drawable\\stripe_ic_chevron_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_paymentsheet_pm_affirm.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\745643856bcc74b9b2b79fef37603b80\\transformed\\jetified-payments-ui-core-20.28.3\\res\\drawable\\stripe_ic_paymentsheet_pm_affirm.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\mtrl_ic_error.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\mtrl_ic_error.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_link_back.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3b95c4af5ce319b2b9febb7861175964\\transformed\\jetified-link-20.28.3\\res\\drawable\\stripe_link_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_paymentsheet_googlepay_primary_button_lock.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\de656b83829c923fa6c1812d7ac685ca\\transformed\\jetified-paymentsheet-20.28.3\\res\\drawable\\stripe_ic_paymentsheet_googlepay_primary_button_lock.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\test_level_drawable.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\test_level_drawable.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_paymentsheet_pm_mobile_pay.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\745643856bcc74b9b2b79fef37603b80\\transformed\\jetified-payments-ui-core-20.28.3\\res\\drawable\\stripe_ic_paymentsheet_pm_mobile_pay.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\googlepay_mark_content.xml",
+        "source": "C:\\Users\\nohal\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\stripe_android-9.4.0\\android\\src\\main\\res\\drawable\\googlepay_mark_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\mtrl_dropdown_arrow.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\mtrl_dropdown_arrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\material_ic_keyboard_arrow_left_black_24dp.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\material_ic_keyboard_arrow_left_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_affirm_logo.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\745643856bcc74b9b2b79fef37603b80\\transformed\\jetified-payments-ui-core-20.28.3\\res\\drawable\\stripe_ic_affirm_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\material_ic_menu_arrow_down_black_24dp.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\material_ic_menu_arrow_down_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_paymentsheet_pm_giropay.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\745643856bcc74b9b2b79fef37603b80\\transformed\\jetified-payments-ui-core-20.28.3\\res\\drawable\\stripe_ic_paymentsheet_pm_giropay.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_bank_becs.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_ic_bank_becs.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_visa.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\4d528490dcc576a7431bca9ce5746d0d\\transformed\\jetified-payments-model-20.28.3\\res\\drawable\\stripe_ic_visa.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_paymentsheet_card_visa.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\de656b83829c923fa6c1812d7ac685ca\\transformed\\jetified-paymentsheet-20.28.3\\res\\drawable\\stripe_ic_paymentsheet_card_visa.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\m3_avd_hide_password.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\m3_avd_hide_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\ic_clear_black_24.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\ic_clear_black_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\abc_ic_menu_copy_mtrl_am_alpha.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\abc_ic_menu_copy_mtrl_am_alpha.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_paymentsheet_card_unionpay.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\de656b83829c923fa6c1812d7ac685ca\\transformed\\jetified-paymentsheet-20.28.3\\res\\drawable\\stripe_ic_paymentsheet_card_unionpay.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\mtrl_ic_arrow_drop_down.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\mtrl_ic_arrow_drop_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\mtrl_checkbox_button_icon_checked_indeterminate.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\mtrl_checkbox_button_icon_checked_indeterminate.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_visa_template_32.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_ic_visa_template_32.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\avd_show_password.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\avd_show_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\abc_ic_menu_selectall_mtrl_alpha.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\abc_ic_menu_selectall_mtrl_alpha.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_bank_rhb.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_ic_bank_rhb.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_cartebancaire.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\4d528490dcc576a7431bca9ce5746d0d\\transformed\\jetified-payments-model-20.28.3\\res\\drawable\\stripe_ic_cartebancaire.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_radio_yes.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\abbf825aebeb762ad0000a8a8e1423d3\\transformed\\jetified-financial-connections-20.28.3\\res\\drawable\\stripe_ic_radio_yes.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_bank_public.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_ic_bank_public.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_radio_no.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\abbf825aebeb762ad0000a8a8e1423d3\\transformed\\jetified-financial-connections-20.28.3\\res\\drawable\\stripe_ic_radio_no.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\ic_clock_black_24dp.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\ic_clock_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_bank_ocbc.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_ic_bank_ocbc.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_bank_td.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_ic_bank_td.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_paymentsheet_card_amex.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\de656b83829c923fa6c1812d7ac685ca\\transformed\\jetified-paymentsheet-20.28.3\\res\\drawable\\stripe_ic_paymentsheet_card_amex.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_bank_suntrust.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_ic_bank_suntrust.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_link_add.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3b95c4af5ce319b2b9febb7861175964\\transformed\\jetified-link-20.28.3\\res\\drawable\\stripe_link_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_paymentsheet_pm_bank.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\745643856bcc74b9b2b79fef37603b80\\transformed\\jetified-payments-ui-core-20.28.3\\res\\drawable\\stripe_ic_paymentsheet_pm_bank.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_simple_button_background.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_simple_button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\googlepay_button_content.xml",
+        "source": "C:\\Users\\nohal\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\stripe_android-9.4.0\\android\\src\\main\\res\\drawable\\googlepay_button_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_card_progress_background.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_card_progress_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_add_black_32dp.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_ic_add_black_32dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_paymentsheet_polling_failure.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\de656b83829c923fa6c1812d7ac685ca\\transformed\\jetified-paymentsheet-20.28.3\\res\\drawable\\stripe_ic_paymentsheet_polling_failure.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_paymentsheet_add_light.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\de656b83829c923fa6c1812d7ac685ca\\transformed\\jetified-paymentsheet-20.28.3\\res\\drawable\\stripe_ic_paymentsheet_add_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\mtrl_checkbox_button_icon.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\mtrl_checkbox_button_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_paymentsheet_pm_paypal.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\745643856bcc74b9b2b79fef37603b80\\transformed\\jetified-payments-ui-core-20.28.3\\res\\drawable\\stripe_ic_paymentsheet_pm_paypal.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\ic_mtrl_chip_close_circle.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\ic_mtrl_chip_close_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_mastercard_template_32.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_ic_mastercard_template_32.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_edit.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\abbf825aebeb762ad0000a8a8e1423d3\\transformed\\jetified-financial-connections-20.28.3\\res\\drawable\\stripe_ic_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_paymentsheet_pm_klarna.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\745643856bcc74b9b2b79fef37603b80\\transformed\\jetified-payments-ui-core-20.28.3\\res\\drawable\\stripe_ic_paymentsheet_pm_klarna.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\mtrl_ic_checkbox_checked.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\mtrl_ic_checkbox_checked.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_bank_compass.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_ic_bank_compass.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_bank_usbank.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_ic_bank_usbank.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_3ds2_ic_indicator.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\ef749a0646a902399d65388a20549dab\\transformed\\jetified-stripe-3ds2-android-6.1.7\\res\\drawable\\stripe_3ds2_ic_indicator.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_bank_kfh.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_ic_bank_kfh.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_discover_template_32.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_ic_discover_template_32.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\mtrl_checkbox_button_icon_indeterminate_unchecked.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\mtrl_checkbox_button_icon_indeterminate_unchecked.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_bank_raykat.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_ic_bank_raykat.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_afterpay_logo.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\745643856bcc74b9b2b79fef37603b80\\transformed\\jetified-payments-ui-core-20.28.3\\res\\drawable\\stripe_ic_afterpay_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_paymentsheet_card_dinersclub.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\de656b83829c923fa6c1812d7ac685ca\\transformed\\jetified-paymentsheet-20.28.3\\res\\drawable\\stripe_ic_paymentsheet_card_dinersclub.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\m3_password_eye.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\m3_password_eye.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\mtrl_checkbox_button.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\mtrl_checkbox_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\ic_mtrl_chip_checked_black.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\ic_mtrl_chip_checked_black.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_paymentsheet_pm_bancontact.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\745643856bcc74b9b2b79fef37603b80\\transformed\\jetified-payments-ui-core-20.28.3\\res\\drawable\\stripe_ic_paymentsheet_pm_bancontact.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_bank_boa.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_ic_bank_boa.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_link_card.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3b95c4af5ce319b2b9febb7861175964\\transformed\\jetified-link-20.28.3\\res\\drawable\\stripe_link_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_3ds2_ic_unknown.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\ef749a0646a902399d65388a20549dab\\transformed\\jetified-stripe-3ds2-android-6.1.7\\res\\drawable\\stripe_3ds2_ic_unknown.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\material_ic_menu_arrow_up_black_24dp.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\material_ic_menu_arrow_up_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_link_mark.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\de656b83829c923fa6c1812d7ac685ca\\transformed\\jetified-paymentsheet-20.28.3\\res\\drawable\\stripe_link_mark.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\b0da5fc57b97df58867dbfb56295def6\\transformed\\core-1.9.0\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_mastercard.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\4d528490dcc576a7431bca9ce5746d0d\\transformed\\jetified-payments-model-20.28.3\\res\\drawable\\stripe_ic_mastercard.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_paymentsheet_card_jcb.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\de656b83829c923fa6c1812d7ac685ca\\transformed\\jetified-paymentsheet-20.28.3\\res\\drawable\\stripe_ic_paymentsheet_card_jcb.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_bank_ambank.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_ic_bank_ambank.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\design_ic_visibility_off.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_bank_svb.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_ic_bank_svb.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_link_close.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3b95c4af5ce319b2b9febb7861175964\\transformed\\jetified-link-20.28.3\\res\\drawable\\stripe_link_close.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_loading_spinner.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\abbf825aebeb762ad0000a8a8e1423d3\\transformed\\jetified-financial-connections-20.28.3\\res\\drawable\\stripe_ic_loading_spinner.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\material_ic_calendar_black_24dp.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\material_ic_calendar_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_check.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\abbf825aebeb762ad0000a8a8e1423d3\\transformed\\jetified-financial-connections-20.28.3\\res\\drawable\\stripe_ic_check.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_unionpay_template_32.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_ic_unionpay_template_32.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_bank_hong_leong.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_ic_bank_hong_leong.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_bank_capitalone.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_ic_bank_capitalone.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\common_google_signin_btn_text_dark_normal.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\00b473af7f593eaf15db1c64c03c7c31\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_jcb_template_32.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_ic_jcb_template_32.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\00b473af7f593eaf15db1c64c03c7c31\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_bank_usaa.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_ic_bank_usaa.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\cf564f90496a4deb33c09530ccbba9af\\transformed\\jetified-appcompat-resources-1.6.1\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_amex.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\4d528490dcc576a7431bca9ce5746d0d\\transformed\\jetified-payments-model-20.28.3\\res\\drawable\\stripe_ic_amex.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\mtrl_checkbox_button_checked_unchecked.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\mtrl_checkbox_button_checked_unchecked.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_bank_error.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_ic_bank_error.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_paymentsheet_ctil_chevron_down.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\de656b83829c923fa6c1812d7ac685ca\\transformed\\jetified-paymentsheet-20.28.3\\res\\drawable\\stripe_ic_paymentsheet_ctil_chevron_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_paymentsheet_pm_ideal.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\745643856bcc74b9b2b79fef37603b80\\transformed\\jetified-payments-ui-core-20.28.3\\res\\drawable\\stripe_ic_paymentsheet_pm_ideal.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\mtrl_bottomsheet_drag_handle.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\mtrl_bottomsheet_drag_handle.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_paymentsheet_pm_card.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\745643856bcc74b9b2b79fef37603b80\\transformed\\jetified-payments-ui-core-20.28.3\\res\\drawable\\stripe_ic_paymentsheet_pm_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_card_form_view_text_input_layout_background.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_card_form_view_text_input_layout_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\donate_with_googlepay_button_content.xml",
+        "source": "C:\\Users\\nohal\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\stripe_android-9.4.0\\android\\src\\main\\res\\drawable\\donate_with_googlepay_button_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_paymentsheet_pm_upi.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\745643856bcc74b9b2b79fef37603b80\\transformed\\jetified-payments-ui-core-20.28.3\\res\\drawable\\stripe_ic_paymentsheet_pm_upi.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\mtrl_ic_check_mark.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\mtrl_ic_check_mark.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\btn_radio_off_to_on_mtrl_animation.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\btn_radio_off_to_on_mtrl_animation.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_lock.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\745643856bcc74b9b2b79fef37603b80\\transformed\\jetified-payments-ui-core-20.28.3\\res\\drawable\\stripe_ic_lock.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_link_add_green.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3b95c4af5ce319b2b9febb7861175964\\transformed\\jetified-link-20.28.3\\res\\drawable\\stripe_link_add_green.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\mtrl_checkbox_button_icon_unchecked_checked.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\mtrl_checkbox_button_icon_unchecked_checked.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_paymentsheet_ctil_chevron_up.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\de656b83829c923fa6c1812d7ac685ca\\transformed\\jetified-paymentsheet-20.28.3\\res\\drawable\\stripe_ic_paymentsheet_ctil_chevron_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_bank_muamalat.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_ic_bank_muamalat.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_link_bank.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3b95c4af5ce319b2b9febb7861175964\\transformed\\jetified-link-20.28.3\\res\\drawable\\stripe_link_bank.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_paymentsheet_back.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\de656b83829c923fa6c1812d7ac685ca\\transformed\\jetified-paymentsheet-20.28.3\\res\\drawable\\stripe_ic_paymentsheet_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\ic_m3_chip_close.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\ic_m3_chip_close.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_delete_symbol.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\de656b83829c923fa6c1812d7ac685ca\\transformed\\jetified-paymentsheet-20.28.3\\res\\drawable\\stripe_ic_delete_symbol.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\ic_mtrl_chip_checked_circle.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\ic_mtrl_chip_checked_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\abc_btn_check_material_anim.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\abc_btn_check_material_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\btn_checkbox_unchecked_mtrl.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\btn_checkbox_unchecked_mtrl.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\mtrl_popupmenu_background_overlay.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\mtrl_popupmenu_background_overlay.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\mtrl_ic_indeterminate.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\mtrl_ic_indeterminate.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_bank_stripe.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_ic_bank_stripe.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_bank_morganchase.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_ic_bank_morganchase.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_bank_cimb.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_ic_bank_cimb.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\b0da5fc57b97df58867dbfb56295def6\\transformed\\core-1.9.0\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_paymentsheet_pm_eps.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\745643856bcc74b9b2b79fef37603b80\\transformed\\jetified-payments-ui-core-20.28.3\\res\\drawable\\stripe_ic_paymentsheet_pm_eps.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\mtrl_switch_thumb_checked.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\mtrl_switch_thumb_checked.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_bank_generic.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_ic_bank_generic.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\googlepay_button_background_shape.xml",
+        "source": "C:\\Users\\nohal\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\stripe_android-9.4.0\\android\\src\\main\\res\\drawable\\googlepay_button_background_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\ic_arrow_back_black_24.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\ic_arrow_back_black_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_paymentsheet_testmode_background.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\de656b83829c923fa6c1812d7ac685ca\\transformed\\jetified-paymentsheet-20.28.3\\res\\drawable\\stripe_paymentsheet_testmode_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_paymentsheet_card_mastercard.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\de656b83829c923fa6c1812d7ac685ca\\transformed\\jetified-paymentsheet-20.28.3\\res\\drawable\\stripe_ic_paymentsheet_card_mastercard.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\ic_mtrl_checked_circle.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\ic_mtrl_checked_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\mtrl_switch_thumb_unchecked_pressed.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\mtrl_switch_thumb_unchecked_pressed.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_cvc.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\4d528490dcc576a7431bca9ce5746d0d\\transformed\\jetified-payments-model-20.28.3\\res\\drawable\\stripe_ic_cvc.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\material_ic_edit_black_24dp.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\material_ic_edit_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\material_ic_keyboard_arrow_right_black_24dp.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\material_ic_keyboard_arrow_right_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\mtrl_checkbox_button_icon_indeterminate_checked.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\mtrl_checkbox_button_icon_indeterminate_checked.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_bank_standard_chartered.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_ic_bank_standard_chartered.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_paymentsheet_pm_sepa_debit.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\745643856bcc74b9b2b79fef37603b80\\transformed\\jetified-payments-ui-core-20.28.3\\res\\drawable\\stripe_ic_paymentsheet_pm_sepa_debit.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_link_chevron.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3b95c4af5ce319b2b9febb7861175964\\transformed\\jetified-link-20.28.3\\res\\drawable\\stripe_link_chevron.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\mtrl_ic_cancel.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\mtrl_ic_cancel.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_3ds2_ic_amex.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\ef749a0646a902399d65388a20549dab\\transformed\\jetified-stripe-3ds2-android-6.1.7\\res\\drawable\\stripe_3ds2_ic_amex.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\mtrl_switch_thumb_pressed_checked.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\mtrl_switch_thumb_pressed_checked.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\mtrl_switch_track_decoration.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\mtrl_switch_track_decoration.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\mtrl_switch_thumb_checked_unchecked.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\mtrl_switch_thumb_checked_unchecked.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_bank_wellsfargo.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_ic_bank_wellsfargo.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\btn_checkbox_checked_mtrl.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\btn_checkbox_checked_mtrl.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_bank.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\abbf825aebeb762ad0000a8a8e1423d3\\transformed\\jetified-financial-connections-20.28.3\\res\\drawable\\stripe_ic_bank.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\avd_hide_password.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\avd_hide_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_check_circle_emtpy.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\abbf825aebeb762ad0000a8a8e1423d3\\transformed\\jetified-financial-connections-20.28.3\\res\\drawable\\stripe_ic_check_circle_emtpy.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\abc_ic_menu_cut_mtrl_alpha.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\abc_ic_menu_cut_mtrl_alpha.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_warning.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\abbf825aebeb762ad0000a8a8e1423d3\\transformed\\jetified-financial-connections-20.28.3\\res\\drawable\\stripe_ic_warning.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\abc_ic_menu_share_mtrl_alpha.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\abc_ic_menu_share_mtrl_alpha.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\ic_keyboard_black_24dp.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\ic_keyboard_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_paymentsheet_add_dark.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\de656b83829c923fa6c1812d7ac685ca\\transformed\\jetified-paymentsheet-20.28.3\\res\\drawable\\stripe_ic_paymentsheet_add_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\book_with_googlepay_button_content.xml",
+        "source": "C:\\Users\\nohal\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\stripe_android-9.4.0\\android\\src\\main\\res\\drawable\\book_with_googlepay_button_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_paymentsheet_card_discover.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\de656b83829c923fa6c1812d7ac685ca\\transformed\\jetified-paymentsheet-20.28.3\\res\\drawable\\stripe_ic_paymentsheet_card_discover.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_paymentsheet_pm_revolut_pay.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\745643856bcc74b9b2b79fef37603b80\\transformed\\jetified-payments-ui-core-20.28.3\\res\\drawable\\stripe_ic_paymentsheet_pm_revolut_pay.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_paymentsheet_pm_afterpay_clearpay.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\745643856bcc74b9b2b79fef37603b80\\transformed\\jetified-payments-ui-core-20.28.3\\res\\drawable\\stripe_ic_paymentsheet_pm_afterpay_clearpay.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_bank_uob.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_ic_bank_uob.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\m3_tabs_rounded_line_indicator.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\m3_tabs_rounded_line_indicator.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\mtrl_switch_thumb_unchecked.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\mtrl_switch_thumb_unchecked.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\btn_radio_on_mtrl.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\btn_radio_on_mtrl.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_bank_alliance.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_ic_bank_alliance.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\btn_radio_on_to_off_mtrl_animation.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\btn_radio_on_to_off_mtrl_animation.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\b0da5fc57b97df58867dbfb56295def6\\transformed\\core-1.9.0\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_jcb.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\4d528490dcc576a7431bca9ce5746d0d\\transformed\\jetified-payments-model-20.28.3\\res\\drawable\\stripe_ic_jcb.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_3ds2_ic_visa.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\ef749a0646a902399d65388a20549dab\\transformed\\jetified-stripe-3ds2-android-6.1.7\\res\\drawable\\stripe_3ds2_ic_visa.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_bank_nfcu.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_ic_bank_nfcu.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\mtrl_switch_thumb_checked_pressed.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\mtrl_switch_thumb_checked_pressed.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\b0da5fc57b97df58867dbfb56295def6\\transformed\\core-1.9.0\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_3ds2_ic_arrow.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\ef749a0646a902399d65388a20549dab\\transformed\\jetified-stripe-3ds2-android-6.1.7\\res\\drawable\\stripe_3ds2_ic_arrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\googlepay_mark_background.xml",
+        "source": "C:\\Users\\nohal\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\stripe_android-9.4.0\\android\\src\\main\\res\\drawable\\googlepay_mark_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\tooltip_frame_light.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\tooltip_frame_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_diners.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\4d528490dcc576a7431bca9ce5746d0d\\transformed\\jetified-payments-model-20.28.3\\res\\drawable\\stripe_ic_diners.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\m3_tabs_line_indicator.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\m3_tabs_line_indicator.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\mtrl_popupmenu_background.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\mtrl_popupmenu_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\m3_avd_show_password.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\m3_avd_show_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\mtrl_ic_checkbox_unchecked.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\mtrl_ic_checkbox_unchecked.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_3ds2_ic_cartesbancaires.png",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\ef749a0646a902399d65388a20549dab\\transformed\\jetified-stripe-3ds2-android-6.1.7\\res\\drawable\\stripe_3ds2_ic_cartesbancaires.png"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_link_error.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3b95c4af5ce319b2b9febb7861175964\\transformed\\jetified-link-20.28.3\\res\\drawable\\stripe_link_error.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\common_google_signin_btn_text_disabled.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\00b473af7f593eaf15db1c64c03c7c31\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_brandicon_institution_circle.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\abbf825aebeb762ad0000a8a8e1423d3\\transformed\\jetified-financial-connections-20.28.3\\res\\drawable\\stripe_ic_brandicon_institution_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\btn_checkbox_unchecked_to_checked_mtrl_animation.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\btn_checkbox_unchecked_to_checked_mtrl_animation.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\ic_m3_chip_checked_circle.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\ic_m3_chip_checked_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\00b473af7f593eaf15db1c64c03c7c31\\transformed\\jetified-play-services-base-18.0.1\\res\\drawable\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_google_pay_mark.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\de656b83829c923fa6c1812d7ac685ca\\transformed\\jetified-paymentsheet-20.28.3\\res\\drawable\\stripe_google_pay_mark.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_link_arrow.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3b95c4af5ce319b2b9febb7861175964\\transformed\\jetified-link-20.28.3\\res\\drawable\\stripe_link_arrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\order_with_googlepay_button_content.xml",
+        "source": "C:\\Users\\nohal\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\stripe_android-9.4.0\\android\\src\\main\\res\\drawable\\order_with_googlepay_button_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_unknown.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\4d528490dcc576a7431bca9ce5746d0d\\transformed\\jetified-payments-model-20.28.3\\res\\drawable\\stripe_ic_unknown.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_link_complete.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3b95c4af5ce319b2b9febb7861175964\\transformed\\jetified-link-20.28.3\\res\\drawable\\stripe_link_complete.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_link_logo.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3b95c4af5ce319b2b9febb7861175964\\transformed\\jetified-link-20.28.3\\res\\drawable\\stripe_link_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\pay_with_googlepay_button_content.xml",
+        "source": "C:\\Users\\nohal\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\stripe_android-9.4.0\\android\\src\\main\\res\\drawable\\pay_with_googlepay_button_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_checkbox_no.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\abbf825aebeb762ad0000a8a8e1423d3\\transformed\\jetified-financial-connections-20.28.3\\res\\drawable\\stripe_ic_checkbox_no.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\abc_btn_radio_material_anim.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\19b2426747e41b074f00ae6ff458a1cf\\transformed\\appcompat-1.6.1\\res\\drawable\\abc_btn_radio_material_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\buy_with_googlepay_button_content.xml",
+        "source": "C:\\Users\\nohal\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\stripe_android-9.4.0\\android\\src\\main\\res\\drawable\\buy_with_googlepay_button_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\checkout_with_googlepay_button_content.xml",
+        "source": "C:\\Users\\nohal\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\stripe_android-9.4.0\\android\\src\\main\\res\\drawable\\checkout_with_googlepay_button_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_paymentsheet_pm_p24.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\745643856bcc74b9b2b79fef37603b80\\transformed\\jetified-payments-ui-core-20.28.3\\res\\drawable\\stripe_ic_paymentsheet_pm_p24.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\material_ic_clear_black_24dp.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\material_ic_clear_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\ic_search_black_24.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\3a7ada0e0b4b7eb632637046d8ebbeca\\transformed\\material-1.8.0\\res\\drawable\\ic_search_black_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable\\stripe_ic_bank_hsbc.xml",
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\drawable\\stripe_ic_bank_hsbc.xml"
+    }
+]
