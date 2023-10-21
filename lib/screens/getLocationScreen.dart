@@ -108,7 +108,7 @@ class _GetLocationState extends State<GetLocation> {
           onPressed: () async {
             await GeneralMethods.determinePosition().then((value) {
               GeoAddress getAddress = GeoAddress(lattitud: value.latitude.toString(), longitude: value.longitude.toString());
-
+              print("true");
               Navigator.pushNamed(context, confirmLocationScreen, arguments: [getAddress, widget.from]);
             });
           },

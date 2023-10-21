@@ -22,7 +22,7 @@ class _SliderImageWidgetState extends State<SliderImageWidget> {
           } else {
             context.read<SliderImagesProvider>().setSliderCurrentIndexImage(0);
           }
-          _pageController.animateToPage(context.read<SliderImagesProvider>().currentSliderImageIndex, duration: Duration(milliseconds: 300), curve: Curves.easeInOut);
+          _pageController.animateToPage(context.read<SliderImagesProvider>().currentSliderImageIndex, duration: Duration(milliseconds: 600), curve: Curves.easeInOut);
         });
       }
     });
@@ -97,7 +97,7 @@ class _SliderImageWidgetState extends State<SliderImageWidget> {
                   widget.sliders.length,
                   (index) {
                     return AnimatedContainer(
-                      duration: const Duration(milliseconds: 300),
+                      duration: const Duration(milliseconds: 600),
                       height: Constant.size8,
                       width: sliderImagesProvider.currentSliderImageIndex == index ? 20 : 8,
                       margin: EdgeInsets.symmetric(horizontal: Constant.size2),

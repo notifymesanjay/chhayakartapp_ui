@@ -34,7 +34,7 @@ class AddressProvider extends ChangeNotifier {
       params[ApiAndParams.offset] = offset.toString();
 
       Map<String, dynamic> getData = (await getAddressApi(context: context, params: params));
-
+       print(params);
       if (getData[ApiAndParams.status].toString() == "1") {
         totalData = int.parse(getData[ApiAndParams.total].toString());
         List<AddressData> tempAddresses = (getData['data'] as List).map((e) => AddressData.fromJson(Map.from(e))).toList();
@@ -101,18 +101,25 @@ class AddressProvider extends ChangeNotifier {
       Map<String, dynamic> getData = {};
 
       if (params.containsKey(ApiAndParams.id)) {
+
         getData = (await updateAddressApi(context: context, params: params));
       } else {
-        getData = (await addAddressApi(context: context, params: params));
-      }
 
+        getData = (await addAddressApi(context: context, params: params));
+        print(getData);
+      }
+      print(getData[ApiAndParams.status]);
       late AddressData tempAddress;
       if (getData[ApiAndParams.status].toString() == "1") {
+
+        print(getData[ApiAndParams.data]);
         tempAddress = AddressData.fromJson(getData[ApiAndParams.data]);
+
+        print(tempAddress);
         if (params.containsKey(ApiAndParams.id)) {
           addresses.remove(address);
         }
-
+      
         addresses.add(tempAddress);
 
         if (int.parse(tempAddress.isDefault.toString()) == 1) {
@@ -124,6 +131,7 @@ class AddressProvider extends ChangeNotifier {
 
         function();
       } else {
+        print("third error");
         addressState = AddressState.error;
         notifyListeners();
       }

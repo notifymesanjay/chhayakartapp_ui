@@ -29,7 +29,7 @@ class Constant {
   static Map languageNames = {'en': 'English', 'hi': 'Hindi', 'bn': 'Bengali', 'ar': 'Arabic', 'ur': 'Urdu', 'es': 'Spanish', 'fr': 'French', 'pt': 'Portuguese', 'ru': 'Russian'};
 
   //authenticationScreen with phone constants
-  static int otpTimeOutSecond = 60; //otp time out
+  static int otpTimeOutSecond = 100; //otp time out
   static int otpResendSecond = 60; // resend otp timer
 
   static int searchHistoryListLimit = 20; // resend otp timer

@@ -3,6 +3,7 @@
 import 'package:egrocer/helper/utils/generalImports.dart';
 import 'package:egrocer/models/initiateTransaction.dart';
 import 'package:egrocer/models/paytmTransationToken.dart';
+import 'package:intl/intl.dart';
 
 enum CheckoutTimeSlotsState {
   timeSlotsLoading,
@@ -81,20 +82,28 @@ class CheckoutProvider extends ChangeNotifier {
 
   Future<AddressData?> getSingleAddressProvider({required BuildContext context}) async {
     try {
+      print("entered in try block");
       Map<String, dynamic> getAddress = (await getAddressApi(context: context, params: {ApiAndParams.isDefault: "1"}));
       if (getAddress[ApiAndParams.status].toString() == "1") {
+        print(getAddress);
+        print("entered in if block of checkout");
         Address addressData = Address.fromJson(getAddress);
+        print(addressData.data);
         selectedAddress = addressData.data?[0];
+        // print(selectedAddress);
 
         checkoutAddressState = CheckoutAddressState.addressLoaded;
+        // print(checkoutAddressState);
         notifyListeners();
         return selectedAddress;
       } else {
+        print("entered in else part of checkout");
         checkoutAddressState = CheckoutAddressState.addressBlank;
         notifyListeners();
         return selectedAddress;
       }
     } catch (e) {
+      print("entered in catch block");
       message = e.toString();
       checkoutAddressState = CheckoutAddressState.addressError;
       GeneralMethods.showSnackBarMsg(context, message);
@@ -132,29 +141,40 @@ class CheckoutProvider extends ChangeNotifier {
     try {
       checkoutDeliveryChargeState = CheckoutDeliveryChargeState.deliveryChargeLoading;
       notifyListeners();
+      print(params);
       Map<String, dynamic> getCheckoutData = (await getCartListApi(context: context, params: params));
-
+      print(getCheckoutData);
       if (getCheckoutData[ApiAndParams.status].toString() == "1") {
+        print("entered ordercharge");
         Checkout checkoutData = Checkout.fromJson(getCheckoutData);
         deliveryChargeData = checkoutData.data;
+
         isCodAllowed = deliveryChargeData.isCodAllowed != 0;
+
         subTotalAmount = double.parse(deliveryChargeData.subTotal);
         totalAmount = double.parse(deliveryChargeData.totalAmount);
         deliveryCharge = double.parse(deliveryChargeData.deliveryCharge.totalDeliveryCharge);
         sellerWiseDeliveryCharges = deliveryChargeData.deliveryCharge.sellersInfo;
 
         checkoutDeliveryChargeState = CheckoutDeliveryChargeState.deliveryChargeLoaded;
+        print(checkoutDeliveryChargeState);
         checkoutAddressState = CheckoutAddressState.addressLoaded;
+        print(checkoutAddressState);
         notifyListeners();
       } else {
         checkoutDeliveryChargeState = CheckoutDeliveryChargeState.deliveryChargeError;
         checkoutAddressState = CheckoutAddressState.addressBlank;
+        print(checkoutDeliveryChargeState);
+        print(checkoutAddressState);
         notifyListeners();
       }
     } catch (e) {
       message = e.toString();
       checkoutDeliveryChargeState = CheckoutDeliveryChargeState.deliveryChargeError;
       checkoutAddressState = CheckoutAddressState.addressBlank;
+      print(checkoutDeliveryChargeState);
+      print(checkoutAddressState);
+
       notifyListeners();
       GeneralMethods.showSnackBarMsg(context, message);
     }
@@ -162,10 +182,13 @@ class CheckoutProvider extends ChangeNotifier {
 
   Future getTimeSlotsSettings({required BuildContext context}) async {
     try {
-      Map<String, dynamic> getTimeSlotsSettings = (await getTimeSlotSettingsApi(context: context, params: {}));
+      Map<String, dynamic> getTimeSlotsSettings =
+      (await getTimeSlotSettingsApi(context: context, params: {}));
 
       if (getTimeSlotsSettings[ApiAndParams.status].toString() == "1") {
-        TimeSlotsSettings timeSlots = TimeSlotsSettings.fromJson(getTimeSlotsSettings);
+        print("entered in if gettime");
+        TimeSlotsSettings timeSlots =
+        TimeSlotsSettings.fromJson(getTimeSlotsSettings);
         timeSlotsData = timeSlots.data;
         isTimeSlotsEnabled = timeSlots.data.timeSlotsIsEnabled == "true";
 
@@ -174,8 +197,9 @@ class CheckoutProvider extends ChangeNotifier {
         // DateTime now = new DateTime.now();
         // DateTime currentTime = dateFormat.parse(
         //     "${now.year}-${now.month}-${now.day} ${now.hour}:${now.minute}:${now.second}");
+        //
         //2022-10-18 11:36:14.267721
-        if (int.parse(timeSlotsData.timeSlotsDeliveryStartsFrom) > 1) {
+        if (int.parse(timeSlotsData?.timeSlotsDeliveryStartsFrom ?? "0") > 1) {
           selectedTime = 0;
         }
         /* else {
@@ -188,25 +212,30 @@ class CheckoutProvider extends ChangeNotifier {
         checkoutTimeSlotsState = CheckoutTimeSlotsState.timeSlotsLoaded;
         notifyListeners();
       } else {
-        GeneralMethods.showSnackBarMsg(context, message);
+        isTimeSlotsEnabled = false;
+        GeneralMethods.showSnackBarMsg(
+          context,
+          message,
+        );
         checkoutTimeSlotsState = CheckoutTimeSlotsState.timeSlotsError;
         notifyListeners();
       }
     } catch (e) {
-      message = e.toString();
-      GeneralMethods.showSnackBarMsg(context, message);
+      isTimeSlotsEnabled = false;
+
       checkoutTimeSlotsState = CheckoutTimeSlotsState.timeSlotsError;
       notifyListeners();
     }
   }
 
   setSelectedDate(int index) {
+    print("enter in setselected");
     selectedTime = 0;
-    selectedDate = index;
+    // selectedDate = index;
     // DateTime currentTime = DateTime.now();
     // DateFormat dateFormat = DateFormat("yyyy-MM-d hh:mm:ss");
     //2022-10-18 11:36:14.267721
-    if (int.parse(timeSlotsData.timeSlotsDeliveryStartsFrom) > 1) {
+    if (int.parse(timeSlotsData?.timeSlotsDeliveryStartsFrom ?? "0") > 1) {
       selectedTime = 0;
     }
     /* else {
@@ -251,6 +280,7 @@ class CheckoutProvider extends ChangeNotifier {
           selectedPaymentMethod = "Paypal";
         }
 
+
         checkoutPaymentMethodsState = CheckoutPaymentMethodsState.paymentMethodLoaded;
         notifyListeners();
       } else {
@@ -273,6 +303,7 @@ class CheckoutProvider extends ChangeNotifier {
 
   Future placeOrder({required BuildContext context}) async {
     try {
+      print("entered in place order");
       late DateTime dateTime;
       if (int.parse(timeSlotsData.timeSlotsDeliveryStartsFrom.toString()) == 1) {
         dateTime = DateTime.now();
@@ -280,27 +311,37 @@ class CheckoutProvider extends ChangeNotifier {
         dateTime = DateTime.now().add(Duration(days: int.parse(timeSlotsData.timeSlotsAllowedDays)));
       }
       final orderStatus = selectedPaymentMethod == "COD" ? "2" : "1";
+      print(orderStatus);
 
       Map<String, String> params = {};
       params[ApiAndParams.productVariantId] = deliveryChargeData.productVariantId.toString();
       params[ApiAndParams.quantity] = deliveryChargeData.quantity.toString();
       params[ApiAndParams.total] = deliveryChargeData.subTotal.toString();
       params[ApiAndParams.deliveryCharge] = deliveryChargeData.deliveryCharge.totalDeliveryCharge.toString();
+
       params[ApiAndParams.finalTotal] = deliveryChargeData.totalAmount.toString();
       params[ApiAndParams.paymentMethod] = selectedPaymentMethod.toString();
       params[ApiAndParams.addressId] = selectedAddress!.id.toString();
       params[ApiAndParams.deliveryTime] = "${dateTime.day}-${dateTime.month}-${dateTime.year} ${timeSlotsData.timeSlots[selectedTime].title}";
       params[ApiAndParams.status] = orderStatus;
+      params[ApiAndParams.discount]=Constant.discount.toString();
+      print(params);
 
       Map<String, dynamic> getPlaceOrderResponse = (await getPlaceOrderApi(context: context, params: params));
       if (getPlaceOrderResponse[ApiAndParams.status].toString() == "1") {
         if (selectedPaymentMethod == "Razorpay" || selectedPaymentMethod == "Stripe") {
           PlacedPrePaidOrder placedPrePaidOrder = PlacedPrePaidOrder.fromJson(getPlaceOrderResponse);
           placedOrderId = placedPrePaidOrder.data.orderId.toString();
-        } else if (selectedPaymentMethod == "Paystack") {
+        }
+        if (selectedPaymentMethod == "paymentoption" || selectedPaymentMethod == "Stripe") {
+          PlacedPrePaidOrder placedPrePaidOrder = PlacedPrePaidOrder.fromJson(getPlaceOrderResponse);
+          placedOrderId = placedPrePaidOrder.data.orderId.toString();
+        }
+        else if (selectedPaymentMethod == "Paystack") {
           payStackReference = "Charged_From_${GeneralMethods.setFirstLetterUppercase(Platform.operatingSystem)}_${DateTime.now().millisecondsSinceEpoch}";
           transactionId = payStackReference;
         } else if (selectedPaymentMethod == "COD") {
+          print("enter orderplacescreen");
           Navigator.of(context).pushNamedAndRemoveUntil(orderPlaceScreen, (Route<dynamic> route) => false);
         } else if (selectedPaymentMethod == "Paytm") {
           PlacedPrePaidOrder placedPrePaidOrder = PlacedPrePaidOrder.fromJson(getPlaceOrderResponse);

@@ -2234,7 +2234,7 @@
     <string name="default_error_message">"Invalid input"</string>
     <string name="default_notification_channel_name">Now playing</string>
     <string name="default_popup_window_title" ns1:ignore="ExtraTranslation">"Pop-Up Window"</string>
-    <string name="default_web_client_id" translatable="false">925593502189-dr4p6tdapetatjbeick2iqv6257mljbk.apps.googleusercontent.com</string>
+    <string name="default_web_client_id" translatable="false">902650636483-l4ntfgr5ko34fcrll5dv0d2jc8qndgkl.apps.googleusercontent.com</string>
     <string name="do_not_send_otp"> I will Use IPIN</string>
     <string name="donate_with_googlepay_button_content_description">Donate With Google Pay</string>
     <string name="dropdown_menu">"Dropdown menu"</string>
@@ -2271,11 +2271,11 @@
     <string name="fallback_menu_item_share_link">Share link</string>
     <string name="fast_and_secure">Fast &amp; Secure Payments</string>
     <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
-    <string name="gcm_defaultSenderId" translatable="false">925593502189</string>
-    <string name="google_api_key" translatable="false">AIzaSyBg8l7VhM95KNIao0Z4KY3JGeO5FbWXnvg</string>
-    <string name="google_app_id" translatable="false">1:925593502189:android:b0809409e05c7ab4b527e4</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBg8l7VhM95KNIao0Z4KY3JGeO5FbWXnvg</string>
-    <string name="google_storage_bucket" translatable="false">chhayakart-2aad5.appspot.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">902650636483</string>
+    <string name="google_api_key" translatable="false">AIzaSyCQfkrwSWHtVYO2himPrWRBK9jBl5ctXh4</string>
+    <string name="google_app_id" translatable="false">1:902650636483:android:6af63ed5a01a5d30695a76</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCQfkrwSWHtVYO2himPrWRBK9jBl5ctXh4</string>
+    <string name="google_storage_bucket" translatable="false">chayyakartaug.appspot.com</string>
     <string name="googlepay_button_content_description">Google Pay</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hide">Hide</string>
@@ -2409,7 +2409,7 @@
     <string name="play_button_content_description">Play</string>
     <string name="preferred_options">Please select your preferred option</string>
     <string name="processing">Processing</string>
-    <string name="project_id" translatable="false">chhayakart-2aad5</string>
+    <string name="project_id" translatable="false">chayyakartaug</string>
     <string name="range_end">"Range end"</string>
     <string name="range_start">"Range start"</string>
     <string name="redirect_text">Redirecting you to Payment page.</string>

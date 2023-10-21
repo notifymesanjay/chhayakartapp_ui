@@ -75,15 +75,20 @@ class _EditProfileState extends State<EditProfile> {
                   context,
                   "lblUpdate",
                 ), callback: () {
+                  print("enterted");
                 if (tempName != edtUsername.text || tempEmail != edtEmail.text || selectedImagePath.isNotEmpty || _formKey.currentState!.validate()) {
                   Map<String, String> params = {};
                   params[ApiAndParams.name] = edtUsername.text.trim();
                   params[ApiAndParams.email] = edtEmail.text.trim();
+                  print("Changing screen");
+                  Navigator.of(context).pushNamedAndRemoveUntil(getLocationScreen, (Route<dynamic> route) => false, arguments: "location");
                   userProfileProvider.updateUserProfile(context: context, selectedImagePath: selectedImagePath, params: params).then((value) {
                     if (widget.from == "register") {
+                      print("Changing screen");
                       Navigator.of(context).pushNamedAndRemoveUntil(getLocationScreen, (Route<dynamic> route) => false, arguments: "location");
                     }
-                  });
+                  }
+                );
                 }
               });
       },
@@ -161,7 +166,7 @@ class _EditProfileState extends State<EditProfile> {
               ),
               borderRadius: 8,
               floatingLbl: false,
-              iseditable: false,
+
               sicon: Padding(padding: const EdgeInsetsDirectional.only(end: 8, start: 8), child: Widgets.defaultImg(image: "phone_icon", iconColor: ColorsRes.grey)),
               prefixIconConstaint: const BoxConstraints(maxHeight: 40, maxWidth: 40),
               bgcolor: Theme.of(context).scaffoldBackgroundColor),

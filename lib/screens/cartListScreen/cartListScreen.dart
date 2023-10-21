@@ -45,19 +45,158 @@ class _CartListScreenState extends State<CartListScreen> {
         children: [
           setRefreshIndicator(
             refreshCallback: () async {
-              await context.read<CartProvider>().getCartListProvider(context: context);
+              await context
+                  .read<CartProvider>()
+                  .getCartListProvider(context: context);
             },
             child: Stack(
               children: [
-                (context.watch<CartListProvider>().cartList.isNotEmpty || context.read<CartProvider>().cartState == CartState.error)
+                (context.watch<CartListProvider>().cartList.isNotEmpty ||
+                        context.read<CartProvider>().cartState ==
+                            CartState.error)
                     ? cartWidget()
                     : PositionedDirectional(
-                  top: 0,
-                  start: 0,
-                  end: 0,
-                  bottom: 0,
-                  child: DefaultBlankItemMessageScreen(
-                    image: "cart_empty",
+                        top: 0,
+                        start: 0,
+                        end: 0,
+                        bottom: 0,
+                        child: DefaultBlankItemMessageScreen(
+                          image: "cart_empty",
+                          title: getTranslatedValue(
+                            context,
+                            "lblEmptyCartListMessage",
+                          ),
+                          description: getTranslatedValue(
+                            context,
+                            "lblEmptyCartListDescription",
+                          ),
+                          btntext: getTranslatedValue(
+                            context,
+                            "lblEmptyCartListButtonName",
+                          ),
+                          callback: () {
+                            Navigator.pop(context, true);
+                          },
+                        ),
+                      )
+              ],
+            ),
+          ),
+          Consumer<CartListProvider>(
+            builder: (context, cartListProvider, child) {
+              return cartListProvider.cartListState == CartListState.loading
+                  ? PositionedDirectional(
+                      top: 0,
+                      end: 0,
+                      start: 0,
+                      bottom: 0,
+                      child: Container(
+                          color: Colors.black.withOpacity(0.2),
+                          child:
+                              const Center(child: CircularProgressIndicator())),
+                    )
+                  : const SizedBox.shrink();
+            },
+          )
+        ],
+      ),
+    );
+  }
+
+  btnWidget() {
+    return Widgets.gradientBtnWidget(context, 10, isSetShadow: false,
+        callback: () {
+      Navigator.pushNamed(context, checkoutScreen);
+    },
+        otherWidgets: Text(
+          getTranslatedValue(
+            context,
+            "lblProceedToCheckout",
+          ),
+          softWrap: true,
+          style: Theme.of(context).textTheme.titleMedium!.merge(TextStyle(
+              color: ColorsRes.appColorWhite,
+              letterSpacing: 0.5,
+              fontWeight: FontWeight.w500)),
+        ));
+  }
+
+  cartWidget() {
+    return Consumer<CartProvider>(
+      builder: (context, cartProvider, child) {
+        return (cartProvider.cartState == CartState.initial ||
+                cartProvider.cartState == CartState.loading)
+            ? getCartListShimmer(
+                context: context,
+              )
+            : (cartProvider.cartState == CartState.loaded)
+                ? Column(
+                    children: [
+                      Expanded(
+                        child: ListView(
+                          padding: EdgeInsetsDirectional.only(
+                              bottom: Constant.size10),
+                          children: List.generate(
+                            cartProvider.cartData.data.cart.length,
+                            (index) {
+                              Cart cart =
+                                  cartProvider.cartData.data.cart[index];
+                              return Padding(
+                                padding: EdgeInsetsDirectional.only(
+                                  start: Constant.size10,
+                                  end: Constant.size10,
+                                ),
+                                child: CartListItemContainer(
+                                  cart: cart,
+                                  from: 'cartList',
+                                ),
+                              );
+                            },
+                          ),
+                        ),
+                      ),
+                      Container(
+                        padding: EdgeInsetsDirectional.all(Constant.size10),
+                        margin: EdgeInsetsDirectional.only(
+                            bottom: Constant.size10,
+                            start: Constant.size10,
+                            end: Constant.size10),
+                        decoration: BoxDecoration(
+                            color: Theme.of(context).cardColor,
+                            borderRadius: Constant.borderRadius10),
+                        child: Column(
+                          children: [
+                            ChangeNotifierProvider<PromoCodeProvider>(
+                              create: (context) => PromoCodeProvider(),
+                              child: Consumer<PromoCodeProvider>(
+                                builder: (context, promoCodeProvider, _) {
+                                  return promoCodeLayoutWidget(context);
+                                },
+                              ),
+                            ),
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              textDirection: Directionality.of(context),
+                              children: [
+                                Text(
+                                    "${getTranslatedValue(context, "lblSubTotal")} (${cartProvider.cartData.data.cart.length} ${cartProvider.cartData.data.cart.length > 1 ? getTranslatedValue(context, "lblItems") : getTranslatedValue(context, "lblItem")})",
+                                    softWrap: true,
+                                    style: const TextStyle(fontSize: 17)),
+                                Text(
+                                    "${GeneralMethods.getCurrencyFormat(Constant.isPromoCodeApplied == true ? Constant.discountedAmount : double.parse(cartProvider.subTotal.toString()))}",
+                                    softWrap: true,
+                                    style: const TextStyle(fontSize: 17)),
+                              ],
+                            ),
+                            const SizedBox(height: 15),
+                            btnWidget()
+                          ],
+                        ),
+                      )
+                    ],
+                  )
+                : DefaultBlankItemMessageScreen(
                     title: getTranslatedValue(
                       context,
                       "lblEmptyCartListMessage",
@@ -71,124 +210,13 @@ class _CartListScreenState extends State<CartListScreen> {
                       "lblEmptyCartListButtonName",
                     ),
                     callback: () {
-                      Navigator.pop(context,true);
+                      Navigator.of(context).pushNamedAndRemoveUntil(
+                        mainHomeScreen,
+                        (Route<dynamic> route) => false,
+                      );
                     },
-                  ),
-                )
-              ],
-            ),
-          ),
-          Consumer<CartListProvider>(
-            builder: (context, cartListProvider, child) {
-              return cartListProvider.cartListState == CartListState.loading
-                  ? PositionedDirectional(
-                top: 0,
-                end: 0,
-                start: 0,
-                bottom: 0,
-                child: Container(color: Colors.black.withOpacity(0.2), child: const Center(child: CircularProgressIndicator())),
-              )
-                  : const SizedBox.shrink();
-            },
-          )
-        ],
-      ),
-    );
-  }
-
-  btnWidget() {
-    return Widgets.gradientBtnWidget(context, 10, isSetShadow: false, callback: () {
-      Navigator.pushNamed(context, checkoutScreen);
-    },
-        otherWidgets: Text(
-          getTranslatedValue(
-            context,
-            "lblProceedToCheckout",
-          ),
-          softWrap: true,
-          style: Theme.of(context).textTheme.titleMedium!.merge(TextStyle(color: ColorsRes.appColorWhite, letterSpacing: 0.5, fontWeight: FontWeight.w500)),
-        ));
-  }
-
-  cartWidget() {
-    return Consumer<CartProvider>(
-      builder: (context, cartProvider, child) {
-        return (cartProvider.cartState == CartState.initial || cartProvider.cartState == CartState.loading)
-            ? getCartListShimmer(
-          context: context,
-        )
-            : (cartProvider.cartState == CartState.loaded)
-            ? Column(
-          children: [
-            Expanded(
-              child: ListView(
-                padding: EdgeInsetsDirectional.only(bottom: Constant.size10),
-                children: List.generate(
-                  cartProvider.cartData.data.cart.length,
-                      (index) {
-                    Cart cart = cartProvider.cartData.data.cart[index];
-                    return Padding(
-                      padding: EdgeInsetsDirectional.only(
-                        start: Constant.size10,
-                        end: Constant.size10,
-                      ),
-                      child: CartListItemContainer(
-                        cart: cart,
-                        from: 'cartList',
-                      ),
-                    );
-                  },
-                ),
-              ),
-            ),
-            Container(
-              padding: EdgeInsetsDirectional.all(Constant.size10),
-              margin: EdgeInsetsDirectional.only(bottom: Constant.size10, start: Constant.size10, end: Constant.size10),
-              decoration: BoxDecoration(color: Theme.of(context).cardColor, borderRadius: Constant.borderRadius10),
-              child: Column(
-                children: [
-                  // Consumer<PromoCodeProvider>(
-                  //   builder: (context, promoCodeProvider, _) {
-                  //     return promoCodeLayoutWidget(context);
-                  //   },
-                  // ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    crossAxisAlignment: CrossAxisAlignment.center,
-                    textDirection: Directionality.of(context),
-                    children: [
-                      Text("${getTranslatedValue(context, "lblSubTotal")} (${cartProvider.cartData.data.cart.length} ${cartProvider.cartData.data.cart.length > 1 ? getTranslatedValue(context, "lblItems") : getTranslatedValue(context, "lblItem")})", softWrap: true, style: const TextStyle(fontSize: 17)),
-                      Text("${GeneralMethods.getCurrencyFormat(Constant.isPromoCodeApplied == true ? Constant.discountedAmount : double.parse(cartProvider.subTotal.toString()))}", softWrap: true, style: const TextStyle(fontSize: 17)),
-                    ],
-                  ),
-                  const SizedBox(height: 15),
-                  btnWidget()
-                ],
-              ),
-            )
-          ],
-        )
-            : DefaultBlankItemMessageScreen(
-          title: getTranslatedValue(
-            context,
-            "lblEmptyCartListMessage",
-          ),
-          description: getTranslatedValue(
-            context,
-            "lblEmptyCartListDescription",
-          ),
-          btntext: getTranslatedValue(
-            context,
-            "lblEmptyCartListButtonName",
-          ),
-          callback: () {
-            Navigator.of(context).pushNamedAndRemoveUntil(
-              mainHomeScreen,
-                  (Route<dynamic> route) => false,
-            );
-          },
-          image: "no_product_icon",
-        );
+                    image: "no_product_icon",
+                  );
       },
     );
   }
@@ -201,7 +229,13 @@ class _CartListScreenState extends State<CartListScreen> {
           children: [
             GestureDetector(
               onTap: () {
-                Navigator.pushNamed(context, promoCodeScreen, arguments: double.parse(context.read<CartProvider>().cartData.data.subTotal)).then((value) {
+                Navigator.pushNamed(context, promoCodeScreen,
+                        arguments: double.parse(context
+                            .read<CartProvider>()
+                            .cartData
+                            .data
+                            .subTotal))
+                    .then((value) {
                   if (value == true) {
                     setState(() {});
                   }
@@ -213,7 +247,8 @@ class _CartListScreenState extends State<CartListScreen> {
                   Container(
                     width: double.maxFinite,
                     height: 45,
-                    decoration: DesignConfig.boxDecoration(ColorsRes.appColor.withOpacity(0.2), 10),
+                    decoration: DesignConfig.boxDecoration(
+                        ColorsRes.appColor.withOpacity(0.2), 10),
                     child: DashedRect(
                       color: ColorsRes.appColor,
                       strokeWidth: 1.0,
@@ -242,9 +277,9 @@ class _CartListScreenState extends State<CartListScreen> {
                           Constant.isPromoCodeApplied == true
                               ? Constant.selectedCoupon
                               : getTranslatedValue(
-                            context,
-                            "lblApplyDiscountCode",
-                          ),
+                                  context,
+                                  "lblApplyDiscountCode",
+                                ),
                           softWrap: true,
                         ),
                       ),

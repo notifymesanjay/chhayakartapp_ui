@@ -35,7 +35,7 @@ class TransactionProvider extends ChangeNotifier {
       Map<String, dynamic> getData = (await getTransactionApi(context: context, params: params));
 
       if (getData[ApiAndParams.status].toString() == "1") {
-        totalData = int.parse(getData[ApiAndParams.total]);
+        totalData = int.parse(getData[ApiAndParams.total.toString()]);
         List<TransactionData> tempTransactions = (getData['data'] as List).map((e) => TransactionData.fromJson(Map.from(e))).toList();
 
         transactions.addAll(tempTransactions);

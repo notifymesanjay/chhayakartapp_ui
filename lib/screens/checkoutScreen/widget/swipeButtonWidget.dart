@@ -54,14 +54,19 @@ class _SwipeButtonState extends State<OrderSwipeButton> {
   }
 
   void openRazorPayGateway() async {
+    print('razorpaychanges');
+    print(razorpayKey);
+    print(context.read<CheckoutProvider>().razorpayOrderId);
     final options = {
       'key': razorpayKey, //this should be come from server
       'order_id': context.read<CheckoutProvider>().razorpayOrderId,
       'amount': (amount * 100).toInt(),
-      'name': getTranslatedValue(
-        context,
-        "lblAppName",
-      ),
+      'name': 'chhayakart',
+      // 'name': getTranslatedValue(
+      //   context,
+      //   "lblAppName",
+      // ),
+      'image': 'https://admin.chhayakart.com/storage/logo/1680098508_37047.png',
       'currency': 'INR',
       'prefill': {'contact': Constant.session.getData(SessionManager.keyPhone), 'email': Constant.session.getData(SessionManager.keyEmail)}
     };
@@ -156,6 +161,7 @@ class _SwipeButtonState extends State<OrderSwipeButton> {
               inactiveTrackColor: ColorsRes.grey,
               onSwipe: () {
                 if (context.read<CheckoutProvider>().selectedPaymentMethod == "COD") {
+                  print("entered in cod ");
                   context.read<CheckoutProvider>().placeOrder(context: context);
                 } else if (context.read<CheckoutProvider>().selectedPaymentMethod == "Razorpay") {
                   razorpayKey = context.read<CheckoutProvider>().paymentMethodsData.razorpayKey;
@@ -163,10 +169,19 @@ class _SwipeButtonState extends State<OrderSwipeButton> {
                   context.read<CheckoutProvider>().placeOrder(context: context).then((value) {
                     context.read<CheckoutProvider>().initiateRazorpayTransaction(context: context).then((value) => openRazorPayGateway());
                   });
-                } else if (context.read<CheckoutProvider>().selectedPaymentMethod == "Paystack") {
+                }
+                else if (context.read<CheckoutProvider>().selectedPaymentMethod == "paymentoption") {
+                  razorpayKey = context.read<CheckoutProvider>().paymentMethodsData.razorpayKey;
+                  amount = double.parse(context.read<CheckoutProvider>().deliveryChargeData.totalAmount);
+                  context.read<CheckoutProvider>().placeOrder(context: context).then((value) {
+                    context.read<CheckoutProvider>().initiateRazorpayTransaction(context: context).then((value) => openRazorPayGateway());
+                  });
+                }else if (context.read<CheckoutProvider>().selectedPaymentMethod == "Paystack") {
                   amount = double.parse(context.read<CheckoutProvider>().deliveryChargeData.totalAmount);
                   context.read<CheckoutProvider>().placeOrder(context: context).then((value) => openPaystackPaymentGateway());
-                } else if (context.read<CheckoutProvider>().selectedPaymentMethod == "Stripe") {
+                }
+
+                else if (context.read<CheckoutProvider>().selectedPaymentMethod == "Stripe") {
                   amount = double.parse(context.read<CheckoutProvider>().deliveryChargeData.totalAmount);
 
                   context.read<CheckoutProvider>().placeOrder(context: context).then((value) {

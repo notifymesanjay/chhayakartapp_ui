@@ -183,9 +183,14 @@ class _ConfirmLocationState extends State<ConfirmLocation> {
             ),
             if ((widget.from == "location" && context.read<CityByLatLongProvider>().isDeliverable) || widget.from == "address")
               ConfirmButtonWidget(voidCallback: () {
+
                 if (widget.from == "location" && context.read<CityByLatLongProvider>().isDeliverable) {
+
                   context.read<CartListProvider>().getAllCartItems(context: context);
-                  Constant.session.setData(SessionManager.keyAddress, Constant.cityAddressMap["address"], true);
+
+
+                  // Constant.session.setData(SessionManager.keyAddress, Constant.cityAddressMap["address"], true);
+                  // print("has been entered");
 
                   Navigator.of(context).pushNamedAndRemoveUntil(
                     mainHomeScreen,

@@ -56,13 +56,13 @@ class DeliveryChargeData {
     subTotal = json['sub_total'].toString();
     savedAmount = json['saved_amount'].toString();
   }
-
   Map<String, dynamic> toJson() {
     final itemData = <String, dynamic>{};
     itemData['cod_allowed'] = isCodAllowed;
     itemData['product_variant_id'] = productVariantId;
     itemData['quantity'] = quantity;
-    itemData['delivery_charge'] = deliveryCharge.toJson();
+     itemData['delivery_charge'] = deliveryCharge.toJson();
+
     itemData['total_amount'] = totalAmount;
     itemData['sub_total'] = subTotal;
     itemData['saved_amount'] = savedAmount;
@@ -75,7 +75,6 @@ class DeliveryCharge {
     required this.totalDeliveryCharge,
     required this.sellersInfo,
   });
-
   late final String totalDeliveryCharge;
   late final List<SellersInfo> sellersInfo;
 

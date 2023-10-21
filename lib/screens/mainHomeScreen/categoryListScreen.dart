@@ -43,6 +43,7 @@ class _CategoryListScreenState extends State<CategoryListScreen> {
     return Scaffold(
       appBar: getAppBar(
         context: context,
+         showBackButton: false,
         title: Text(
           getTranslatedValue(
             context,
@@ -84,8 +85,8 @@ class _CategoryListScreenState extends State<CategoryListScreen> {
       children: [
         Consumer<CategoryListProvider>(
           builder: (context, categoryListProvider, _) {
-            return categoryListProvider.categoryState == CategoryState.loaded
-                ? Card(
+            if (categoryListProvider.categoryState == CategoryState.loaded) {
+              return Card(
               color: Theme.of(context).cardColor,
               elevation: 0,
               margin: EdgeInsets.symmetric(horizontal: Constant.size10, vertical: Constant.size10),
@@ -143,10 +144,12 @@ class _CategoryListScreenState extends State<CategoryListScreen> {
                   ),
                 ],
               ),
-            )
-                : categoryListProvider.categoryState == CategoryState.loading
+            );
+            } else {
+              return categoryListProvider.categoryState == CategoryState.loading
                 ? getCategoryShimmer(context: context, count: 9)
                 : const SizedBox.shrink();
+            }
           },
         ),
       ],

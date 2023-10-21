@@ -16,6 +16,7 @@ class _PromoCodeListScreenState extends State<PromoCodeListScreen> {
 
     //fetch PromoCodeList from api
     Future.delayed(Duration.zero).then((value) async {
+      print('entered in promocodescreen');
       await context.read<PromoCodeProvider>().getPromoCodeProvider(params: {ApiAndParams.amount: widget.amount.toString()}, context: context);
     });
   }

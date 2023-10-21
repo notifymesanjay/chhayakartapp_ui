@@ -27,51 +27,7 @@ getPaymentMethods(PaymentMethodsData? paymentMethodsData, BuildContext context) 
                 ),
                 Column(
                   children: [
-                    if (paymentMethodsData.codPaymentMethod == "1" && context.read<CheckoutProvider>().isCodAllowed == true)
-                      GestureDetector(
-                        onTap: () {
-                          context.read<CheckoutProvider>().setSelectedPaymentMethod("COD");
-                        },
-                        child: Container(
-                          padding: EdgeInsets.zero,
-                          margin: EdgeInsets.symmetric(vertical: Constant.size5),
-                          decoration: BoxDecoration(
-                              color: context.read<CheckoutProvider>().selectedPaymentMethod == "COD"
-                                  ? Constant.session.getBoolData(SessionManager.isDarkTheme)
-                                      ? ColorsRes.appColorBlack
-                                      : ColorsRes.appColorWhite
-                                  : Theme.of(context).scaffoldBackgroundColor.withOpacity(0.8),
-                              borderRadius: Constant.borderRadius7,
-                              border: Border.all(
-                                width: context.read<CheckoutProvider>().selectedPaymentMethod == "COD" ? 1 : 0.3,
-                                color: context.read<CheckoutProvider>().selectedPaymentMethod == "COD" ? ColorsRes.appColor : ColorsRes.grey,
-                              )),
-                          child: Row(
-                            children: [
-                              Padding(
-                                padding: EdgeInsetsDirectional.only(start: Constant.size10),
-                                child: Widgets.defaultImg(image: "ic_cod", width: 25, height: 25),
-                              ),
-                              Padding(
-                                padding: EdgeInsetsDirectional.only(start: Constant.size10),
-                                child: Text(getTranslatedValue(
-                                  context,
-                                  "lblCashOnDelivery",
-                                )),
-                              ),
-                              const Spacer(),
-                              Radio(
-                                value: "COD",
-                                groupValue: context.read<CheckoutProvider>().selectedPaymentMethod,
-                                activeColor: ColorsRes.appColor,
-                                onChanged: (value) {
-                                  context.read<CheckoutProvider>().setSelectedPaymentMethod("COD");
-                                },
-                              ),
-                            ],
-                          ),
-                        ),
-                      ),
+
                     if (paymentMethodsData.razorpayPaymentMethod == "1")
                       GestureDetector(
                         onTap: () {
@@ -95,14 +51,11 @@ getPaymentMethods(PaymentMethodsData? paymentMethodsData, BuildContext context) 
                             children: [
                               Padding(
                                 padding: EdgeInsetsDirectional.only(start: Constant.size10),
-                                child: Widgets.defaultImg(image: "ic_razorpay", width: 25, height: 25),
+                                  child: Widgets.setNetworkImg(image: "https://th.bing.com/th/id/OIP.d0px8rOiJV_05QPderuBUAHaHa?pid=ImgDet&w=1000&h=1000&rs=1",height: 25,width:25)
                               ),
                               Padding(
                                 padding: EdgeInsetsDirectional.only(start: Constant.size10),
-                                child: Text(getTranslatedValue(
-                                  context,
-                                  "lblRazorpay",
-                                )),
+                                child: Text('Card/Netbanking'),
                               ),
                               const Spacer(),
                               Radio(
@@ -117,6 +70,47 @@ getPaymentMethods(PaymentMethodsData? paymentMethodsData, BuildContext context) 
                           ),
                         ),
                       ),
+                    GestureDetector(
+                      onTap: () {
+                        context.read<CheckoutProvider>().setSelectedPaymentMethod("paymentoption");
+                      },
+                      child: Container(
+                        padding: EdgeInsets.zero,
+                        margin: EdgeInsets.symmetric(vertical: Constant.size5),
+                        decoration: BoxDecoration(
+                            color: context.read<CheckoutProvider>().selectedPaymentMethod == "paymentoption"
+                                ? Constant.session.getBoolData(SessionManager.isDarkTheme)
+                                ? ColorsRes.appColorBlack
+                                : ColorsRes.appColorWhite
+                                : Theme.of(context).scaffoldBackgroundColor.withOpacity(0.8),
+                            borderRadius: Constant.borderRadius7,
+                            border: Border.all(
+                              width: context.read<CheckoutProvider>().selectedPaymentMethod == "paymentoption" ? 1 : 0.3,
+                              color: context.read<CheckoutProvider>().selectedPaymentMethod == "paymentoption" ? ColorsRes.appColor : ColorsRes.grey,
+                            )),
+                        child: Row(
+                          children: [
+                            Padding(
+                              padding: EdgeInsetsDirectional.only(start: Constant.size10),
+                              child: Widgets.setNetworkImg(image: "https://th.bing.com/th/id/OIP.pKKpNogUNRPh_KEo3Cc77gHaB9?w=310&h=92&c=7&r=0&o=5&dpr=1.3&pid=1.7",height: 100,width:100)
+                            ),
+                            Padding(
+                              padding: EdgeInsetsDirectional.only(start: Constant.size10),
+                              child: Text('GPAY / Phonepay / Paytm'),
+                            ),
+                            const Spacer(),
+                            Radio(
+                              value: "paymentoption",
+                              groupValue: context.read<CheckoutProvider>().selectedPaymentMethod,
+                              activeColor: ColorsRes.appColor,
+                              onChanged: (value) {
+                                context.read<CheckoutProvider>().setSelectedPaymentMethod("paymentoption");
+                              },
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
                     if (paymentMethodsData.paystackPaymentMethod == "1")
                       GestureDetector(
                         onTap: () {
@@ -251,50 +245,95 @@ getPaymentMethods(PaymentMethodsData? paymentMethodsData, BuildContext context) 
                           ),
                         ),
                       ),
-                    // if (paymentMethodsData.paytmPaymentMethod == "1")
-                    GestureDetector(
-                      onTap: () {
-                        context.read<CheckoutProvider>().setSelectedPaymentMethod("Paypal");
-                      },
-                      child: Container(
-                        padding: EdgeInsets.zero,
-                        margin: EdgeInsets.symmetric(vertical: Constant.size5),
-                        decoration: BoxDecoration(
-                            color: context.read<CheckoutProvider>().selectedPaymentMethod == "Paypal"
-                                ? Constant.session.getBoolData(SessionManager.isDarkTheme)
-                                    ? ColorsRes.appColorBlack
-                                    : ColorsRes.appColorWhite
-                                : Theme.of(context).scaffoldBackgroundColor.withOpacity(0.8),
-                            borderRadius: Constant.borderRadius7,
-                            border: Border.all(
-                              width: context.read<CheckoutProvider>().selectedPaymentMethod == "Paypal" ? 1 : 0.3,
-                              color: context.read<CheckoutProvider>().selectedPaymentMethod == "Paypal" ? ColorsRes.appColor : ColorsRes.grey,
-                            )),
-                        child: Row(
-                          children: [
-                            Padding(
-                              padding: EdgeInsetsDirectional.only(start: Constant.size10),
-                              child: Widgets.defaultImg(image: "ic_paypal", width: 25, height: 25),
-                            ),
-                            Padding(
-                              padding: EdgeInsetsDirectional.only(start: Constant.size10),
-                              child: Text(getTranslatedValue(
-                                context,
-                                "lblPaypal",
+                    if (paymentMethodsData.codPaymentMethod == "1" && context.read<CheckoutProvider>().isCodAllowed == true)
+                      GestureDetector(
+                        onTap: () {
+                          context.read<CheckoutProvider>().setSelectedPaymentMethod("COD");
+                        },
+                        child: Container(
+                          padding: EdgeInsets.zero,
+                          margin: EdgeInsets.symmetric(vertical: Constant.size5),
+                          decoration: BoxDecoration(
+                              color: context.read<CheckoutProvider>().selectedPaymentMethod == "COD"
+                                  ? Constant.session.getBoolData(SessionManager.isDarkTheme)
+                                  ? ColorsRes.appColorBlack
+                                  : ColorsRes.appColorWhite
+                                  : Theme.of(context).scaffoldBackgroundColor.withOpacity(0.8),
+                              borderRadius: Constant.borderRadius7,
+                              border: Border.all(
+                                width: context.read<CheckoutProvider>().selectedPaymentMethod == "COD" ? 1 : 0.3,
+                                color: context.read<CheckoutProvider>().selectedPaymentMethod == "COD" ? ColorsRes.appColor : ColorsRes.grey,
                               )),
-                            ),
-                            const Spacer(),
-                            Radio(
-                              value: "Paypal",
-                              groupValue: context.read<CheckoutProvider>().selectedPaymentMethod,
-                              onChanged: (value) {
-                                context.read<CheckoutProvider>().setSelectedPaymentMethod("Paypal");
-                              },
-                            ),
-                          ],
+                          child: Row(
+                            children: [
+                              Padding(
+                                padding: EdgeInsetsDirectional.only(start: Constant.size10),
+                                child: Widgets.defaultImg(image: "ic_cod", width: 25, height: 25),
+                              ),
+                              Padding(
+                                padding: EdgeInsetsDirectional.only(start: Constant.size10),
+                                child: Text(getTranslatedValue(
+                                  context,
+                                  "lblCashOnDelivery",
+                                )),
+                              ),
+                              const Spacer(),
+                              Radio(
+                                value: "COD",
+                                groupValue: context.read<CheckoutProvider>().selectedPaymentMethod,
+                                activeColor: ColorsRes.appColor,
+                                onChanged: (value) {
+                                  context.read<CheckoutProvider>().setSelectedPaymentMethod("COD");
+                                },
+                              ),
+                            ],
+                          ),
                         ),
                       ),
-                    ),
+                    // if (paymentMethodsData.paytmPaymentMethod == "1")
+                    // GestureDetector(
+                    //   onTap: () {
+                    //     context.read<CheckoutProvider>().setSelectedPaymentMethod("Paypal");
+                    //   },
+                    //   child: Container(
+                    //     padding: EdgeInsets.zero,
+                    //     margin: EdgeInsets.symmetric(vertical: Constant.size5),
+                    //     decoration: BoxDecoration(
+                    //         color: context.read<CheckoutProvider>().selectedPaymentMethod == "Paypal"
+                    //             ? Constant.session.getBoolData(SessionManager.isDarkTheme)
+                    //                 ? ColorsRes.appColorBlack
+                    //                 : ColorsRes.appColorWhite
+                    //             : Theme.of(context).scaffoldBackgroundColor.withOpacity(0.8),
+                    //         borderRadius: Constant.borderRadius7,
+                    //         border: Border.all(
+                    //           width: context.read<CheckoutProvider>().selectedPaymentMethod == "Paypal" ? 1 : 0.3,
+                    //           color: context.read<CheckoutProvider>().selectedPaymentMethod == "Paypal" ? ColorsRes.appColor : ColorsRes.grey,
+                    //         )),
+                    //     child: Row(
+                    //       children: [
+                    //         Padding(
+                    //           padding: EdgeInsetsDirectional.only(start: Constant.size10),
+                    //           child: Widgets.defaultImg(image: "ic_paypal", width: 25, height: 25),
+                    //         ),
+                    //         Padding(
+                    //           padding: EdgeInsetsDirectional.only(start: Constant.size10),
+                    //           child: Text(getTranslatedValue(
+                    //             context,
+                    //             "lblPaypal",
+                    //           )),
+                    //         ),
+                    //         const Spacer(),
+                    //         Radio(
+                    //           value: "Paypal",
+                    //           groupValue: context.read<CheckoutProvider>().selectedPaymentMethod,
+                    //           onChanged: (value) {
+                    //             context.read<CheckoutProvider>().setSelectedPaymentMethod("Paypal");
+                    //           },
+                    //         ),
+                    //       ],
+                    //     ),
+                    //   ),
+                    // ),
                   ],
                 )
               ],

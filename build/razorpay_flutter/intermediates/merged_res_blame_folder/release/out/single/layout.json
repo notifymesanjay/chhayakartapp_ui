@@ -13,7 +13,7 @@
     },
     {
         "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\razorpay_flutter\\intermediates\\merged_res\\release\\layout\\rzp_loader.xml",
-        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\10f42d0bce5231cb72e4908657ed8cde\\transformed\\jetified-checkout-1.6.34\\res\\layout\\rzp_loader.xml"
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c6e07949633e01970a8071c25b132868\\transformed\\jetified-checkout-1.6.35\\res\\layout\\rzp_loader.xml"
     },
     {
         "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\razorpay_flutter\\intermediates\\merged_res\\release\\layout\\toast_custom.xml",
@@ -29,7 +29,7 @@
     },
     {
         "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\razorpay_flutter\\intermediates\\merged_res\\release\\layout\\rzp_magic_base.xml",
-        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\10f42d0bce5231cb72e4908657ed8cde\\transformed\\jetified-checkout-1.6.34\\res\\layout\\rzp_magic_base.xml"
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c6e07949633e01970a8071c25b132868\\transformed\\jetified-checkout-1.6.35\\res\\layout\\rzp_magic_base.xml"
     },
     {
         "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\razorpay_flutter\\intermediates\\merged_res\\release\\layout\\wallet_test_layout.xml",
@@ -41,10 +41,10 @@
     },
     {
         "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\razorpay_flutter\\intermediates\\merged_res\\release\\layout\\sdk_integration_status.xml",
-        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\10f42d0bce5231cb72e4908657ed8cde\\transformed\\jetified-checkout-1.6.34\\res\\layout\\sdk_integration_status.xml"
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c6e07949633e01970a8071c25b132868\\transformed\\jetified-checkout-1.6.35\\res\\layout\\sdk_integration_status.xml"
     },
     {
         "merged": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\razorpay_flutter\\intermediates\\merged_res\\release\\layout\\single_item.xml",
-        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\10f42d0bce5231cb72e4908657ed8cde\\transformed\\jetified-checkout-1.6.34\\res\\layout\\single_item.xml"
+        "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c6e07949633e01970a8071c25b132868\\transformed\\jetified-checkout-1.6.35\\res\\layout\\single_item.xml"
     }
 ]

@@ -2,18 +2,27 @@ class Address {
   String? status;
   String? message;
   String? total;
-  List<AddressData>? data;
+  int index =0;
 
+  List<AddressData>? data;
   Address({this.status, this.message, this.total, this.data});
 
   Address.fromJson(Map<String, dynamic> json) {
+    print("entered in address json");
     status = json['status'].toString();
+
     message = json['message'].toString();
+
     total = json['total'].toString();
+
     if (json['data'] != null) {
+      print("entered in if");
       data = <AddressData>[];
       json['data'].forEach((v) {
-        data!.add(AddressData.fromJson(v));
+        print(v);
+        data!.insert(index,AddressData.fromJson(v));
+        index=index+1;
+        print(data);
       });
     }
   }

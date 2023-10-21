@@ -22,10 +22,13 @@ class PromoCodeProvider extends ChangeNotifier {
 
     try {
       Map<String, dynamic> getData = (await getPromoCodeApi(context: context, params: params));
-
+       print("promocodeapi");
+      print(getData);
+       print(getData[ApiAndParams.status]);
       if (getData[ApiAndParams.status] == 1) {
+        print("entered in if of getpromocode");
         promoCode = PromoCode.fromJson(getData);
-
+        print(promoCode);
         promoCodeState = PromoCodeState.loaded;
       } else {
         promoCodeState = PromoCodeState.error;

@@ -15,20 +15,21 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
     super.initState();
     Future.delayed(Duration.zero).then(
       (value) async {
+        print("entered in checkout");
         await context.read<CheckoutProvider>().getSingleAddressProvider(context: context).then(
           (selectedAddress) async {
+            print(selectedAddress);
             await context.read<CheckoutProvider>().getOrderChargesProvider(
               context: context,
               params: {
-                // ApiAndParams.cityId: selectedAddress?.cityId?.toString()??Constant.session.getData(SessionManager.keyCityId),
+                 // ApiAndParams.cityId: selectedAddress?.cityId?.toString()??Constant.session.getData(SessionManager.keyCityId),
                 ApiAndParams.latitude: selectedAddress?.latitude?.toString() ?? Constant.session.getData(SessionManager.keyLatitude),
-                ApiAndParams.longitude: selectedAddress?.longitude?.toString() ?? Constant.session.getData(SessionManager.keyLongitude),
+                 ApiAndParams.longitude: selectedAddress?.longitude?.toString() ?? Constant.session.getData(SessionManager.keyLongitude),
                 ApiAndParams.isCheckout: "1"
               },
             ).then(
               (value) async {
                 await context.read<CheckoutProvider>().getTimeSlotsSettings(context: context);
-
                 await context.read<CheckoutProvider>().getPaymentMethods(context: context).then(
                   (value) {
                     StripeService.secret = context.read<CheckoutProvider>().paymentMethods.data.stripeSecretKey;
@@ -59,6 +60,7 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
       ),
       body: Consumer<CheckoutProvider>(
         builder: (context, checkoutProvider, _) {
+          print(checkoutProvider.checkoutPaymentMethodsState == CheckoutPaymentMethodsState.paymentMethodLoaded && checkoutProvider.checkoutTimeSlotsState == CheckoutTimeSlotsState.timeSlotsLoaded && checkoutProvider.checkoutAddressState == CheckoutAddressState.addressLoaded || checkoutProvider.checkoutAddressState == CheckoutAddressState.addressBlank);
           return Column(
             children: [
               Expanded(

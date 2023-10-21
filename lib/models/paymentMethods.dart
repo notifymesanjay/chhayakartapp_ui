@@ -63,6 +63,7 @@ class PaymentMethodsData {
   late final String paytmMode;
 
   late final String paypalPaymentMethod;
+  late final String paymentoptions;
 
   PaymentMethodsData.fromJson(Map<String, dynamic> json) {
     codPaymentMethod = json['cod_payment_method'].toString();

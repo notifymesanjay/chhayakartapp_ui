@@ -12,7 +12,7 @@ class LoginAccount extends StatefulWidget {
 class _LoginAccountState extends State<LoginAccount> {
   CountryCode? selectedCountryCode;
   bool isLoading = false, isAcceptedTerms = false;
-  TextEditingController edtPhoneNumber = TextEditingController(text: "9876543210");
+  TextEditingController edtPhoneNumber = TextEditingController(text: "");
   bool isDark = Constant.session.getBoolData(SessionManager.isDarkTheme);
   String otpVerificationId = "";
   String phoneNumber = "";
@@ -318,7 +318,6 @@ class _LoginAccountState extends State<LoginAccount> {
           setState(() {
             phoneNumber = '${selectedCountryCode!.dialCode} - ${edtPhoneNumber.text}';
             otpVerificationId = verificationId;
-
             List<dynamic> firebaseArguments = [firebaseAuth, otpVerificationId, edtPhoneNumber.text, selectedCountryCode!];
             Navigator.pushNamed(context, otpScreen, arguments: firebaseArguments);
           });

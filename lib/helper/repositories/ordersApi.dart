@@ -2,8 +2,9 @@ import 'package:egrocer/helper/utils/generalImports.dart';
 
 Future<Map<String, dynamic>> fetchOrders({required Map<String, String> params, required BuildContext context}) async {
   try {
+    print("entered in fetchorder");
     final result = await GeneralMethods.sendApiRequest(apiName: ApiAndParams.apiOrdersHistory, params: params, isPost: false, context: context);
-
+    print(result);
     return Map.from(jsonDecode(result));
   } catch (e) {
     //

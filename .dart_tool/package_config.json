@@ -974,6 +974,12 @@
       "languageVersion": "2.18"
     },
     {
+      "name": "telephony",
+      "rootUri": "file:///C:/Users/nohal/AppData/Local/Pub/Cache/hosted/pub.dev/telephony-0.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.15"
+    },
+    {
       "name": "term_glyph",
       "rootUri": "file:///C:/Users/nohal/AppData/Local/Pub/Cache/hosted/pub.dev/term_glyph-1.2.1",
       "packageUri": "lib/",
@@ -1184,7 +1190,7 @@
       "languageVersion": "3.1"
     }
   ],
-  "generated": "2023-09-18T17:55:57.222407Z",
+  "generated": "2023-10-02T07:47:55.866648Z",
   "generator": "pub",
   "generatorVersion": "3.1.2"
 }

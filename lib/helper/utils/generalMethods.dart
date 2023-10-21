@@ -88,19 +88,26 @@ class GeneralMethods {
     http.Response response;
     if (isPost) {
       response = await http.post(Uri.parse(mainUrl), body: params.isNotEmpty ? params : null, headers: headersData);
+
     } else {
       mainUrl = await Constant.getGetMethodUrlWithParams(apiName.contains("http") ? apiName : "${Constant.baseUrl}$apiName", params);
 
       response = await http.get(Uri.parse(mainUrl), headers: headersData);
+
     }
 
     if (response.statusCode == 200) {
-      if (response.body == "null") {
+      print('response status 200');
+      if(response.body == "null") {
         return null;
       }
+
       return isRequestedForInvoice == true ? response.bodyBytes : response.body;
-    } else {
+    }
+    else {
       if (Constant.session.isUserLoggedIn()) {
+        print(response.reasonPhrase);
+        print(response.statusCode);
         GeneralMethods.showSnackBarMsg(
           context,
           "${getTranslatedValue(
@@ -123,7 +130,6 @@ class GeneralMethods {
     headersData["Authorization"] = "Bearer $token";
     headersData["x-access-key"] = "903361";
     var request = http.MultipartRequest('POST', Uri.parse(mainUrl));
-
     request.fields.addAll(params);
 
     if (fileParamsNames.isNotEmpty) {

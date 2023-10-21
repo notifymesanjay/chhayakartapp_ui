@@ -1633,10 +1633,10 @@ library {
   maven_library {
     groupId: "com.razorpay"
     artifactId: "checkout"
-    version: "1.6.34"
+    version: "1.6.35"
   }
   digests {
-    sha256: "\235\r\262\350\316\002\030\003\215\375\n\224)\226\000;i\3751\227snL\275}~\365[a\360v\244"
+    sha256: "e\330\347\211\n\001\v\272\263\200RMpW\365@H\027\255\221\375\315\235\260\231\371\231\276\001\316W "
   }
   repo_index {
     value: 1
@@ -2773,7 +2773,7 @@ library {
 }
 library {
   digests {
-    sha256: "\\\330\an\000\337\262\f\337r\356\266S\032\243\245\204\003\222fZ\005\270\327\354\a\272\272\374\320\246n"
+    sha256: "\001Ht\231.\331\317\204\326\027\004\231<?U\306\340\372\362\202U\271\3320\213\253\262Q\322\320m\371"
   }
 }
 library_dependencies {
@@ -4697,6 +4697,7 @@ library_dependencies {
 module_dependencies {
   module_name: "base"
   dependency_index: 75
+  dependency_index: 2
   dependency_index: 224
   dependency_index: 225
   dependency_index: 226
@@ -4723,7 +4724,6 @@ module_dependencies {
   dependency_index: 106
   dependency_index: 158
   dependency_index: 120
-  dependency_index: 2
   dependency_index: 161
   dependency_index: 140
   dependency_index: 113
@@ -5038,6 +5038,16 @@ repositories {
 repositories {
   maven_repo {
     url: "https://jcenter.bintray.com/"
+  }
+}
+repositories {
+  maven_repo {
+    url: "https://dl.google.com/dl/android/maven2/"
+  }
+}
+repositories {
+  maven_repo {
+    url: "https://repo.maven.apache.org/maven2/"
   }
 }
 repositories {

@@ -86,6 +86,8 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
   }
 
   productDetailWidget(ProductData product) {
+    print('enterd in productdetail');
+    print( product.variants[0].stockUnitName);
     return Column(
       mainAxisSize: MainAxisSize.min,
       children: [
@@ -295,7 +297,7 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
                                 double.parse(product.variants[selectedVariantItemProvider.getSelectedIndex()].discountedPrice) != 0 ? GeneralMethods.getCurrencyFormat(double.parse(product.variants[selectedVariantItemProvider.getSelectedIndex()].discountedPrice)) : GeneralMethods.getCurrencyFormat(double.parse(product.variants[selectedVariantItemProvider.getSelectedIndex()].price)),
                                 softWrap: true,
                                 overflow: TextOverflow.ellipsis,
-                                style: TextStyle(fontSize: 15, color: ColorsRes.appColor, fontWeight: FontWeight.w500),
+                                style: TextStyle(fontSize: 14, color: ColorsRes.appColor, fontWeight: FontWeight.w500),
                               ),
                               Widgets.getSizedBox(width: 5),
                               RichText(
@@ -367,10 +369,6 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
                                                                     overflow: TextOverflow.clip,
                                                                     // maxLines: 1,
                                                                     text: TextSpan(children: [
-                                                                      TextSpan(
-                                                                        style: TextStyle(fontSize: 15, color: ColorsRes.mainTextColor, decorationThickness: 2),
-                                                                        text: "${product.variants[index].measurement} ",
-                                                                      ),
                                                                       WidgetSpan(
                                                                         child: Text(
                                                                           product.variants[index].stockUnitName,
@@ -445,7 +443,7 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
                                       children: [
                                         Spacer(),
                                         Text(
-                                          "${product.variants[0].measurement} ${product.variants[0].stockUnitName}",
+                                          " ${product.variants[0].stockUnitName}",
                                           style: TextStyle(
                                             fontSize: 12,
                                             color: ColorsRes.mainTextColor,

@@ -28,6 +28,8 @@ class ActiveOrdersProvider extends ChangeNotifier {
     required Map<String, String> params,
     required BuildContext context,
   }) async {
+    print("entered in getorder");
+    print(offset);
     if (offset == 0) {
       activeOrdersState = ActiveOrdersState.loading;
     } else {
@@ -36,13 +38,19 @@ class ActiveOrdersProvider extends ChangeNotifier {
     notifyListeners();
 
     try {
-      params[ApiAndParams.limit] = Constant.defaultDataLoadLimitAtOnce.toString();
-      params[ApiAndParams.offset] = offset.toString();
 
+      params[ApiAndParams.limit] = Constant.defaultDataLoadLimitAtOnce.toString();
+      print(params[ApiAndParams.limit]);
+      params[ApiAndParams.offset] = offset.toString();
+      print(params[ApiAndParams.offset]);
       Map<String, dynamic> getData = (await fetchOrders(context: context, params: params));
 
       if (getData[ApiAndParams.status].toString() == "1") {
-        totalData = int.parse(getData[ApiAndParams.total]);
+        print("getdata issue");
+
+        // totalData = 4;
+        totalData = int.parse(getData[ApiAndParams.total].toString());
+
         List<Order> tempOrders = (getData['data'] as List).map((e) => Order.fromJson(Map.from(e ?? {}))).toList();
 
         orders.addAll(tempOrders);
@@ -52,11 +60,12 @@ class ActiveOrdersProvider extends ChangeNotifier {
       if (hasMoreData) {
         offset += Constant.defaultDataLoadLimitAtOnce;
       }
-
       activeOrdersState = ActiveOrdersState.loaded;
+      print(activeOrdersState);
       notifyListeners();
     } catch (e) {
       message = e.toString();
+      print(message);
       activeOrdersState = ActiveOrdersState.error;
       GeneralMethods.showSnackBarMsg(context, message);
       notifyListeners();

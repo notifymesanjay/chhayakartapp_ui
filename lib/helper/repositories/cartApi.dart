@@ -1,6 +1,8 @@
 import 'package:egrocer/helper/utils/generalImports.dart';
 
 Future<Map<String, dynamic>> getCartListApi({required BuildContext context, required Map<String, dynamic> params}) async {
+  print("enttered in getcartlistapi");
+  print(params);
   var response = await GeneralMethods.sendApiRequest(apiName: ApiAndParams.apiCart, params: params, isPost: false, context: context);
   return json.decode(response);
 }

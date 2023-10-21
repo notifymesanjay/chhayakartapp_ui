@@ -205,28 +205,29 @@ class _AddressDetailScreenState extends State<AddressDetailScreen> {
                   "lblEnterAddress",
                 ),
                 TextInputType.text,
-                tailIcon: IconButton(
-                  onPressed: () {
-                    Navigator.pushNamed(context, getLocationScreen, arguments: "address").then((value) {
-                      setState(() {
-                        edtAddress.text = Constant.cityAddressMap["address"];
-                        edtCity.text = Constant.cityAddressMap["city"];
-                        edtArea.text = Constant.cityAddressMap["area"];
-                        edtLandmark.text = Constant.cityAddressMap["landmark"];
-                        edtZipcode.text = Constant.cityAddressMap["pin_code"];
-                        edtCountry.text = Constant.cityAddressMap["country"];
-                        edtState.text = Constant.cityAddressMap["state"];
-                        longitude = Constant.cityAddressMap["longitude"].toString();
-                        latitude = Constant.cityAddressMap["latitude"].toString();
-                      });
-                      formKey.currentState?.validate();
-                    });
-                  },
-                  icon: Icon(
-                    Icons.my_location_rounded,
-                    color: ColorsRes.appColor,
-                  ),
-                )),
+                // tailIcon: IconButton(
+                //   onPressed: () {
+                //     Navigator.pushNamed(context, getLocationScreen, arguments: "address").then((value) {
+                //       setState(() {
+                //         edtAddress.text = Constant.cityAddressMap["address"];
+                //         edtCity.text = Constant.cityAddressMap["city"];
+                //         edtArea.text = Constant.cityAddressMap["area"];
+                //         edtLandmark.text = Constant.cityAddressMap["landmark"];
+                //         edtZipcode.text = Constant.cityAddressMap["pin_code"];
+                //         edtCountry.text = Constant.cityAddressMap["country"];
+                //         edtState.text = Constant.cityAddressMap["state"];
+                //         longitude = Constant.cityAddressMap["longitude"].toString();
+                //         latitude = Constant.cityAddressMap["latitude"].toString();
+                //       });
+                //       formKey.currentState?.validate();
+                //     });
+                //   },
+                //   icon: Icon(
+                //     Icons.my_location_rounded,
+                //     color: ColorsRes.appColor,
+                //   ),
+                // )
+            ),
             SizedBox(height: Constant.size15),
             editBoxWidget(
                 context,
@@ -272,7 +273,7 @@ class _AddressDetailScreenState extends State<AddressDetailScreen> {
                     "lblPleaseSelectAddressFromMap",
                   ),
                   TextInputType.text,
-                  isEditable: false),
+                  isEditable: true),
             ),
             SizedBox(height: Constant.size15),
             editBoxWidget(
@@ -409,7 +410,7 @@ class _AddressDetailScreenState extends State<AddressDetailScreen> {
                         "lblAddNewAddress",
                       ), callback: () async {
               if (formKey.currentState!.validate() == true) {
-                if (longitude.isNotEmpty && latitude.isNotEmpty) {
+                if (longitude.isEmpty && latitude.isEmpty) {
                   Map<String, String> params = {};
 
                   String id = widget.address?.id.toString() ?? "";
@@ -424,18 +425,23 @@ class _AddressDetailScreenState extends State<AddressDetailScreen> {
                         context,
                         "lblAddressTypeHome",
                       );
+
                   params[ApiAndParams.address] = edtAddress.text.trim().toString();
                   params[ApiAndParams.landmark] = edtLandmark.text.trim().toString();
                   params[ApiAndParams.area] = edtArea.text.trim().toString();
                   params[ApiAndParams.pinCode] = edtZipcode.text.trim().toString();
+
                   params[ApiAndParams.city] = edtCity.text.trim().toString();
+                  print(params[ApiAndParams.city]);
                   params[ApiAndParams.state] = edtState.text.trim().toString();
                   params[ApiAndParams.country] = edtCountry.text.trim().toString();
                   params[ApiAndParams.alternateMobile] = edtAltMobile.text.trim().toString();
-                  params[ApiAndParams.latitude] = latitude;
-                  params[ApiAndParams.longitude] = longitude;
+                  params[ApiAndParams.latitude] = "0";
+                  params[ApiAndParams.longitude] = "0";
                   params[ApiAndParams.isDefault] = isDefaultAddress == true ? "1" : "0";
-
+                  print(context);
+                  print(widget);
+                  print(params);
                   widget.addressProviderContext.read<AddressProvider>().addOrUpdateAddress(
                       context: context,
                       address: widget.address ?? "",
@@ -446,7 +452,8 @@ class _AddressDetailScreenState extends State<AddressDetailScreen> {
                   setState(() {
                     isLoading = !isLoading;
                   });
-                } else {
+                }
+                else {
                   setState(() {
                     isLoading = !isLoading;
                   });

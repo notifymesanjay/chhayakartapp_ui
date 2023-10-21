@@ -385,7 +385,7 @@ AppBar getAppBar({required BuildContext context, Widget? appBarLeading, bool? ce
             ),
           )
         : null,
-    automaticallyImplyLeading: true,
+
     elevation: 0,
     title: title,
     centerTitle: centerTitle ?? true,

@@ -1,7 +1,7 @@
 <variant
     name="release"
     package="com.chayakart"
-    minSdkVersion="21"
+    minSdkVersion="23"
     targetSdkVersion="33"
     shrinking="true"
     mergedManifest="C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\app\intermediates\merged_manifest\release\AndroidManifest.xml"

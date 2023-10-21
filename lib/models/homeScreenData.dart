@@ -146,6 +146,7 @@ class Sections {
   late final String title;
   late final String shortDescription;
   late final String productType;
+  late final String categoryid;
   late final List<ProductListItem> products;
 
   Sections.fromJson(Map<String, dynamic> json) {
@@ -153,6 +154,7 @@ class Sections {
     title = json['title'].toString();
     shortDescription = json['short_description'].toString();
     productType = json['product_type'].toString();
+    categoryid=json['category_ids'].toString();
     products = List.from(json['products']).map((e) => ProductListItem.fromJson(e)).toList();
   }
 

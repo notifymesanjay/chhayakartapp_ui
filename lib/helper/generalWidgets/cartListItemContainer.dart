@@ -83,7 +83,7 @@ class _State extends State<CartListItemContainer> {
                           text: TextSpan(children: [
                             TextSpan(
                               style: TextStyle(fontSize: 12, color: ColorsRes.mainTextColor, decorationThickness: 2),
-                              text: "${cart.measurement} ${cart.unit}",
+                              text:  "${cart.unit}",
                             ),
                             TextSpan(
                               text: double.parse(cart.discountedPrice) != 0 ? " | " : "",

@@ -394,6 +394,19 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
+      name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:telephony::release"
+      jars="C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\telephony\.transforms\032c18608e9b1e463a6fdaae3d3a8530\transformed\out\jars\classes.jar"
+      resolved="com.shounakmulay.telephony:telephony:unspecified"
+      folder="C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\telephony\.transforms\032c18608e9b1e463a6fdaae3d3a8530\transformed\out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:package_info_plus::release"
       jars="C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\package_info_plus\.transforms\3c0c34e18d9c72c621c374900734f35d\transformed\out\jars\classes.jar"
       resolved="io.flutter.plugins.packageinfo:package_info_plus:unspecified"
@@ -476,10 +489,23 @@
       jars="C:\Users\nohal\.gradle\caches\modules-2\files-2.1\io.flutter\flutter_embedding_release\1.0.0-9064459a8b0dcd32877107f6002cc429a71659d1\5c51be3017ab304d078d37caf39a5e7e1eafd768\flutter_embedding_release-1.0.0-9064459a8b0dcd32877107f6002cc429a71659d1.jar"
       resolved="io.flutter:flutter_embedding_release:1.0.0-9064459a8b0dcd32877107f6002cc429a71659d1"/>
   <library
-      name="com.razorpay:checkout:1.6.34@aar"
-      jars="C:\Users\nohal\.gradle\caches\transforms-3\10f42d0bce5231cb72e4908657ed8cde\transformed\jetified-checkout-1.6.34\jars\classes.jar"
-      resolved="com.razorpay:checkout:1.6.34"
-      folder="C:\Users\nohal\.gradle\caches\transforms-3\10f42d0bce5231cb72e4908657ed8cde\transformed\jetified-checkout-1.6.34"
+      name="androidx.browser:browser:1.5.0@aar"
+      jars="C:\Users\nohal\.gradle\caches\transforms-3\ded9652566324e16386c0a2346bbd282\transformed\browser-1.5.0\jars\classes.jar"
+      resolved="androidx.browser:browser:1.5.0"
+      folder="C:\Users\nohal\.gradle\caches\transforms-3\ded9652566324e16386c0a2346bbd282\transformed\browser-1.5.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.razorpay:checkout:1.6.35@aar"
+      jars="C:\Users\nohal\.gradle\caches\transforms-3\c6e07949633e01970a8071c25b132868\transformed\jetified-checkout-1.6.35\jars\classes.jar"
+      resolved="com.razorpay:checkout:1.6.35"
+      folder="C:\Users\nohal\.gradle\caches\transforms-3\c6e07949633e01970a8071c25b132868\transformed\jetified-checkout-1.6.35"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -824,6 +850,19 @@
       jars="C:\Users\nohal\.gradle\caches\modules-2\files-2.1\io.flutter\x86_64_release\1.0.0-9064459a8b0dcd32877107f6002cc429a71659d1\e363b73d5e7a47fa5f7488bb81897cb38101cb5a\x86_64_release-1.0.0-9064459a8b0dcd32877107f6002cc429a71659d1.jar"
       resolved="io.flutter:x86_64_release:1.0.0-9064459a8b0dcd32877107f6002cc429a71659d1"/>
   <library
+      name="androidx.versionedparcelable:versionedparcelable:1.1.1@aar"
+      jars="C:\Users\nohal\.gradle\caches\transforms-3\e1852403d6d9624576fc91008f6b8966\transformed\versionedparcelable-1.1.1\jars\classes.jar"
+      resolved="androidx.versionedparcelable:versionedparcelable:1.1.1"
+      folder="C:\Users\nohal\.gradle\caches\transforms-3\e1852403d6d9624576fc91008f6b8966\transformed\versionedparcelable-1.1.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name="androidx.arch.core:core-runtime:2.2.0@aar"
       jars="C:\Users\nohal\.gradle\caches\transforms-3\aa2e88ddf56b4685f3386c04a2b4758b\transformed\core-runtime-2.2.0\jars\classes.jar"
       resolved="androidx.arch.core:core-runtime:2.2.0"
@@ -840,19 +879,6 @@
       name="androidx.arch.core:core-common:2.2.0@jar"
       jars="C:\Users\nohal\.gradle\caches\modules-2\files-2.1\androidx.arch.core\core-common\2.2.0\5e1b8b81dfd5f52c56a8d53b18ca759c19a301f3\core-common-2.2.0.jar"
       resolved="androidx.arch.core:core-common:2.2.0"/>
-  <library
-      name="androidx.versionedparcelable:versionedparcelable:1.1.1@aar"
-      jars="C:\Users\nohal\.gradle\caches\transforms-3\e1852403d6d9624576fc91008f6b8966\transformed\versionedparcelable-1.1.1\jars\classes.jar"
-      resolved="androidx.versionedparcelable:versionedparcelable:1.1.1"
-      folder="C:\Users\nohal\.gradle\caches\transforms-3\e1852403d6d9624576fc91008f6b8966\transformed\versionedparcelable-1.1.1"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
   <library
       name="androidx.collection:collection:1.1.0@jar"
       jars="C:\Users\nohal\.gradle\caches\modules-2\files-2.1\androidx.collection\collection\1.1.0\1f27220b47669781457de0d600849a5de0e89909\collection-1.1.0.jar"
@@ -899,6 +925,10 @@
       name="org.jetbrains:annotations:13.0@jar"
       jars="C:\Users\nohal\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\13.0\919f0dfe192fb4e063e7dacadee7f8bb9a2672a9\annotations-13.0.jar"
       resolved="org.jetbrains:annotations:13.0"/>
+  <library
+      name="com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava@jar"
+      jars="C:\Users\nohal\.gradle\caches\modules-2\files-2.1\com.google.guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\b421526c5f297295adef1c886e5246c39d4ac629\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"
+      resolved="com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava"/>
   <library
       name="androidx.tracing:tracing:1.0.0@aar"
       jars="C:\Users\nohal\.gradle\caches\transforms-3\de38a35ac294d320cd1f35096c2ca56b\transformed\jetified-tracing-1.0.0\jars\classes.jar"
@@ -2039,19 +2069,6 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.browser:browser:1.5.0@aar"
-      jars="C:\Users\nohal\.gradle\caches\transforms-3\ded9652566324e16386c0a2346bbd282\transformed\browser-1.5.0\jars\classes.jar"
-      resolved="androidx.browser:browser:1.5.0"
-      folder="C:\Users\nohal\.gradle\caches\transforms-3\ded9652566324e16386c0a2346bbd282\transformed\browser-1.5.0"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
       name="androidx.webkit:webkit:1.7.0@aar"
       jars="C:\Users\nohal\.gradle\caches\transforms-3\d8e510c5364b7f8c90554baf144dfcdf\transformed\webkit-1.7.0\jars\classes.jar"
       resolved="androidx.webkit:webkit:1.7.0"
@@ -2760,10 +2777,6 @@
       name="com.google.guava:failureaccess:1.0.1@jar"
       jars="C:\Users\nohal\.gradle\caches\modules-2\files-2.1\com.google.guava\failureaccess\1.0.1\1dcf1de382a0bf95a3d8b0849546c88bac1292c9\failureaccess-1.0.1.jar"
       resolved="com.google.guava:failureaccess:1.0.1"/>
-  <library
-      name="com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava@jar"
-      jars="C:\Users\nohal\.gradle\caches\modules-2\files-2.1\com.google.guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\b421526c5f297295adef1c886e5246c39d4ac629\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"
-      resolved="com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava"/>
   <library
       name="com.google.code.findbugs:jsr305:3.0.2@jar"
       jars="C:\Users\nohal\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar"

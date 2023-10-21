@@ -1,7 +1,7 @@
 
 
 import 'package:egrocer/helper/utils/generalImports.dart';
-
+import 'package:telephony/telephony.dart';
 class OtpVerificationScreen extends StatefulWidget {
   final String otpVerificationId;
   final String phoneNumber;
@@ -23,14 +23,41 @@ class _LoginAccountState extends State<OtpVerificationScreen> {
   bool isLoading = false;
   String resendOtpVerificationId = "";
   OtpFieldController otpFieldController = OtpFieldController();
+  Telephony telephony = Telephony.instance;
 
   @override
   void initState() {
     Future.delayed(Duration.zero).then((value) {
       if (mounted) {
-        otpFieldController.set(['1', '2', '3', '4', '5', '6']);
+        otpFieldController.set(['', '', '', '', '', '']);
       }
     });
+    telephony.listenIncomingSms(
+      onNewMessage: (SmsMessage message) {
+        print(message.address); // +977981******67, sender nubmer
+        print(message.body);    // Your OTP code is 34567
+        print(message.date);    // 1659690242000, timestamp
+
+        // get the message
+        String sms = message.body.toString();
+
+        if(message.body!.contains('chayyakartaug.firebaseapp.com')){
+          // verify SMS is sent for OTP with sender number
+          String otpcode = sms.replaceAll(new RegExp(r'[^0-9]'),'');
+          // prase code from the OTP sms
+          otpFieldController.set(otpcode.split(""));
+          // split otp code to list of number
+          // and populate to otb boxes
+          setState(() {
+            // refresh UI
+          });
+
+        }else{
+          print("Normal message.");
+        }
+      },
+      listenInBackground: false,
+    );
     super.initState();
   }
 
@@ -184,9 +211,9 @@ class _LoginAccountState extends State<OtpVerificationScreen> {
   backendApiProcess(User user) async {
     Map<String, dynamic> params = {
       ApiAndParams.mobile: widget.phoneNumber,
-      ApiAndParams.authUid: "123456", // Temp used for testing
+      // ApiAndParams.authUid: "123456", // Temp used for testing
       ApiAndParams.authUid: user.uid, // In live this will use
-      // ApiAndParams.countryCode: widget.selectedCountryCode.dialCode?.replaceAll("+", ""),
+      ApiAndParams.countryCode: widget.selectedCountryCode.dialCode?.replaceAll("+", ""),
       // In live this will use
       ApiAndParams.fcmToken: Constant.session.getData(SessionManager.keyFCMToken)
     };
@@ -208,7 +235,8 @@ class _LoginAccountState extends State<OtpVerificationScreen> {
     Constant.session.setBoolData(SessionManager.isUserLogin, true, false);
 
     Constant.session.setData(SessionManager.keyAuthUid, firebaseUser.uid, false);
-
+    print("testing september ");
+    print(userData[ApiAndParams.status]);
     Constant.session
         .setUserData(
       /*firebaseUid: Constant.session.getData(SessionManager.keyFirebaseId),*/
@@ -218,10 +246,12 @@ class _LoginAccountState extends State<OtpVerificationScreen> {
       countryCode: userData[ApiAndParams.countryCode],
       mobile: userData[ApiAndParams.mobile],
       lblReferralCode: userData[ApiAndParams.lblReferralCode],
-      status: int.parse(userData[ApiAndParams.status]),
+      // status: int.parse(userData[ApiAndParams.status]),
+      status: 1,
       token: data[ApiAndParams.accessToken], /*balance: userData[ApiAndParams.balance].toString()*/
     )
-        .then((value) async => await getRedirection());
+        .then(
+            (value) async => await getRedirection());
   }
 
   getRedirection() async {
@@ -259,7 +289,7 @@ class _LoginAccountState extends State<OtpVerificationScreen> {
       ),
       onChanged: (value) => () {},
       onCompleted: (value) {
-        editOtp = value;
+        editOtp = value.toString();
       },
     );
   }

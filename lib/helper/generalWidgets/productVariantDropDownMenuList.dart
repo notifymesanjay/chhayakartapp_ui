@@ -120,10 +120,10 @@ class _ProductVariantDropDownMenuListState extends State<ProductVariantDropDownM
                                                               overflow: TextOverflow.clip,
                                                               // maxLines: 1,
                                                               text: TextSpan(children: [
-                                                                TextSpan(
-                                                                  style: TextStyle(fontSize: 15, color: ColorsRes.mainTextColor, decorationThickness: 2),
-                                                                  text: "${widget.variants[index].measurement} ",
-                                                                ),
+                                                                // TextSpan(
+                                                                //   style: TextStyle(fontSize: 15, color: ColorsRes.mainTextColor, decorationThickness: 2),
+                                                                //   text: "${widget.variants[index].measurement} ",
+                                                                // ),
                                                                 WidgetSpan(
                                                                   child: Text(
                                                                     widget.variants[index].stockUnitName,
@@ -198,7 +198,7 @@ class _ProductVariantDropDownMenuListState extends State<ProductVariantDropDownM
                                 children: [
                                   Spacer(),
                                   Text(
-                                    "${widget.variants[0].measurement} ${widget.variants[0].stockUnitName}",
+                                    " ${widget.variants[0].stockUnitName}",
                                     style: TextStyle(
                                       fontSize: 12,
                                       color: ColorsRes.mainTextColor,

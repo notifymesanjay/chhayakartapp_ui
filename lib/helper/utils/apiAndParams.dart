@@ -76,6 +76,7 @@ class ApiAndParams {
   static String cart = "cart";
   static String saveForLater = "save_for_later";
   static String amount = "amount";
+  static String discount ="discount";
 
   static String address = "address";
   static String landmark = "landmark";
