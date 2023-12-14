@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\awesome_notifications\\intermediates\\merged_res\\release\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "D:\\workingProjacts\\New folder\\chhayakartapp_ui\\build\\awesome_notifications\\intermediates\\merged_res\\release\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\84187b4ca7f4b246e521037e7b7f9144\\transformed\\appcompat-1.5.1\\res\\values-night-v8\\values-night-v8.xml",
+                    "source": "C:\\Users\\Hp\\.gradle\\caches\\transforms-3\\84187b4ca7f4b246e521037e7b7f9144\\transformed\\appcompat-1.5.1\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -16,10 +16,10 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\awesome_notifications\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "D:\\workingProjacts\\New folder\\chhayakartapp_ui\\build\\awesome_notifications\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\84187b4ca7f4b246e521037e7b7f9144\\transformed\\appcompat-1.5.1\\res\\values-night-v8\\values-night-v8.xml",
+                    "source": "C:\\Users\\Hp\\.gradle\\caches\\transforms-3\\84187b4ca7f4b246e521037e7b7f9144\\transformed\\appcompat-1.5.1\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

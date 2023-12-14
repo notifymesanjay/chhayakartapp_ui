@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\firebase_core\\intermediates\\merged_res\\release\\values-in\\values-in.xml",
+            "outputFile": "D:\\workingProjacts\\New folder\\chhayakartapp_ui\\build\\firebase_core\\intermediates\\merged_res\\release\\values-in\\values-in.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\5ff2b201a1fa7d88d480efd7e0b9ada2\\transformed\\core-1.6.0\\res\\values-in\\values-in.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "187",
-                        "endColumns": "100",
-                        "endOffsets": "283"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\e668bb71ba684eb8229b4edd9756ebd5\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-in\\values.xml",
+                    "source": "C:\\Users\\Hp\\.gradle\\caches\\transforms-3\\e668bb71ba684eb8229b4edd9756ebd5\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-in\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -35,32 +18,32 @@
                         "startOffsets": "55",
                         "endColumns": "131",
                         "endOffsets": "182"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Hp\\.gradle\\caches\\transforms-3\\5ff2b201a1fa7d88d480efd7e0b9ada2\\transformed\\core-1.6.0\\res\\values-in\\values-in.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "187",
+                        "endColumns": "100",
+                        "endOffsets": "283"
                     }
                 }
             ]
         },
         {
-            "outputFile": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\firebase_core\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-in\\values-in.xml",
+            "outputFile": "D:\\workingProjacts\\New folder\\chhayakartapp_ui\\build\\firebase_core\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-in\\values-in.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\5ff2b201a1fa7d88d480efd7e0b9ada2\\transformed\\core-1.6.0\\res\\values-in\\values-in.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "187",
-                        "endColumns": "100",
-                        "endOffsets": "283"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\e668bb71ba684eb8229b4edd9756ebd5\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-in\\values.xml",
+                    "source": "C:\\Users\\Hp\\.gradle\\caches\\transforms-3\\e668bb71ba684eb8229b4edd9756ebd5\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-in\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -74,6 +57,23 @@
                         "startOffsets": "55",
                         "endColumns": "131",
                         "endOffsets": "182"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Hp\\.gradle\\caches\\transforms-3\\5ff2b201a1fa7d88d480efd7e0b9ada2\\transformed\\core-1.6.0\\res\\values-in\\values-in.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "187",
+                        "endColumns": "100",
+                        "endOffsets": "283"
                     }
                 }
             ]

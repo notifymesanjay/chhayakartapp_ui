@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\audio_session\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-in\\values-in.xml",
+            "outputFile": "D:\\workingProjacts\\New folder\\chhayakartapp_ui\\build\\audio_session\\intermediates\\merged_res\\release\\values-in\\values-in.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\4aa372c0438ab3fa0c2d761f236c9a19\\transformed\\jetified-media2-session-1.2.1\\res\\values-in\\values-in.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "55,162,258,353,482",
-                        "endColumns": "106,95,94,128,132",
-                        "endOffsets": "157,253,348,477,610"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\5ff2b201a1fa7d88d480efd7e0b9ada2\\transformed\\core-1.6.0\\res\\values-in\\values-in.xml",
+                    "source": "C:\\Users\\Hp\\.gradle\\caches\\transforms-3\\5ff2b201a1fa7d88d480efd7e0b9ada2\\transformed\\core-1.6.0\\res\\values-in\\values-in.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -28,25 +18,25 @@
                         "startOffsets": "615",
                         "endColumns": "100",
                         "endOffsets": "711"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Hp\\.gradle\\caches\\transforms-3\\4aa372c0438ab3fa0c2d761f236c9a19\\transformed\\jetified-media2-session-1.2.1\\res\\values-in\\values-in.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,162,258,353,482",
+                        "endColumns": "106,95,94,128,132",
+                        "endOffsets": "157,253,348,477,610"
                     }
                 }
             ]
         },
         {
-            "outputFile": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\audio_session\\intermediates\\merged_res\\release\\values-in\\values-in.xml",
+            "outputFile": "D:\\workingProjacts\\New folder\\chhayakartapp_ui\\build\\audio_session\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-in\\values-in.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\4aa372c0438ab3fa0c2d761f236c9a19\\transformed\\jetified-media2-session-1.2.1\\res\\values-in\\values-in.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "55,162,258,353,482",
-                        "endColumns": "106,95,94,128,132",
-                        "endOffsets": "157,253,348,477,610"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\5ff2b201a1fa7d88d480efd7e0b9ada2\\transformed\\core-1.6.0\\res\\values-in\\values-in.xml",
+                    "source": "C:\\Users\\Hp\\.gradle\\caches\\transforms-3\\5ff2b201a1fa7d88d480efd7e0b9ada2\\transformed\\core-1.6.0\\res\\values-in\\values-in.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -60,6 +50,16 @@
                         "startOffsets": "615",
                         "endColumns": "100",
                         "endOffsets": "711"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Hp\\.gradle\\caches\\transforms-3\\4aa372c0438ab3fa0c2d761f236c9a19\\transformed\\jetified-media2-session-1.2.1\\res\\values-in\\values-in.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,162,258,353,482",
+                        "endColumns": "106,95,94,128,132",
+                        "endOffsets": "157,253,348,477,610"
                     }
                 }
             ]

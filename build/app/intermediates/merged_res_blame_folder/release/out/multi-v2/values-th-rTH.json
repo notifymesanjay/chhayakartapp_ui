@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\app\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-th-rTH\\values-th-rTH.xml",
+            "outputFile": "D:\\workingProjacts\\New folder\\chhayakartapp_ui\\build\\app\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-th-rTH\\values-th-rTH.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\ef749a0646a902399d65388a20549dab\\transformed\\jetified-stripe-3ds2-android-6.1.7\\res\\values-th-rTH\\values-th-rTH.xml",
+                    "source": "C:\\Users\\Hp\\.gradle\\caches\\transforms-3\\ef749a0646a902399d65388a20549dab\\transformed\\jetified-stripe-3ds2-android-6.1.7\\res\\values-th-rTH\\values-th-rTH.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",

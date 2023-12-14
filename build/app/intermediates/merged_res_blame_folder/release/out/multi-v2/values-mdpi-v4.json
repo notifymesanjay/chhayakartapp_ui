@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\nohal\\AndroidStudioProjects\\chhayakart app\\build\\app\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-mdpi-v4\\values-mdpi-v4.xml",
+            "outputFile": "D:\\workingProjacts\\New folder\\chhayakartapp_ui\\build\\app\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-mdpi-v4\\values-mdpi-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\nohal\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\values-mdpi-v4\\values-mdpi-v4.xml",
+                    "source": "C:\\Users\\Hp\\.gradle\\caches\\transforms-3\\c5a6d0a10015cc2af50630eb67e9cb0f\\transformed\\jetified-payments-core-20.28.3\\res\\values-mdpi-v4\\values-mdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -1375,10 +1375,10 @@ library {
   maven_library {
     groupId: "io.flutter"
     artifactId: "flutter_embedding_release"
-    version: "1.0.0-9064459a8b0dcd32877107f6002cc429a71659d1"
+    version: "1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad"
   }
   digests {
-    sha256: "A1\204!\f6\031\"4\352\021\271\027\273\226\250\b\270:\001n5\037 \352\236H\346;p]U"
+    sha256: "\a\315\337\304HKl\357s\004*\315\334i\2156\225\271c\276\342*9\213\364\216_\210\230\3360n"
   }
   repo_index {
     value: 2
@@ -1633,10 +1633,10 @@ library {
   maven_library {
     groupId: "com.razorpay"
     artifactId: "checkout"
-    version: "1.6.35"
+    version: "1.6.36"
   }
   digests {
-    sha256: "e\330\347\211\n\001\v\272\263\200RMpW\365@H\027\255\221\375\315\235\260\231\371\231\276\001\316W "
+    sha256: "\240$\025\353\033|\021j\316\327\324C\240@\033\005\274\231\2009\355\274\362lD\336W\327\353/\3506"
   }
   repo_index {
     value: 1
@@ -2736,10 +2736,10 @@ library {
   maven_library {
     groupId: "io.flutter"
     artifactId: "armeabi_v7a_release"
-    version: "1.0.0-9064459a8b0dcd32877107f6002cc429a71659d1"
+    version: "1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad"
   }
   digests {
-    sha256: "|z+K\276\344^\004\v\000\272\255\364\237\320\270\224ln=\242\377\300R\225\261 \313m_DT"
+    sha256: "\244G\223\241\374\2520\212\206\226w\252\272\270t\366\323yd\t;\365(VPQ\366@\252\323\037\377"
   }
   repo_index {
     value: 2
@@ -2749,10 +2749,10 @@ library {
   maven_library {
     groupId: "io.flutter"
     artifactId: "arm64_v8a_release"
-    version: "1.0.0-9064459a8b0dcd32877107f6002cc429a71659d1"
+    version: "1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad"
   }
   digests {
-    sha256: "Y\353rs\336\2624<!\275\217\261\362<\245J\033\351C\032i\263\232\016\223\017P\324\376\017UF"
+    sha256: "Do\202\3343\027\a\373\t\006Y\t\330\024\035\376\237\265[\006\026\343>\313\017\260\3431)\362\360?"
   }
   repo_index {
     value: 2
@@ -2762,10 +2762,10 @@ library {
   maven_library {
     groupId: "io.flutter"
     artifactId: "x86_64_release"
-    version: "1.0.0-9064459a8b0dcd32877107f6002cc429a71659d1"
+    version: "1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad"
   }
   digests {
-    sha256: "`\223\305\020\367$6c\351\265\t\372L\240\330\264\331\255\"C\377x\336JY\336\302;\363~\230\374"
+    sha256: "3\036\363\306\364\206\260M\2645\245\222\3350\324w\207Q\327\006\254\333\335\364h\275\037syAY\035"
   }
   repo_index {
     value: 2
@@ -2773,7 +2773,7 @@ library {
 }
 library {
   digests {
-    sha256: "\001Ht\231.\331\317\204\326\027\004\231<?U\306\340\372\362\202U\271\3320\213\253\262Q\322\320m\371"
+    sha256: "G\253\006`\225\335\202\355\220E\352H\377\017\207\233W%G>\245n;\3619G#\264\2358X\346"
   }
 }
 library_dependencies {

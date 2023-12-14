@@ -1,125 +1,125 @@
 <dependencies>
   <compile
-      roots="__local_aars__:C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\app\intermediates\flutter\release\libs.jar:unspecified@jar,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:firebase_messaging::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:firebase_dynamic_links::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:firebase_auth::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:firebase_core::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:geolocator_android::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:file_picker::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:path_provider_android::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:vibration::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:just_audio::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:shared_preferences_android::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:wakelock_plus::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:share_plus::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:fluttertoast::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:razorpay_flutter::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:external_path::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:video_player_android::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:flutter_paystack::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:firebase_crashlytics::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:speech_to_text::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:flutter_plugin_android_lifecycle::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:awesome_notifications::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:sqflite::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:url_launcher_android::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:google_maps_flutter_android::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:connectivity_plus::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:image_cropper::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:webview_flutter_android::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:open_filex::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:permission_handler_android::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:geocoding_android::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:telephony::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:package_info_plus::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:device_info_plus::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:paytm::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:google_api_headers::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:audio_session::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:stripe_android::release,io.flutter:flutter_embedding_release:1.0.0-9064459a8b0dcd32877107f6002cc429a71659d1@jar,androidx.browser:browser:1.5.0@aar,com.razorpay:checkout:1.6.35@aar,com.google.android.gms:play-services-auth:17.0.0@aar,com.google.android.gms:play-services-wallet:19.2.0@aar,com.google.android.gms:play-services-auth-api-phone:17.4.0@aar,com.google.android.gms:play-services-auth-base:17.0.0@aar,com.google.android.gms:play-services-identity:18.0.1@aar,com.google.android.gms:play-services-maps:18.1.0@aar,com.google.android.gms:play-services-base:18.1.0@aar,com.google.android.gms:play-services-tasks:18.0.2@aar,com.google.android.gms:play-services-basement:18.1.0@aar,androidx.fragment:fragment:1.5.5@aar,androidx.fragment:fragment:1.5.5@aar,androidx.activity:activity:1.7.2@aar,androidx.loader:loader:1.0.0@aar,androidx.lifecycle:lifecycle-livedata:2.6.1@aar,androidx.lifecycle:lifecycle-viewmodel:2.6.1@aar,androidx.lifecycle:lifecycle-viewmodel:2.6.1@aar,androidx.lifecycle:lifecycle-livedata-core:2.6.1@aar,androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1@aar,androidx.core:core-ktx:1.10.1@aar,androidx.viewpager:viewpager:1.0.0@aar,androidx.customview:customview:1.1.0@aar,androidx.core:core:1.10.1@aar,androidx.core:core:1.10.1@aar,androidx.lifecycle:lifecycle-runtime:2.6.1@aar,androidx.lifecycle:lifecycle-common-java8:2.6.1@jar,androidx.lifecycle:lifecycle-common:2.6.1@jar,androidx.window:window-java:1.0.0-beta04@aar,androidx.window:window:1.0.0-beta04@aar,org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.4@jar,org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22@jar,io.flutter:armeabi_v7a_release:1.0.0-9064459a8b0dcd32877107f6002cc429a71659d1@jar,io.flutter:arm64_v8a_release:1.0.0-9064459a8b0dcd32877107f6002cc429a71659d1@jar,io.flutter:x86_64_release:1.0.0-9064459a8b0dcd32877107f6002cc429a71659d1@jar,androidx.versionedparcelable:versionedparcelable:1.1.1@aar,androidx.arch.core:core-runtime:2.2.0@aar,androidx.arch.core:core-common:2.2.0@jar,androidx.collection:collection:1.1.0@jar,androidx.savedstate:savedstate:1.2.1@aar,androidx.annotation:annotation-jvm:1.7.0@jar,androidx.annotation:annotation-experimental:1.3.0@aar,org.jetbrains.kotlin:kotlin-stdlib:1.8.22@jar,org.jetbrains.kotlin:kotlin-stdlib-common:1.8.22@jar,org.jetbrains:annotations:13.0@jar,com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava@jar,androidx.tracing:tracing:1.0.0@aar">
+      roots="__local_aars__:D:\workingProjacts\New folder\chhayakartapp_ui\build\app\intermediates\flutter\release\libs.jar:unspecified@jar,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:firebase_messaging::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:firebase_dynamic_links::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:firebase_auth::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:firebase_core::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:geolocator_android::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:file_picker::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:path_provider_android::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:vibration::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:just_audio::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:shared_preferences_android::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:wakelock_plus::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:share_plus::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:fluttertoast::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:razorpay_flutter::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:external_path::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:video_player_android::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:flutter_paystack::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:firebase_crashlytics::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:speech_to_text::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:flutter_plugin_android_lifecycle::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:awesome_notifications::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:sqflite::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:url_launcher_android::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:google_maps_flutter_android::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:connectivity_plus::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:image_cropper::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:webview_flutter_android::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:open_filex::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:permission_handler_android::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:geocoding_android::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:telephony::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:package_info_plus::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:device_info_plus::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:paytm::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:google_api_headers::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:audio_session::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:stripe_android::release,io.flutter:flutter_embedding_release:1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad@jar,androidx.browser:browser:1.5.0@aar,com.razorpay:checkout:1.6.36@aar,com.google.android.gms:play-services-auth:17.0.0@aar,com.google.android.gms:play-services-wallet:19.2.0@aar,com.google.android.gms:play-services-auth-api-phone:17.4.0@aar,com.google.android.gms:play-services-auth-base:17.0.0@aar,com.google.android.gms:play-services-identity:18.0.1@aar,com.google.android.gms:play-services-maps:18.1.0@aar,com.google.android.gms:play-services-base:18.1.0@aar,com.google.android.gms:play-services-tasks:18.0.2@aar,com.google.android.gms:play-services-basement:18.1.0@aar,androidx.fragment:fragment:1.5.5@aar,androidx.fragment:fragment:1.5.5@aar,androidx.activity:activity:1.7.2@aar,androidx.loader:loader:1.0.0@aar,androidx.lifecycle:lifecycle-livedata:2.6.1@aar,androidx.lifecycle:lifecycle-viewmodel:2.6.1@aar,androidx.lifecycle:lifecycle-viewmodel:2.6.1@aar,androidx.lifecycle:lifecycle-livedata-core:2.6.1@aar,androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1@aar,androidx.core:core-ktx:1.10.1@aar,androidx.viewpager:viewpager:1.0.0@aar,androidx.customview:customview:1.1.0@aar,androidx.core:core:1.10.1@aar,androidx.core:core:1.10.1@aar,androidx.lifecycle:lifecycle-runtime:2.6.1@aar,androidx.lifecycle:lifecycle-common-java8:2.6.1@jar,androidx.lifecycle:lifecycle-common:2.6.1@jar,androidx.window:window-java:1.0.0-beta04@aar,androidx.window:window:1.0.0-beta04@aar,org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.4@jar,org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22@jar,io.flutter:armeabi_v7a_release:1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad@jar,io.flutter:arm64_v8a_release:1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad@jar,io.flutter:x86_64_release:1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad@jar,androidx.versionedparcelable:versionedparcelable:1.1.1@aar,androidx.arch.core:core-runtime:2.2.0@aar,androidx.arch.core:core-common:2.2.0@jar,androidx.collection:collection:1.1.0@jar,androidx.savedstate:savedstate:1.2.1@aar,androidx.annotation:annotation-jvm:1.7.0@jar,androidx.annotation:annotation-experimental:1.3.0@aar,org.jetbrains.kotlin:kotlin-stdlib:1.8.22@jar,org.jetbrains.kotlin:kotlin-stdlib-common:1.8.22@jar,org.jetbrains:annotations:13.0@jar,com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava@jar,androidx.tracing:tracing:1.0.0@aar">
     <dependency
-        name="__local_aars__:C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\app\intermediates\flutter\release\libs.jar:unspecified@jar"/>
+        name="__local_aars__:D:\workingProjacts\New folder\chhayakartapp_ui\build\app\intermediates\flutter\release\libs.jar:unspecified@jar"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:firebase_messaging::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:firebase_messaging::release"
         simpleName="io.flutter.plugins.firebasemessaging:firebase_messaging"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:firebase_dynamic_links::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:firebase_dynamic_links::release"
         simpleName="io.flutter.plugins.firebase.dynamiclinks:firebase_dynamic_links"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:firebase_auth::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:firebase_auth::release"
         simpleName="io.flutter.plugins.firebase.auth:firebase_auth"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:firebase_core::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:firebase_core::release"
         simpleName="io.flutter.plugins.firebase.core:firebase_core"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:geolocator_android::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:geolocator_android::release"
         simpleName="com.baseflow.geolocator:geolocator_android"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:file_picker::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:file_picker::release"
         simpleName="com.mr.flutter.plugin.filepicker:file_picker"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:path_provider_android::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:path_provider_android::release"
         simpleName="io.flutter.plugins.pathprovider:path_provider_android"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:vibration::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:vibration::release"
         simpleName="com.benjaminabel.vibration:vibration"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:just_audio::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:just_audio::release"
         simpleName="com.ryanheise.just_audio:just_audio"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:shared_preferences_android::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:shared_preferences_android::release"
         simpleName="io.flutter.plugins.sharedpreferences:shared_preferences_android"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:wakelock_plus::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:wakelock_plus::release"
         simpleName="dev.fluttercommunity.plus.wakelock:wakelock_plus"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:share_plus::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:share_plus::release"
         simpleName="dev.fluttercommunity.plus.share:share_plus"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:fluttertoast::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:fluttertoast::release"
         simpleName="com.example.FlutterToast:fluttertoast"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:razorpay_flutter::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:razorpay_flutter::release"
         simpleName="com.razorpay.razorpay_flutter:razorpay_flutter"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:external_path::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:external_path::release"
         simpleName="com.pinciat.external_path:external_path"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:video_player_android::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:video_player_android::release"
         simpleName="io.flutter.plugins.videoplayer:video_player_android"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:flutter_paystack::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:flutter_paystack::release"
         simpleName="co.paystack.flutterpaystack:flutter_paystack"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:firebase_crashlytics::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:firebase_crashlytics::release"
         simpleName="io.flutter.plugins.firebase.crashlytics:firebase_crashlytics"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:speech_to_text::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:speech_to_text::release"
         simpleName="com.csdcorp.speech_to_text:speech_to_text"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:flutter_plugin_android_lifecycle::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:flutter_plugin_android_lifecycle::release"
         simpleName="io.flutter.plugins.flutter_plugin_android_lifecycle:flutter_plugin_android_lifecycle"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:awesome_notifications::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:awesome_notifications::release"
         simpleName="me.carda.awesome_notifications:awesome_notifications"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:sqflite::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:sqflite::release"
         simpleName="com.tekartik.sqflite:sqflite"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:url_launcher_android::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:url_launcher_android::release"
         simpleName="io.flutter.plugins.urllauncher:url_launcher_android"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:google_maps_flutter_android::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:google_maps_flutter_android::release"
         simpleName="io.flutter.plugins.googlemaps:google_maps_flutter_android"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:connectivity_plus::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:connectivity_plus::release"
         simpleName="io.flutter.plugins.connectivity:connectivity_plus"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:image_cropper::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:image_cropper::release"
         simpleName="vn.hunghd.flutter.plugins.imagecropper:image_cropper"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:webview_flutter_android::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:webview_flutter_android::release"
         simpleName="io.flutter.plugins.webviewflutter:webview_flutter_android"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:open_filex::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:open_filex::release"
         simpleName="com.crazecoder.openfile:open_filex"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:permission_handler_android::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:permission_handler_android::release"
         simpleName="com.baseflow.permissionhandler:permission_handler_android"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:geocoding_android::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:geocoding_android::release"
         simpleName="com.baseflow.geocoding:geocoding_android"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:telephony::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:telephony::release"
         simpleName="com.shounakmulay.telephony:telephony"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:package_info_plus::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:package_info_plus::release"
         simpleName="io.flutter.plugins.packageinfo:package_info_plus"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:device_info_plus::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:device_info_plus::release"
         simpleName="dev.fluttercommunity.plus.device_info:device_info_plus"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:paytm::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:paytm::release"
         simpleName="in.appyflow.paytm:paytm"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:google_api_headers::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:google_api_headers::release"
         simpleName="io.github.zeshuaro.google_api_headers:google_api_headers"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:audio_session::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:audio_session::release"
         simpleName="com.ryanheise.audio_session:audio_session"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:stripe_android::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:stripe_android::release"
         simpleName="com.flutter.stripe:stripe_android"/>
     <dependency
-        name="io.flutter:flutter_embedding_release:1.0.0-9064459a8b0dcd32877107f6002cc429a71659d1@jar"/>
+        name="io.flutter:flutter_embedding_release:1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad@jar"/>
     <dependency
         name="androidx.browser:browser:1.5.0@aar"/>
     <dependency
-        name="com.razorpay:checkout:1.6.35@aar"/>
+        name="com.razorpay:checkout:1.6.36@aar"/>
     <dependency
         name="com.google.android.gms:play-services-auth:17.0.0@aar"/>
     <dependency
@@ -179,11 +179,11 @@
     <dependency
         name="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22@jar"/>
     <dependency
-        name="io.flutter:armeabi_v7a_release:1.0.0-9064459a8b0dcd32877107f6002cc429a71659d1@jar"/>
+        name="io.flutter:armeabi_v7a_release:1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad@jar"/>
     <dependency
-        name="io.flutter:arm64_v8a_release:1.0.0-9064459a8b0dcd32877107f6002cc429a71659d1@jar"/>
+        name="io.flutter:arm64_v8a_release:1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad@jar"/>
     <dependency
-        name="io.flutter:x86_64_release:1.0.0-9064459a8b0dcd32877107f6002cc429a71659d1@jar"/>
+        name="io.flutter:x86_64_release:1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad@jar"/>
     <dependency
         name="androidx.versionedparcelable:versionedparcelable:1.1.1@aar"/>
     <dependency
@@ -210,122 +210,122 @@
         name="androidx.tracing:tracing:1.0.0@aar"/>
   </compile>
   <package
-      roots="__local_aars__:C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\app\intermediates\flutter\release\libs.jar:unspecified@jar,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:firebase_messaging::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:firebase_crashlytics::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:firebase_dynamic_links::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:firebase_auth::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:firebase_core::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:geolocator_android::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:file_picker::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:path_provider_android::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:vibration::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:just_audio::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:shared_preferences_android::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:wakelock_plus::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:share_plus::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:razorpay_flutter::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:fluttertoast::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:external_path::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:video_player_android::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:flutter_paystack::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:speech_to_text::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:google_maps_flutter_android::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:flutter_plugin_android_lifecycle::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:awesome_notifications::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:sqflite::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:url_launcher_android::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:connectivity_plus::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:image_cropper::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:webview_flutter_android::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:open_filex::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:permission_handler_android::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:geocoding_android::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:telephony::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:google_api_headers::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:package_info_plus::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:device_info_plus::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:paytm::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:audio_session::release,C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:stripe_android::release,com.razorpay:checkout:1.6.35@aar,com.stripe:stripe-android:20.28.3@aar,com.stripe:paymentsheet:20.28.3@aar,com.stripe:link:20.28.3@aar,com.stripe:financial-connections:20.28.3@aar,com.stripe:payments-ui-core:20.28.3@aar,com.stripe:payments-core:20.28.3@aar,com.stripe:stripe-ui-core:20.28.3@aar,com.stripe:payments-model:20.28.3@aar,com.stripe:stripe-core:20.28.3@aar,com.google.accompanist:accompanist-webview:0.30.1@aar,com.airbnb.android:showkase-annotation:1.0.0-beta18@jar,com.stripe:stripe-3ds2-android:6.1.7@aar,androidx.compose.material:material-ripple:1.4.3@aar,androidx.compose.material:material-icons-core:1.4.3@aar,com.google.accompanist:accompanist-navigation-animation:0.30.1@aar,com.google.accompanist:accompanist-navigation-material:0.30.1@aar,androidx.compose.material:material:1.4.3@aar,com.airbnb.android:mavericks-compose:3.0.3@aar,androidx.navigation:navigation-compose:2.5.3@aar,androidx.compose.animation:animation-core:1.4.0@aar,androidx.compose.animation:animation:1.4.0@aar,androidx.compose.foundation:foundation-layout:1.4.3@aar,com.google.accompanist:accompanist-flowlayout:0.30.1@aar,androidx.compose.foundation:foundation:1.4.3@aar,androidx.compose.ui:ui-unit:1.4.3@aar,androidx.compose.ui:ui-geometry:1.4.3@aar,androidx.compose.ui:ui-util:1.4.3@aar,androidx.compose.ui:ui-text:1.4.3@aar,androidx.compose.ui:ui-graphics:1.4.3@aar,androidx.compose.ui:ui-tooling-preview:1.4.3@aar,androidx.compose.ui:ui-viewbinding:1.4.3@aar,androidx.fragment:fragment-ktx:1.5.5@aar,me.carda:androidcore:0.7.7@aar,com.github.yalantis:ucrop:2.2.8@aar,com.paytm.appinvokesdk:appinvokesdk:1.6.4@aar,com.paytm.easypay:easypay-appinvoke:1.7.3@aar,com.airbnb.android:mavericks:3.0.3@aar,com.airbnb.android:lottie:3.4.0@aar,com.google.android.material:material:1.8.0@aar,androidx.constraintlayout:constraintlayout:2.1.4@aar,androidx.appcompat:appcompat-resources:1.6.1@aar,androidx.appcompat:appcompat:1.6.1@aar,io.flutter:flutter_embedding_release:1.0.0-9064459a8b0dcd32877107f6002cc429a71659d1@jar,com.google.android.gms:play-services-wallet:19.2.0@aar,com.google.android.gms:play-services-maps:18.1.0@aar,androidx.legacy:legacy-support-v4:1.0.0@aar,com.github.bumptech.glide:glide:4.12.0@aar,com.google.firebase:firebase-auth:22.1.0@aar,com.google.android.gms:play-services-location:21.0.1@aar,com.google.firebase:firebase-messaging:23.2.0@aar,com.google.firebase:firebase-dynamic-links:21.1.0@aar,com.google.android.gms:play-services-auth:17.0.0@aar,com.google.android.gms:play-services-auth-api-phone:17.4.0@aar,com.google.firebase:firebase-appcheck-interop:17.0.0@aar,com.google.android.gms:play-services-auth-base:17.0.0@aar,com.google.android.gms:play-services-identity:18.0.1@aar,com.google.android.gms:play-services-base:18.1.0@aar,com.google.firebase:firebase-iid:21.1.0@aar,com.google.firebase:firebase-crashlytics:18.4.0@aar,com.google.firebase:firebase-sessions:1.0.0@aar,com.google.firebase:firebase-installations:17.1.3@aar,com.google.firebase:firebase-auth-interop:20.0.0@aar,com.google.firebase:firebase-datatransport:18.1.8@aar,com.google.firebase:firebase-common-ktx:20.3.3@aar,com.google.firebase:firebase-common:20.3.3@aar,com.google.firebase:firebase-iid-interop:17.1.0@aar,com.google.android.recaptcha:recaptcha:18.1.2@aar,com.google.android.play:integrity:1.1.0@aar,com.google.firebase:firebase-installations-interop:17.1.0@aar,com.google.android.gms:play-services-cloud-messaging:17.0.1@aar,androidx.window:window-java:1.0.0-beta04@aar,com.airbnb.android:mavericks-common:3.0.3@jar,androidx.legacy:legacy-support-core-ui:1.0.0@aar,com.google.android.gms:play-services-stats:17.0.2@aar,androidx.dynamicanimation:dynamicanimation:1.0.0@aar,androidx.legacy:legacy-support-core-utils:1.0.0@aar,androidx.loader:loader:1.0.0@aar,com.google.android.exoplayer:exoplayer-dash:2.18.7@aar,com.google.android.exoplayer:exoplayer-hls:2.18.7@aar,com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.7@aar,com.google.android.exoplayer:exoplayer-core:2.18.7@aar,com.google.accompanist:accompanist-systemuicontroller:0.30.1@aar,androidx.customview:customview-poolingcontainer:1.0.0@aar,androidx.navigation:navigation-runtime-ktx:2.5.3@aar,androidx.navigation:navigation-common-ktx:2.5.3@aar,androidx.navigation:navigation-runtime:2.5.3@aar,androidx.navigation:navigation-common:2.5.3@aar,androidx.savedstate:savedstate-ktx:1.2.1@aar,androidx.savedstate:savedstate:1.2.1@aar,androidx.compose.runtime:runtime-saveable:1.4.3@aar,androidx.emoji2:emoji2-views-helper:1.3.0@aar,androidx.emoji2:emoji2:1.3.0@aar,androidx.lifecycle:lifecycle-service:2.6.1@aar,androidx.lifecycle:lifecycle-reactivestreams:2.6.1@aar,androidx.lifecycle:lifecycle-process:2.6.1@aar,androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1@aar,androidx.lifecycle:lifecycle-livedata-core:2.6.1@aar,androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1@aar,androidx.compose.runtime:runtime:1.4.3@aar,androidx.compose.runtime:runtime-livedata:1.4.3@aar,androidx.lifecycle:lifecycle-livedata:2.6.1@aar,androidx.lifecycle:lifecycle-livedata:2.6.1@aar,androidx.lifecycle:lifecycle-common-java8:2.6.1@jar,androidx.lifecycle:lifecycle-common:2.6.1@jar,androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1@aar,androidx.core:core-ktx:1.10.1@aar,androidx.browser:browser:1.5.0@aar,androidx.browser:browser:1.5.0@aar,androidx.webkit:webkit:1.7.0@aar,androidx.media2:media2-session:1.2.1@aar,androidx.media2:media2-common:1.2.1@aar,androidx.media:media:1.6.0@aar,androidx.media:media:1.6.0@aar,androidx.transition:transition:1.4.1@aar,androidx.window:window:1.0.0-beta04@aar,androidx.viewpager:viewpager:1.0.0@aar,androidx.slidingpanelayout:slidingpanelayout:1.0.0@aar,androidx.swiperefreshlayout:swiperefreshlayout:1.0.0@aar,androidx.asynclayoutinflater:asynclayoutinflater:1.0.0@aar,androidx.viewpager2:viewpager2:1.0.0@aar,androidx.recyclerview:recyclerview:1.2.1@aar,androidx.recyclerview:recyclerview:1.2.1@aar,androidx.autofill:autofill:1.0.0@aar,androidx.coordinatorlayout:coordinatorlayout:1.1.0@aar,androidx.drawerlayout:drawerlayout:1.1.1@aar,androidx.vectordrawable:vectordrawable-animated:1.1.0@aar,androidx.vectordrawable:vectordrawable:1.1.0@aar,androidx.customview:customview:1.1.0@aar,androidx.core:core:1.10.1@aar,androidx.core:core:1.10.1@aar,androidx.databinding:databinding-adapters:4.2.2@aar,androidx.databinding:databinding-runtime:4.2.2@aar,androidx.lifecycle:lifecycle-runtime:2.6.1@aar,androidx.lifecycle:lifecycle-viewmodel:2.6.1@aar,androidx.lifecycle:lifecycle-viewmodel:2.6.1@aar,androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1@aar,androidx.lifecycle:lifecycle-runtime-ktx:2.6.1@aar,androidx.lifecycle:lifecycle-livedata-ktx:2.6.1@aar,androidx.datastore:datastore-preferences:1.0.0@aar,androidx.datastore:datastore:1.0.0@aar,androidx.datastore:datastore-preferences-core:1.0.0@jar,androidx.datastore:datastore-core:1.0.0@jar,org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.4@jar,org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.6.4@jar,com.google.android.gms:play-services-tasks:18.0.2@aar,com.google.firebase:firebase-measurement-connector:19.0.0@aar,com.google.android.gms:play-services-basement:18.1.0@aar,androidx.fragment:fragment:1.5.5@aar,androidx.fragment:fragment:1.5.5@aar,androidx.activity:activity:1.7.2@aar,androidx.activity:activity-ktx:1.7.2@aar,androidx.activity:activity-compose:1.7.2@aar,androidx.compose.ui:ui:1.4.3@aar,org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4@jar,com.google.android.datatransport:transport-backend-cct:3.1.9@aar,com.google.firebase:firebase-encoders-json:18.0.1@aar,org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22@jar,io.flutter:armeabi_v7a_release:1.0.0-9064459a8b0dcd32877107f6002cc429a71659d1@jar,io.flutter:arm64_v8a_release:1.0.0-9064459a8b0dcd32877107f6002cc429a71659d1@jar,io.flutter:x86_64_release:1.0.0-9064459a8b0dcd32877107f6002cc429a71659d1@jar,androidx.localbroadcastmanager:localbroadcastmanager:1.1.0@aar,androidx.localbroadcastmanager:localbroadcastmanager:1.1.0@aar,androidx.profileinstaller:profileinstaller:1.3.0@aar,androidx.startup:startup-runtime:1.1.1@aar,androidx.tracing:tracing:1.0.0@aar,com.google.android.exoplayer:exoplayer-datasource:2.18.7@aar,com.google.android.exoplayer:exoplayer-extractor:2.18.7@aar,com.google.android.exoplayer:exoplayer-decoder:2.18.7@aar,com.google.android.exoplayer:exoplayer-database:2.18.7@aar,com.google.android.exoplayer:exoplayer-common:2.18.7@aar,androidx.cardview:cardview:1.0.0@aar,androidx.interpolator:interpolator:1.0.0@aar,androidx.versionedparcelable:versionedparcelable:1.1.1@aar,androidx.collection:collection-ktx:1.1.0@jar,androidx.security:security-crypto:1.1.0-alpha05@aar,androidx.collection:collection:1.1.0@jar,androidx.exifinterface:exifinterface:1.3.2@aar,com.github.bumptech.glide:gifdecoder:4.12.0@aar,com.google.firebase:firebase-components:17.1.0@aar,com.google.android.datatransport:transport-runtime:3.1.9@aar,com.google.android.datatransport:transport-api:3.0.0@aar,com.google.firebase:firebase-encoders-proto:16.0.0@jar,com.google.firebase:firebase-encoders:17.0.0@jar,androidx.concurrent:concurrent-futures:1.1.0@jar,androidx.documentfile:documentfile:1.0.0@aar,androidx.print:print:1.0.0@aar,androidx.cursoradapter:cursoradapter:1.0.0@aar,androidx.databinding:viewbinding:8.0.2@aar,androidx.resourceinspection:resourceinspection-annotation:1.0.1@jar,androidx.arch.core:core-runtime:2.2.0@aar,androidx.arch.core:core-common:2.2.0@jar,androidx.annotation:annotation-experimental:1.3.0@aar,androidx.annotation:annotation-jvm:1.7.0@jar,com.squareup.okhttp3:okhttp:4.9.1@jar,com.squareup.okio:okio:2.8.0@jar,org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.5.0@jar,org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.5.0@jar,org.jetbrains.kotlin:kotlin-parcelize-runtime:1.7.20@jar,org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.7.20@jar,org.jetbrains.kotlin:kotlin-stdlib:1.8.22@jar,com.google.guava:guava:31.1-android@jar,org.jetbrains.kotlin:kotlin-stdlib-common:1.8.22@jar,org.jetbrains:annotations:13.0@jar,com.google.crypto.tink:tink-android:1.7.0@jar,com.google.code.gson:gson:2.8.9@jar,me.leolin:ShortcutBadger:1.1.22@aar,com.google.guava:failureaccess:1.0.1@jar,com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava@jar,com.google.code.findbugs:jsr305:3.0.2@jar,org.checkerframework:checker-qual:3.12.0@jar,com.google.errorprone:error_prone_annotations:2.15.0@jar,com.google.j2objc:j2objc-annotations:1.3@jar,com.github.bumptech.glide:disklrucache:4.12.0@jar,com.github.bumptech.glide:annotations:4.12.0@jar,com.google.dagger:dagger:2.45@jar,com.google.firebase:firebase-annotations:16.2.0@jar,org.reactivestreams:reactive-streams:1.0.0@jar,androidx.databinding:databinding-common:4.2.2@jar,com.google.android.instantapps:instantapps:1.1.0@aar,com.jakewharton:disklrucache:2.0.2@jar,javax.inject:javax.inject:1@jar,androidx.constraintlayout:constraintlayout-core:1.0.4@jar,org.bouncycastle:bcprov-jdk15to18:1.69@jar,com.nimbusds:nimbus-jose-jwt:9.21@jar,com.github.stephenc.jcip:jcip-annotations:1.0-1@jar">
+      roots="__local_aars__:D:\workingProjacts\New folder\chhayakartapp_ui\build\app\intermediates\flutter\release\libs.jar:unspecified@jar,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:firebase_messaging::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:firebase_crashlytics::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:firebase_dynamic_links::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:firebase_auth::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:firebase_core::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:geolocator_android::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:file_picker::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:path_provider_android::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:vibration::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:just_audio::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:shared_preferences_android::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:wakelock_plus::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:share_plus::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:razorpay_flutter::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:fluttertoast::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:external_path::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:video_player_android::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:flutter_paystack::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:speech_to_text::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:google_maps_flutter_android::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:flutter_plugin_android_lifecycle::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:awesome_notifications::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:sqflite::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:url_launcher_android::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:connectivity_plus::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:image_cropper::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:webview_flutter_android::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:open_filex::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:permission_handler_android::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:geocoding_android::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:telephony::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:google_api_headers::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:package_info_plus::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:device_info_plus::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:paytm::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:audio_session::release,D:\workingProjacts\New folder\chhayakartapp_ui\android@@:stripe_android::release,com.razorpay:checkout:1.6.36@aar,com.stripe:stripe-android:20.28.3@aar,com.stripe:paymentsheet:20.28.3@aar,com.stripe:link:20.28.3@aar,com.stripe:financial-connections:20.28.3@aar,com.stripe:payments-ui-core:20.28.3@aar,com.stripe:payments-core:20.28.3@aar,com.stripe:stripe-ui-core:20.28.3@aar,com.stripe:payments-model:20.28.3@aar,com.stripe:stripe-core:20.28.3@aar,com.google.accompanist:accompanist-webview:0.30.1@aar,com.airbnb.android:showkase-annotation:1.0.0-beta18@jar,com.stripe:stripe-3ds2-android:6.1.7@aar,androidx.compose.material:material-ripple:1.4.3@aar,androidx.compose.material:material-icons-core:1.4.3@aar,com.google.accompanist:accompanist-navigation-animation:0.30.1@aar,com.google.accompanist:accompanist-navigation-material:0.30.1@aar,androidx.compose.material:material:1.4.3@aar,com.airbnb.android:mavericks-compose:3.0.3@aar,androidx.navigation:navigation-compose:2.5.3@aar,androidx.compose.animation:animation-core:1.4.0@aar,androidx.compose.animation:animation:1.4.0@aar,androidx.compose.foundation:foundation-layout:1.4.3@aar,com.google.accompanist:accompanist-flowlayout:0.30.1@aar,androidx.compose.foundation:foundation:1.4.3@aar,androidx.compose.ui:ui-unit:1.4.3@aar,androidx.compose.ui:ui-geometry:1.4.3@aar,androidx.compose.ui:ui-util:1.4.3@aar,androidx.compose.ui:ui-text:1.4.3@aar,androidx.compose.ui:ui-graphics:1.4.3@aar,androidx.compose.ui:ui-tooling-preview:1.4.3@aar,androidx.compose.ui:ui-viewbinding:1.4.3@aar,androidx.fragment:fragment-ktx:1.5.5@aar,me.carda:androidcore:0.7.7@aar,com.github.yalantis:ucrop:2.2.8@aar,com.paytm.appinvokesdk:appinvokesdk:1.6.4@aar,com.paytm.easypay:easypay-appinvoke:1.7.3@aar,com.airbnb.android:mavericks:3.0.3@aar,com.airbnb.android:lottie:3.4.0@aar,com.google.android.material:material:1.8.0@aar,androidx.constraintlayout:constraintlayout:2.1.4@aar,androidx.appcompat:appcompat-resources:1.6.1@aar,androidx.appcompat:appcompat:1.6.1@aar,io.flutter:flutter_embedding_release:1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad@jar,com.google.android.gms:play-services-wallet:19.2.0@aar,com.google.android.gms:play-services-maps:18.1.0@aar,androidx.legacy:legacy-support-v4:1.0.0@aar,com.github.bumptech.glide:glide:4.12.0@aar,com.google.firebase:firebase-auth:22.1.0@aar,com.google.android.gms:play-services-location:21.0.1@aar,com.google.firebase:firebase-messaging:23.2.0@aar,com.google.firebase:firebase-dynamic-links:21.1.0@aar,com.google.android.gms:play-services-auth:17.0.0@aar,com.google.android.gms:play-services-auth-api-phone:17.4.0@aar,com.google.firebase:firebase-appcheck-interop:17.0.0@aar,com.google.android.gms:play-services-auth-base:17.0.0@aar,com.google.android.gms:play-services-identity:18.0.1@aar,com.google.android.gms:play-services-base:18.1.0@aar,com.google.firebase:firebase-iid:21.1.0@aar,com.google.firebase:firebase-crashlytics:18.4.0@aar,com.google.firebase:firebase-sessions:1.0.0@aar,com.google.firebase:firebase-installations:17.1.3@aar,com.google.firebase:firebase-auth-interop:20.0.0@aar,com.google.firebase:firebase-datatransport:18.1.8@aar,com.google.firebase:firebase-common-ktx:20.3.3@aar,com.google.firebase:firebase-common:20.3.3@aar,com.google.firebase:firebase-iid-interop:17.1.0@aar,com.google.android.recaptcha:recaptcha:18.1.2@aar,com.google.android.play:integrity:1.1.0@aar,com.google.firebase:firebase-installations-interop:17.1.0@aar,com.google.android.gms:play-services-cloud-messaging:17.0.1@aar,androidx.window:window-java:1.0.0-beta04@aar,com.airbnb.android:mavericks-common:3.0.3@jar,androidx.legacy:legacy-support-core-ui:1.0.0@aar,com.google.android.gms:play-services-stats:17.0.2@aar,androidx.dynamicanimation:dynamicanimation:1.0.0@aar,androidx.legacy:legacy-support-core-utils:1.0.0@aar,androidx.loader:loader:1.0.0@aar,com.google.android.exoplayer:exoplayer-dash:2.18.7@aar,com.google.android.exoplayer:exoplayer-hls:2.18.7@aar,com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.7@aar,com.google.android.exoplayer:exoplayer-core:2.18.7@aar,com.google.accompanist:accompanist-systemuicontroller:0.30.1@aar,androidx.customview:customview-poolingcontainer:1.0.0@aar,androidx.navigation:navigation-runtime-ktx:2.5.3@aar,androidx.navigation:navigation-common-ktx:2.5.3@aar,androidx.navigation:navigation-runtime:2.5.3@aar,androidx.navigation:navigation-common:2.5.3@aar,androidx.savedstate:savedstate-ktx:1.2.1@aar,androidx.savedstate:savedstate:1.2.1@aar,androidx.compose.runtime:runtime-saveable:1.4.3@aar,androidx.emoji2:emoji2-views-helper:1.3.0@aar,androidx.emoji2:emoji2:1.3.0@aar,androidx.lifecycle:lifecycle-service:2.6.1@aar,androidx.lifecycle:lifecycle-reactivestreams:2.6.1@aar,androidx.lifecycle:lifecycle-process:2.6.1@aar,androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1@aar,androidx.lifecycle:lifecycle-livedata-core:2.6.1@aar,androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1@aar,androidx.compose.runtime:runtime:1.4.3@aar,androidx.compose.runtime:runtime-livedata:1.4.3@aar,androidx.lifecycle:lifecycle-livedata:2.6.1@aar,androidx.lifecycle:lifecycle-livedata:2.6.1@aar,androidx.lifecycle:lifecycle-common-java8:2.6.1@jar,androidx.lifecycle:lifecycle-common:2.6.1@jar,androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1@aar,androidx.core:core-ktx:1.10.1@aar,androidx.browser:browser:1.5.0@aar,androidx.browser:browser:1.5.0@aar,androidx.webkit:webkit:1.7.0@aar,androidx.media2:media2-session:1.2.1@aar,androidx.media2:media2-common:1.2.1@aar,androidx.media:media:1.6.0@aar,androidx.media:media:1.6.0@aar,androidx.transition:transition:1.4.1@aar,androidx.window:window:1.0.0-beta04@aar,androidx.viewpager:viewpager:1.0.0@aar,androidx.slidingpanelayout:slidingpanelayout:1.0.0@aar,androidx.swiperefreshlayout:swiperefreshlayout:1.0.0@aar,androidx.asynclayoutinflater:asynclayoutinflater:1.0.0@aar,androidx.viewpager2:viewpager2:1.0.0@aar,androidx.recyclerview:recyclerview:1.2.1@aar,androidx.recyclerview:recyclerview:1.2.1@aar,androidx.autofill:autofill:1.0.0@aar,androidx.coordinatorlayout:coordinatorlayout:1.1.0@aar,androidx.drawerlayout:drawerlayout:1.1.1@aar,androidx.vectordrawable:vectordrawable-animated:1.1.0@aar,androidx.vectordrawable:vectordrawable:1.1.0@aar,androidx.customview:customview:1.1.0@aar,androidx.core:core:1.10.1@aar,androidx.core:core:1.10.1@aar,androidx.databinding:databinding-adapters:4.2.2@aar,androidx.databinding:databinding-runtime:4.2.2@aar,androidx.lifecycle:lifecycle-runtime:2.6.1@aar,androidx.lifecycle:lifecycle-viewmodel:2.6.1@aar,androidx.lifecycle:lifecycle-viewmodel:2.6.1@aar,androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1@aar,androidx.lifecycle:lifecycle-runtime-ktx:2.6.1@aar,androidx.lifecycle:lifecycle-livedata-ktx:2.6.1@aar,androidx.datastore:datastore-preferences:1.0.0@aar,androidx.datastore:datastore:1.0.0@aar,androidx.datastore:datastore-preferences-core:1.0.0@jar,androidx.datastore:datastore-core:1.0.0@jar,org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.4@jar,org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.6.4@jar,com.google.android.gms:play-services-tasks:18.0.2@aar,com.google.firebase:firebase-measurement-connector:19.0.0@aar,com.google.android.gms:play-services-basement:18.1.0@aar,androidx.fragment:fragment:1.5.5@aar,androidx.fragment:fragment:1.5.5@aar,androidx.activity:activity:1.7.2@aar,androidx.activity:activity-ktx:1.7.2@aar,androidx.activity:activity-compose:1.7.2@aar,androidx.compose.ui:ui:1.4.3@aar,org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4@jar,com.google.android.datatransport:transport-backend-cct:3.1.9@aar,com.google.firebase:firebase-encoders-json:18.0.1@aar,org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22@jar,io.flutter:armeabi_v7a_release:1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad@jar,io.flutter:arm64_v8a_release:1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad@jar,io.flutter:x86_64_release:1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad@jar,androidx.localbroadcastmanager:localbroadcastmanager:1.1.0@aar,androidx.localbroadcastmanager:localbroadcastmanager:1.1.0@aar,androidx.profileinstaller:profileinstaller:1.3.0@aar,androidx.startup:startup-runtime:1.1.1@aar,androidx.tracing:tracing:1.0.0@aar,com.google.android.exoplayer:exoplayer-datasource:2.18.7@aar,com.google.android.exoplayer:exoplayer-extractor:2.18.7@aar,com.google.android.exoplayer:exoplayer-decoder:2.18.7@aar,com.google.android.exoplayer:exoplayer-database:2.18.7@aar,com.google.android.exoplayer:exoplayer-common:2.18.7@aar,androidx.cardview:cardview:1.0.0@aar,androidx.interpolator:interpolator:1.0.0@aar,androidx.versionedparcelable:versionedparcelable:1.1.1@aar,androidx.collection:collection-ktx:1.1.0@jar,androidx.security:security-crypto:1.1.0-alpha05@aar,androidx.collection:collection:1.1.0@jar,androidx.exifinterface:exifinterface:1.3.2@aar,com.github.bumptech.glide:gifdecoder:4.12.0@aar,com.google.firebase:firebase-components:17.1.0@aar,com.google.android.datatransport:transport-runtime:3.1.9@aar,com.google.android.datatransport:transport-api:3.0.0@aar,com.google.firebase:firebase-encoders-proto:16.0.0@jar,com.google.firebase:firebase-encoders:17.0.0@jar,androidx.concurrent:concurrent-futures:1.1.0@jar,androidx.documentfile:documentfile:1.0.0@aar,androidx.print:print:1.0.0@aar,androidx.cursoradapter:cursoradapter:1.0.0@aar,androidx.databinding:viewbinding:8.0.2@aar,androidx.resourceinspection:resourceinspection-annotation:1.0.1@jar,androidx.arch.core:core-runtime:2.2.0@aar,androidx.arch.core:core-common:2.2.0@jar,androidx.annotation:annotation-experimental:1.3.0@aar,androidx.annotation:annotation-jvm:1.7.0@jar,com.squareup.okhttp3:okhttp:4.9.1@jar,com.squareup.okio:okio:2.8.0@jar,org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.5.0@jar,org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.5.0@jar,org.jetbrains.kotlin:kotlin-parcelize-runtime:1.7.20@jar,org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.7.20@jar,org.jetbrains.kotlin:kotlin-stdlib:1.8.22@jar,com.google.guava:guava:31.1-android@jar,org.jetbrains.kotlin:kotlin-stdlib-common:1.8.22@jar,org.jetbrains:annotations:13.0@jar,com.google.crypto.tink:tink-android:1.7.0@jar,com.google.code.gson:gson:2.8.9@jar,me.leolin:ShortcutBadger:1.1.22@aar,com.google.guava:failureaccess:1.0.1@jar,com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava@jar,com.google.code.findbugs:jsr305:3.0.2@jar,org.checkerframework:checker-qual:3.12.0@jar,com.google.errorprone:error_prone_annotations:2.15.0@jar,com.google.j2objc:j2objc-annotations:1.3@jar,com.github.bumptech.glide:disklrucache:4.12.0@jar,com.github.bumptech.glide:annotations:4.12.0@jar,com.google.dagger:dagger:2.45@jar,com.google.firebase:firebase-annotations:16.2.0@jar,org.reactivestreams:reactive-streams:1.0.0@jar,androidx.databinding:databinding-common:4.2.2@jar,com.google.android.instantapps:instantapps:1.1.0@aar,com.jakewharton:disklrucache:2.0.2@jar,javax.inject:javax.inject:1@jar,androidx.constraintlayout:constraintlayout-core:1.0.4@jar,org.bouncycastle:bcprov-jdk15to18:1.69@jar,com.nimbusds:nimbus-jose-jwt:9.21@jar,com.github.stephenc.jcip:jcip-annotations:1.0-1@jar">
     <dependency
-        name="__local_aars__:C:\Users\nohal\AndroidStudioProjects\chhayakart app\build\app\intermediates\flutter\release\libs.jar:unspecified@jar"/>
+        name="__local_aars__:D:\workingProjacts\New folder\chhayakartapp_ui\build\app\intermediates\flutter\release\libs.jar:unspecified@jar"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:firebase_messaging::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:firebase_messaging::release"
         simpleName="io.flutter.plugins.firebasemessaging:firebase_messaging"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:firebase_crashlytics::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:firebase_crashlytics::release"
         simpleName="io.flutter.plugins.firebase.crashlytics:firebase_crashlytics"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:firebase_dynamic_links::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:firebase_dynamic_links::release"
         simpleName="io.flutter.plugins.firebase.dynamiclinks:firebase_dynamic_links"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:firebase_auth::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:firebase_auth::release"
         simpleName="io.flutter.plugins.firebase.auth:firebase_auth"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:firebase_core::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:firebase_core::release"
         simpleName="io.flutter.plugins.firebase.core:firebase_core"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:geolocator_android::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:geolocator_android::release"
         simpleName="com.baseflow.geolocator:geolocator_android"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:file_picker::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:file_picker::release"
         simpleName="com.mr.flutter.plugin.filepicker:file_picker"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:path_provider_android::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:path_provider_android::release"
         simpleName="io.flutter.plugins.pathprovider:path_provider_android"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:vibration::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:vibration::release"
         simpleName="com.benjaminabel.vibration:vibration"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:just_audio::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:just_audio::release"
         simpleName="com.ryanheise.just_audio:just_audio"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:shared_preferences_android::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:shared_preferences_android::release"
         simpleName="io.flutter.plugins.sharedpreferences:shared_preferences_android"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:wakelock_plus::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:wakelock_plus::release"
         simpleName="dev.fluttercommunity.plus.wakelock:wakelock_plus"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:share_plus::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:share_plus::release"
         simpleName="dev.fluttercommunity.plus.share:share_plus"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:razorpay_flutter::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:razorpay_flutter::release"
         simpleName="com.razorpay.razorpay_flutter:razorpay_flutter"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:fluttertoast::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:fluttertoast::release"
         simpleName="com.example.FlutterToast:fluttertoast"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:external_path::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:external_path::release"
         simpleName="com.pinciat.external_path:external_path"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:video_player_android::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:video_player_android::release"
         simpleName="io.flutter.plugins.videoplayer:video_player_android"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:flutter_paystack::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:flutter_paystack::release"
         simpleName="co.paystack.flutterpaystack:flutter_paystack"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:speech_to_text::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:speech_to_text::release"
         simpleName="com.csdcorp.speech_to_text:speech_to_text"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:google_maps_flutter_android::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:google_maps_flutter_android::release"
         simpleName="io.flutter.plugins.googlemaps:google_maps_flutter_android"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:flutter_plugin_android_lifecycle::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:flutter_plugin_android_lifecycle::release"
         simpleName="io.flutter.plugins.flutter_plugin_android_lifecycle:flutter_plugin_android_lifecycle"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:awesome_notifications::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:awesome_notifications::release"
         simpleName="me.carda.awesome_notifications:awesome_notifications"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:sqflite::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:sqflite::release"
         simpleName="com.tekartik.sqflite:sqflite"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:url_launcher_android::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:url_launcher_android::release"
         simpleName="io.flutter.plugins.urllauncher:url_launcher_android"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:connectivity_plus::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:connectivity_plus::release"
         simpleName="io.flutter.plugins.connectivity:connectivity_plus"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:image_cropper::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:image_cropper::release"
         simpleName="vn.hunghd.flutter.plugins.imagecropper:image_cropper"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:webview_flutter_android::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:webview_flutter_android::release"
         simpleName="io.flutter.plugins.webviewflutter:webview_flutter_android"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:open_filex::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:open_filex::release"
         simpleName="com.crazecoder.openfile:open_filex"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:permission_handler_android::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:permission_handler_android::release"
         simpleName="com.baseflow.permissionhandler:permission_handler_android"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:geocoding_android::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:geocoding_android::release"
         simpleName="com.baseflow.geocoding:geocoding_android"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:telephony::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:telephony::release"
         simpleName="com.shounakmulay.telephony:telephony"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:google_api_headers::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:google_api_headers::release"
         simpleName="io.github.zeshuaro.google_api_headers:google_api_headers"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:package_info_plus::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:package_info_plus::release"
         simpleName="io.flutter.plugins.packageinfo:package_info_plus"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:device_info_plus::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:device_info_plus::release"
         simpleName="dev.fluttercommunity.plus.device_info:device_info_plus"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:paytm::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:paytm::release"
         simpleName="in.appyflow.paytm:paytm"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:audio_session::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:audio_session::release"
         simpleName="com.ryanheise.audio_session:audio_session"/>
     <dependency
-        name="C:\Users\nohal\AndroidStudioProjects\chhayakart app\android@@:stripe_android::release"
+        name="D:\workingProjacts\New folder\chhayakartapp_ui\android@@:stripe_android::release"
         simpleName="com.flutter.stripe:stripe_android"/>
     <dependency
-        name="com.razorpay:checkout:1.6.35@aar"/>
+        name="com.razorpay:checkout:1.6.36@aar"/>
     <dependency
         name="com.stripe:stripe-android:20.28.3@aar"/>
     <dependency
@@ -411,7 +411,7 @@
     <dependency
         name="androidx.appcompat:appcompat:1.6.1@aar"/>
     <dependency
-        name="io.flutter:flutter_embedding_release:1.0.0-9064459a8b0dcd32877107f6002cc429a71659d1@jar"/>
+        name="io.flutter:flutter_embedding_release:1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad@jar"/>
     <dependency
         name="com.google.android.gms:play-services-wallet:19.2.0@aar"/>
     <dependency
@@ -629,11 +629,11 @@
     <dependency
         name="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22@jar"/>
     <dependency
-        name="io.flutter:armeabi_v7a_release:1.0.0-9064459a8b0dcd32877107f6002cc429a71659d1@jar"/>
+        name="io.flutter:armeabi_v7a_release:1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad@jar"/>
     <dependency
-        name="io.flutter:arm64_v8a_release:1.0.0-9064459a8b0dcd32877107f6002cc429a71659d1@jar"/>
+        name="io.flutter:arm64_v8a_release:1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad@jar"/>
     <dependency
-        name="io.flutter:x86_64_release:1.0.0-9064459a8b0dcd32877107f6002cc429a71659d1@jar"/>
+        name="io.flutter:x86_64_release:1.0.0-0545f8705df301877d787107bac1a6e9fc9ee1ad@jar"/>
     <dependency
         name="androidx.localbroadcastmanager:localbroadcastmanager:1.1.0@aar"/>
     <dependency
