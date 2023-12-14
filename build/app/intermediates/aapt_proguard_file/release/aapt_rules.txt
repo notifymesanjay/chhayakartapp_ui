@@ -24,7 +24,6 @@
 -keep class com.paytm.pgsdk.PaytmPGActivity { <init>(); }
 -keep class com.razorpay.CheckoutActivity { <init>(); }
 -keep class com.razorpay.RzpTokenReceiver { <init>(); }
--keep class com.shounakmulay.telephony.sms.IncomingSmsReceiver { <init>(); }
 -keep class com.stripe.android.customersheet.CustomerSheetActivity { <init>(); }
 -keep class com.stripe.android.financialconnections.FinancialConnectionsSheetActivity { <init>(); }
 -keep class com.stripe.android.financialconnections.FinancialConnectionsSheetRedirectActivity { <init>(); }

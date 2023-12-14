@@ -455,10 +455,6 @@ MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Use
 MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\Hp\.gradle\caches\transforms-3\359295ed7d1d5e094525b27f4ad4dc07\transformed\jetified-play-services-cloud-messaging-17.0.1\AndroidManifest.xml:9:5-68
 	android:name
 		ADDED from D:\workingProjacts\New folder\chhayakartapp_ui\android\app\src\main\AndroidManifest.xml:15:22-65
-uses-permission#android.permission.RECEIVE_SMS
-ADDED from D:\workingProjacts\New folder\chhayakartapp_ui\android\app\src\main\AndroidManifest.xml:16:5-69
-	android:name
-		ADDED from D:\workingProjacts\New folder\chhayakartapp_ui\android\app\src\main\AndroidManifest.xml:16:22-67
 queries
 ADDED from D:\workingProjacts\New folder\chhayakartapp_ui\android\app\src\main\AndroidManifest.xml:18:5-22:15
 MERGED from [:file_picker] D:\workingProjacts\New folder\chhayakartapp_ui\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-17:15
@@ -987,20 +983,6 @@ ADDED from D:\workingProjacts\New folder\chhayakartapp_ui\android\app\src\main\A
 		ADDED from D:\workingProjacts\New folder\chhayakartapp_ui\android\app\src\main\AndroidManifest.xml:76:21-53
 	android:scheme
 		ADDED from D:\workingProjacts\New folder\chhayakartapp_ui\android\app\src\main\AndroidManifest.xml:77:21-43
-receiver#com.shounakmulay.telephony.sms.IncomingSmsReceiver
-ADDED from D:\workingProjacts\New folder\chhayakartapp_ui\android\app\src\main\AndroidManifest.xml:81:9-86:20
-	android:exported
-		ADDED from D:\workingProjacts\New folder\chhayakartapp_ui\android\app\src\main\AndroidManifest.xml:82:67-90
-	android:permission
-		ADDED from D:\workingProjacts\New folder\chhayakartapp_ui\android\app\src\main\AndroidManifest.xml:82:13-66
-	android:name
-		ADDED from D:\workingProjacts\New folder\chhayakartapp_ui\android\app\src\main\AndroidManifest.xml:81:19-84
-intent-filter#action:name:android.provider.Telephony.SMS_RECEIVED
-ADDED from D:\workingProjacts\New folder\chhayakartapp_ui\android\app\src\main\AndroidManifest.xml:83:13-85:29
-action#android.provider.Telephony.SMS_RECEIVED
-ADDED from D:\workingProjacts\New folder\chhayakartapp_ui\android\app\src\main\AndroidManifest.xml:84:17-81
-	android:name
-		ADDED from D:\workingProjacts\New folder\chhayakartapp_ui\android\app\src\main\AndroidManifest.xml:84:25-79
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [:firebase_messaging] D:\workingProjacts\New folder\chhayakartapp_ui\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-79
 MERGED from [:connectivity_plus] D:\workingProjacts\New folder\chhayakartapp_ui\build\connectivity_plus\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-79
